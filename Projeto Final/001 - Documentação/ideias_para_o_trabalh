@@ -1,0 +1,20 @@
+1 - Implementar as mudanças dadas no pdf do gold miners. (podemos só copiar e colar o que foi dado, porque a maioria das tarefas são mais simples (ex, adicionar .print())
+
+2 - Adicionar uma mochila para os miners, para que possam carregar quantidades limitadas de ouro por vez.
+
+3 - Adicionar uma visão maior para os agentes (possuem uma lanterna), para que consigam ver mais blocos aos lados: ex: 	
+		        
+		      *****	
+		      **M**
+		      *****
+		        		        	
+4 - Criar uma competição entre os três integrantes do grupo. Cada um deve possuir uma organização com X miners e 1 líder. Haverá um artefato com um countdown de um cronômetro, indicand quanto tempo falta para finalizar a rodada. Quando finalizar, o time que tiver pego mais gold vence.
+
+5 - Cada time terá estratégias individuais de como realizar a busca e entrega do ouro.
+
+6- (Opcional): os agentes tem um walkie-talkie e conseguem comunicar localizações de ouro para outros agentes que estão em um raio de X blocos.
+
+7- (opcional): adicionar três minérios adicionais, cada um com um valor diferente. Ex: carvão: 1, ferro: 2, ouro: 3, diamante: 4.
+
+
+8- (opcional): adicionar o fator cansaço nos mineradores. possuem limite de blocos andados, por exemplo, 25. Se deixar esgotar os 25 (exaustão completa), precisa descansar os 25 interios (recupera 1 por unidade de tempo). Caso descansar antes, pode parar antes de chegar nos 25.
