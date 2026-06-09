@@ -21,6 +21,8 @@ public class ExpandedMiningPlanet extends Artifact {
     private static int simId = 6;
     private static int sleep = Config.GUI_SLEEP_MS;
     private static boolean hasGUI = true;
+    private static long simulationStartMillis = 0L;
+    private static boolean simulationEnded = false;
 
     private int agId = -1;
 
@@ -111,6 +113,8 @@ public class ExpandedMiningPlanet extends Artifact {
         try {
             if (model == null) {
                 model = ExpandedWorldModel.scenario(scenario);
+                simulationStartMillis = System.currentTimeMillis();
+                simulationEnded = false;
                 if (hasGUI && !GraphicsEnvironment.isHeadless()) {
                     try {
                         view = new ExpandedWorldView(model);
@@ -163,6 +167,18 @@ public class ExpandedMiningPlanet extends Artifact {
         updateAgPercept();
         if (view != null) {
             view.updateStatus();
+        }
+        checkStopConditions();
+    }
+
+    private void checkStopConditions() {
+        if (simulationEnded || model == null) {
+            return;
+        }
+        long elapsed = System.currentTimeMillis() - simulationStartMillis;
+        if (elapsed >= Config.MAX_SIMULATION_MILLIS || model.isAllGoldCollected()) {
+            simulationEnded = true;
+            endSimulation();
         }
     }
 

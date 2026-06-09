@@ -232,7 +232,7 @@ public class ExpandedWorldModel extends GridWorldModel {
             return 0;
         }
         int dropped = inventory.dropAllGold();
-        if (isInBaseRange(l)) {
+        if (l.equals(depot)) {
             goldsInDepot += dropped;
             agents[ag].addDepositedGold(dropped);
             recordEvent(agents[ag].name() + " deposited " + dropped + " gold");
@@ -311,6 +311,10 @@ public class ExpandedWorldModel extends GridWorldModel {
         return "lanterna=" + baseStock(EquipmentType.LANTERN)
                 + " carrinho=" + baseStock(EquipmentType.CART)
                 + " mochila=" + baseStock(EquipmentType.BACKPACK);
+    }
+
+    public synchronized boolean isAllGoldCollected() {
+        return initialNbGolds > 0 && goldsInDepot >= initialNbGolds;
     }
 
     private boolean isInBaseRange(Location location) {

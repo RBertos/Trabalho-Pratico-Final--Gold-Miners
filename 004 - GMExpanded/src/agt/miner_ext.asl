@@ -2,11 +2,15 @@
 // All miners share this program; specialization emerges from equipment assigned
 // in the Java environment.
 
+//Comando para rodar:
+// c:\Users\Bertos\Desktop\Mestrado\Sistemas Multi Agentes\git\Trabalho-Pratico-Final--Gold-Miners\003 - IGM" .\gradlew.bat -p "..\004 - GMExpanded" run
+
 { include("$jacamoJar/templates/common-cartago.asl") }
 
 last_dir(null).
 free.
 score(0).
+!heartbeat.
 
 /* Exploration */
 
@@ -34,8 +38,8 @@ score(0).
  <- !next_step(X,Y);
     !near(X,Y).
 
-+!near(X,Y)
- <- !near(X,Y).
++!near(X,Y) : free & near(X,Y)
+ <- true.
 
 +!near(X,Y) : not free
  <- true.
@@ -159,11 +163,17 @@ score(0).
  <- +claimed(X,Y).
 
 +mission_cancelled(X,Y,Reason)[source(A)]
-  : true
+  : claimed(X,Y) | claiming(X,Y)
  <- -claimed(X,Y);
     -claiming(X,Y);
     -engaged;
     -known_gold(X,Y);
+    -sent_bid(X,Y);
+    .abolish(bid_for(X,Y,_,_)).
+
++mission_cancelled(X,Y,Reason)[source(A)]
+  : true
+ <- -known_gold(X,Y);
     -sent_bid(X,Y);
     .abolish(bid_for(X,Y,_,_)).
 
@@ -188,7 +198,7 @@ score(0).
  <- comm_tick("gold_picked");
     .broadcast(tell,gold_picked(X,Y));
     ?depot(_,DX,DY);
-    !reach_base_zone(DX,DY);
+    !pos(DX,DY);
     ?cargo(C,_Cap);
     drop;
     ?score(S);
@@ -245,9 +255,25 @@ score(0).
  <- !bid_for_gold(X,Y).
 
 +!choose_gold
-  : true
+  : not engaged
  <- -engaged;
     -+free.
+
++!choose_gold
+  : engaged
+ <- true.
+
++!heartbeat
+  : not engaged
+ <- .wait(500);
+    skip;
+    !choose_gold;
+    !heartbeat.
+
++!heartbeat
+  : engaged
+ <- .wait(500);
+    !heartbeat.
 
 +!reach_base_zone(DX,DY)
   : pos(AgX,AgY) & jia_ext.dist(AgX,AgY,DX,DY,D) & not D > 2
