@@ -11,6 +11,20 @@ gradle run
 
 O projeto usa JaCaMo `1.3.0` via Gradle. Em ambientes sem display grafico, a simulacao continua rodando em modo headless e registra a mensagem `GUI disabled: headless Java environment`. Em ambiente com X11/display, a janela Swing `Expanded Gold Miners` e aberta automaticamente.
 
+### Pre-requisitos
+
+- Java 21 (ou superior).
+- Gradle instalado no sistema.
+
+Se ocorrer erro de compatibilidade de JVM (ex.: dependencia JaCaMo exigindo Java 21), ajuste o `JAVA_HOME` para um JDK 21 antes de executar o projeto.
+
+### Verificacao rapida da execucao
+
+1. Execute `gradle run`.
+2. Confirme no console mensagens dos agentes (`.print(...)`) e do leader.
+3. Em ambiente com display, confirme abertura da janela `Expanded Gold Miners`.
+4. Em ambiente headless, confirme a mensagem `GUI disabled: headless Java environment`.
+
 ## Arquitetura
 
 - `gold_miners_expanded.jcm`: define um leader e quatro miners, cada miner focando seu proprio artefato CArtAgO.
@@ -83,6 +97,92 @@ A GUI foi implementada em Swing para manter compatibilidade com o projeto origin
 - estoque de equipamentos na base;
 - carga, score e equipamentos de cada miner;
 - ultimo evento relevante.
+
+As cores dos miners indicam estado/equipamento:
+
+- amarelo: carregando ouro;
+- roxo: com carrinho;
+- laranja: com lanterna;
+- verde: com mochila.
+
+Tambem e possivel clicar no mapa para adicionar ouro dinamicamente durante a simulacao.
+
+## Inspecao dos passos dos agentes (mente/decisao)
+
+O projeto expoe os passos de decisao no console via `.print(...)`:
+
+- `src/agt/miner_ext.asl`
+- `src/agt/leader_ext.asl`
+
+Sequencia tipica observavel:
+
+1. percepcao de ouro;
+2. broadcast `gold_found`;
+3. broadcast de `gold_bid`;
+4. escolha distribuida do vencedor (`best_bid`);
+5. `mission_claimed`;
+6. coleta e deposito;
+7. atualizacao de lideranca (`winning`).
+
+## Localhost para inspecao de mente
+
+Nesta implementacao (`004`), nao existe endpoint localhost pronto para inspecao web da mente dos agentes. A inspeccao disponivel nativamente e:
+
+- GUI da simulacao (estado do mundo);
+- logs no console (planos e decisoes).
+
+## Execucao remota sem Docker
+
+E possivel executar remotamente sem Docker, com duas estrategias principais.
+
+### Opcao A: remoto com GUI via X11 forwarding
+
+No host remoto (Linux):
+
+```bash
+sudo apt update
+sudo apt install -y openjdk-21-jdk gradle
+```
+
+Conecte com X11 forwarding:
+
+```bash
+ssh -X usuario@servidor
+```
+
+Execute o projeto:
+
+```bash
+cd "/home/runner/work/Trabalho-Pratico-Final---Gold-Miners-with-Jason-and-JaCaMo/Trabalho-Pratico-Final---Gold-Miners-with-Jason-and-JaCaMo/RBertos/Trabalho-Pratico-Final---Gold-Miners-with-Jason-and-JaCaMo/Projeto Final/004 - Implementação Gold Miners - Adições, Expansões e Melhorias"
+gradle run
+```
+
+### Opcao B: remoto com desktop virtual (VNC/noVNC)
+
+No host remoto:
+
+```bash
+sudo apt update
+sudo apt install -y openjdk-21-jdk gradle xfce4 xfce4-goodies tigervnc-standalone-server
+```
+
+Inicie VNC e conecte-se ao desktop remoto. Dentro da sessao grafica remota, execute:
+
+```bash
+cd "/home/runner/work/Trabalho-Pratico-Final---Gold-Miners-with-Jason-and-JaCaMo/Trabalho-Pratico-Final---Gold-Miners-with-Jason-and-JaCaMo/RBertos/Trabalho-Pratico-Final---Gold-Miners-with-Jason-and-JaCaMo/Projeto Final/004 - Implementação Gold Miners - Adições, Expansões e Melhorias"
+gradle run
+```
+
+### Opcao C: remoto headless (somente logs)
+
+Se voce nao precisa da GUI:
+
+```bash
+cd "/home/runner/work/Trabalho-Pratico-Final---Gold-Miners-with-Jason-and-JaCaMo/Trabalho-Pratico-Final---Gold-Miners-with-Jason-and-JaCaMo/RBertos/Trabalho-Pratico-Final---Gold-Miners-with-Jason-and-JaCaMo/Projeto Final/004 - Implementação Gold Miners - Adições, Expansões e Melhorias"
+gradle run
+```
+
+Nesse modo, a validacao e feita pelos logs dos agentes e do leader.
 
 ## Observacoes
 
