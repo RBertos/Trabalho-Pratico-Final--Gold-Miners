@@ -30,17 +30,23 @@ score(0).
 +!near(X,Y) : last_dir(skip)
  <- +near(X,Y).
 
-+!near(X,Y) : not near(X,Y)
++!near(X,Y) : free & not near(X,Y)
  <- !next_step(X,Y);
     !near(X,Y).
 
 +!near(X,Y)
  <- !near(X,Y).
 
-+!next_step(X,Y) : pos(AgX,AgY)
++!near(X,Y) : not free
+ <- true.
+
++!next_step(X,Y) : free & pos(AgX,AgY)
  <- jia_ext.get_direction(AgX,AgY,X,Y,D);
     -+last_dir(D);
     !step_or_stop(D).
+
++!next_step(X,Y) : not free
+ <- true.
 
 +!step_or_stop(skip)
  <- skip.
@@ -122,9 +128,12 @@ score(0).
   : true
  <- true.
 
+@claim_win[atomic]
 +!claim_if_winner(X,Y,Me,Me)
-  : not claimed(X,Y) & free
- <- +claimed(X,Y);
+  : not claimed(X,Y) & not claiming(X,Y) & free & not engaged
+ <- +claiming(X,Y);
+    +engaged;
+    +claimed(X,Y);
     -free;
     mission("gold");
     comm_tick("mission_claimed");
@@ -161,8 +170,16 @@ score(0).
 +!handle(gold(X,Y))
   : true
  <- !pos(X,Y);
-    pick;
+    !pick_if_at_target(X,Y).
+
++!pick_if_at_target(X,Y)
+  : pos(X,Y)
+ <- pick;
     !after_pick(X,Y).
+
++!pick_if_at_target(X,Y)
+  : not pos(X,Y)
+ <- .fail.
 
 +!after_pick(X,Y)
   : carrying_gold
@@ -179,6 +196,8 @@ score(0).
     .broadcast(tell,gold_deposited(Me,C));
     .print("Delivered ",C," gold. Local score: ",S+C,".");
     -known_gold(X,Y);
+    -engaged;
+    -claiming(X,Y);
     -claimed(X,Y);
     -sent_bid(X,Y);
     .abolish(bid_for(X,Y,_,_));
@@ -190,6 +209,8 @@ score(0).
  <- comm_tick("mission_cancelled");
     .broadcast(tell,mission_cancelled(X,Y,no_gold));
     -known_gold(X,Y);
+    -engaged;
+    -claiming(X,Y);
     -claimed(X,Y);
     -sent_bid(X,Y);
     .abolish(bid_for(X,Y,_,_));
@@ -201,6 +222,8 @@ score(0).
  <- comm_tick("mission_cancelled");
     .broadcast(tell,mission_cancelled(X,Y,failed));
     -known_gold(X,Y);
+    -engaged;
+    -claiming(X,Y);
     -claimed(X,Y);
     -sent_bid(X,Y);
     .abolish(bid_for(X,Y,_,_));
@@ -210,6 +233,7 @@ score(0).
 +gold_picked(X,Y)[source(A)]
   : true
  <- -known_gold(X,Y);
+    -claiming(X,Y);
     -claimed(X,Y);
     -sent_bid(X,Y);
     .abolish(bid_for(X,Y,_,_)).

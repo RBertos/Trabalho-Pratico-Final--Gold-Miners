@@ -1,14 +1,14 @@
 package mining.expanded;
 
+import java.awt.GraphicsEnvironment;
+import java.util.logging.Logger;
+
 import cartago.Artifact;
 import cartago.OPERATION;
 import cartago.ObsProperty;
 import jason.asSyntax.Atom;
 import jason.asSyntax.Term;
 import jason.environment.grid.Location;
-
-import java.awt.GraphicsEnvironment;
-import java.util.logging.Logger;
 
 public class ExpandedMiningPlanet extends Artifact {
     private static final Logger logger = Logger.getLogger(ExpandedMiningPlanet.class.getName());
@@ -236,10 +236,14 @@ public class ExpandedMiningPlanet extends Artifact {
     }
 
     private void resetTemplate(String name, Object... values) {
-        try {
-            removeObsPropertyByTemplate(name, values);
-        } catch (IllegalArgumentException e) {
-            // Template had no matches.
+        // removeObsPropertyByTemplate removes one match at a time,
+        // so loop until there are no properties left for this template.
+        while (true) {
+            try {
+                removeObsPropertyByTemplate(name, values);
+            } catch (IllegalArgumentException e) {
+                break;
+            }
         }
     }
 }

@@ -29,7 +29,7 @@ public class ExpandedWorldView extends GridWorldView {
     private JLabel tick;
     private JLabel baseStock;
     private JLabel lastEvent;
-    private final JLabel[] agents = new JLabel[Config.NB_AGENTS];
+    private JLabel[] agents;
     private JSlider speed;
 
     public ExpandedWorldView(ExpandedWorldModel model) {
@@ -80,7 +80,8 @@ public class ExpandedWorldView extends GridWorldView {
 
         JPanel agentPanel = new JPanel(new GridLayout(0, 1));
         agentPanel.setBorder(BorderFactory.createEtchedBorder());
-        for (int i = 0; i < agents.length; i++) {
+        agents = new JLabel[Config.NB_AGENTS];
+        for (int i = 0; i < Config.NB_AGENTS; i++) {
             agents[i] = new JLabel("miner" + (i + 1));
             agentPanel.add(agents[i]);
         }
