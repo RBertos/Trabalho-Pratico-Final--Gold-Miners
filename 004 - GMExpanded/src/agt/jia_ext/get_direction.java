@@ -1,5 +1,10 @@
 package jia_ext;
 
+import java.util.ArrayDeque;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Queue;
+
 import jason.asSemantics.DefaultInternalAction;
 import jason.asSemantics.TransitionSystem;
 import jason.asSemantics.Unifier;
@@ -8,11 +13,6 @@ import jason.asSyntax.NumberTerm;
 import jason.asSyntax.Term;
 import jason.environment.grid.Location;
 import mining.expanded.ExpandedWorldModel;
-
-import java.util.ArrayDeque;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Queue;
 
 public class get_direction extends DefaultInternalAction {
     @Override

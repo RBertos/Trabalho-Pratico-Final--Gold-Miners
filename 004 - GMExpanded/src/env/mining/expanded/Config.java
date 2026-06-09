@@ -21,7 +21,7 @@ public final class Config {
     public static final int SKIP_COST = 1;
 
     public static final int GUI_SLEEP_MS = 80;
-    public static final long MAX_SIMULATION_MILLIS = 5L * 60L * 1000L;
+    public static final long MAX_SIMULATION_MILLIS = 3L * 60L * 1000L;
 
     private Config() {
     }

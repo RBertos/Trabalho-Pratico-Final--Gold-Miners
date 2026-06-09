@@ -12,15 +12,19 @@ free.
 score(0).
 !heartbeat.
 
+cargo_space :- cargo(C,Cap) & C < Cap.
+is_collector :- equipped(carrinho).
+is_collector :- equipped(mochila).
+is_explorer :- equipped(lanterna) & not is_collector.
+
 /* Exploration */
 
-+free : gsize(_,W,H) & jia_ext.random(RX,W-1) & jia_ext.random(RY,H-1)
- <- .print("Exploring near (",RX,",",RY,").");
-    !go_near(RX,RY).
++free : gsize(_,W,H) & jia_ext.random(RX,W) & jia_ext.random(RY,H)
+ <- !go_near(RX,RY).
 
 +free
  <- .wait(100);
-    -+free.
+  -+free.
 
 +near(X,Y) : free
  <- -+free.
@@ -62,74 +66,74 @@ score(0).
 
 @pick_gold_here[atomic]
 +cell(X,Y,gold)
-  : pos(X,Y) & cargo_space
- <- .print("Gold under me at (",X,",",Y,") - picking now.");
+  : pos(X,Y) & cargo_space & free & not engaged
+ <- jia_ext.miner_id(Me);
+   .print("miner",Me,": gold under me at (",X,",",Y,") - picking now.");
     !pick_here(X,Y).
-
-@prefer_near_gold[atomic]
-+cell(X,Y,gold)
-  : cargo_space & not carrying_gold & not free &
-    .desire(handle(gold(OldX,OldY))) &
-    pos(AgX,AgY) &
-    jia_ext.dist(X,Y,AgX,AgY,DNew) &
-    jia_ext.dist(OldX,OldY,AgX,AgY,DOld) &
-    DNew < DOld
- <- .drop_desire(handle(gold(OldX,OldY)));
-    comm_tick("mission_cancelled");
-    .broadcast(tell,mission_cancelled(OldX,OldY,better_gold_found));
-    -known_gold(OldX,OldY);
-    -claiming(OldX,OldY);
-    -claimed(OldX,OldY);
-    -sent_bid(OldX,OldY);
-    .abolish(bid_for(OldX,OldY,_,_));
-    +engaged;
-    -free;
-    +claiming(X,Y);
-    +claimed(X,Y);
-    +known_gold(X,Y);
-    mission("gold");
-    .print("Switching to nearer gold at (",X,",",Y,").");
-    !handle(gold(X,Y)).
 
 @discover_gold[atomic]
 +cell(X,Y,gold)
   : not known_gold(X,Y) & not pos(X,Y)
- <- +known_gold(X,Y);
-    .print("Gold perceived at (",X,",",Y,").");
-    !announce_gold(X,Y);
-    !bid_for_gold(X,Y).
+ <- jia_ext.miner_id(Me);
+   +known_gold(X,Y);
+  .print("miner",Me,": gold perceived at (",X,",",Y,").");
+  !prepare_bids(X,Y);
+  !announce_gold(X,Y);
+  !bid_for_gold(X,Y);
+  !resolve_claim(X,Y).
 
 +gold_found(X,Y,Finder)[source(A)]
   : not known_gold(X,Y)
  <- +known_gold(X,Y);
-    !bid_for_gold(X,Y).
+    !prepare_bids(X,Y);
+    !bid_for_gold(X,Y);
+    !resolve_claim(X,Y).
 
 +gold_found(X,Y,Finder)[source(A)]
   : known_gold(X,Y) & not sent_bid(X,Y)
- <- !bid_for_gold(X,Y).
+ <- !prepare_bids(X,Y);
+    !bid_for_gold(X,Y);
+    !resolve_claim(X,Y).
 
 +!announce_gold(X,Y)
   : jia_ext.miner_id(Me)
  <- comm_tick("gold_found");
     .broadcast(tell,gold_found(X,Y,Me)).
 
++!prepare_bids(X,Y)
+  : not bids_ready(X,Y)
+ <- +bids_ready(X,Y);
+    .abolish(bid_for(X,Y,_,_));
+    +bid_for(X,Y,1,10000);
+    +bid_for(X,Y,2,10000);
+    +bid_for(X,Y,3,10000);
+    +bid_for(X,Y,4,10000).
+
++!prepare_bids(X,Y)
+  : bids_ready(X,Y)
+ <- true.
+
++!resolve_claim(X,Y)
+  : bid_for(X,Y,1,_) & bid_for(X,Y,2,_) & bid_for(X,Y,3,_) & bid_for(X,Y,4,_) & not claimed(X,Y)
+ <- .wait(80);
+    !try_claim(X,Y).
+
++!resolve_claim(X,Y)
+  : true
+ <- true.
+
 +!bid_for_gold(X,Y)
-  : not sent_bid(X,Y) & pos(AgX,AgY) & free
+  : is_collector & not sent_bid(X,Y) & pos(AgX,AgY) & free
  <- jia_ext.miner_id(Me);
     jia_ext.dist(AgX,AgY,X,Y,D);
+    !set_bid(X,Y,Me,D);
     +sent_bid(X,Y);
-    +bid_for(X,Y,Me,D);
     comm_tick("gold_bid");
     .broadcast(tell,gold_bid(X,Y,Me,D)).
 
 +!bid_for_gold(X,Y)
-  : not sent_bid(X,Y) & pos(AgX,AgY)
- <- jia_ext.miner_id(Me);
-    jia_ext.dist(AgX,AgY,X,Y,_RealDistance);
-    +sent_bid(X,Y);
-    +bid_for(X,Y,Me,10000);
-    comm_tick("gold_bid");
-    .broadcast(tell,gold_bid(X,Y,Me,10000)).
+  : not is_collector & not sent_bid(X,Y)
+ <- +sent_bid(X,Y).
 
 +!bid_for_gold(X,Y)
   : sent_bid(X,Y)
@@ -137,21 +141,25 @@ score(0).
 
 +!bid_for_gold(X,Y)
   : true
- <- .wait(50);
-    !bid_for_gold(X,Y).
+ <- true.
 
-+gold_bid(X,Y,Miner,D)[source(A)]
++!set_bid(X,Y,Miner,D)
+  : bid_for(X,Y,Miner,Old)
+ <- -bid_for(X,Y,Miner,Old);
+    +bid_for(X,Y,Miner,D).
+
++!set_bid(X,Y,Miner,D)
   : not bid_for(X,Y,Miner,_)
- <- +bid_for(X,Y,Miner,D);
-    !try_claim(X,Y).
+ <- +bid_for(X,Y,Miner,D).
 
 +gold_bid(X,Y,Miner,D)[source(A)]
   : true
- <- !try_claim(X,Y).
+ <- !set_bid(X,Y,Miner,D);
+    !resolve_claim(X,Y).
 
 +bid_for(X,Y,Miner,D)
   : true
- <- !try_claim(X,Y).
+ <- true.
 
 +!try_claim(X,Y)
   : bid_for(X,Y,1,D1) & bid_for(X,Y,2,D2) & bid_for(X,Y,3,D3) & bid_for(X,Y,4,D4) & not claimed(X,Y)
@@ -165,15 +173,17 @@ score(0).
 
 @claim_win[atomic]
 +!claim_if_winner(X,Y,Me,Me)
-  : not claimed(X,Y) & not claiming(X,Y) & free & not engaged
+  : is_collector & not claimed(X,Y) & not claiming(X,Y) & free & not engaged
  <- +claiming(X,Y);
+    .abolish(target(_,_));
+    +target(X,Y);
     +engaged;
     +claimed(X,Y);
     -free;
     mission("gold");
     comm_tick("mission_claimed");
     .broadcast(tell,mission_claimed(X,Y,Me));
-    .print("I am going to gold at (",X,",",Y,").");
+    .print("miner",Me,": going to gold at (",X,",",Y,").");
     !handle(gold(X,Y)).
 
 +!claim_if_winner(X,Y,Winner,Me)
@@ -181,13 +191,26 @@ score(0).
  <- true.
 
 +mission_claimed(X,Y,Winner)[source(A)]
-  : jia_ext.miner_id(Me) & Winner \== Me
- <- -claimed(X,Y);
+  : jia_ext.miner_id(Me) & Winner \== Me & target(X,Y)
+ <- -claiming(X,Y);
+    .abolish(target(_,_));
+    -engaged;
+    -+free;
+    mission("none");
+    -claimed(X,Y);
     +claimed(X,Y);
     .abolish(bid_for(X,Y,_,_));
+    -bids_ready(X,Y);
     -sent_bid(X,Y);
     .drop_desire(handle(gold(X,Y)));
-    .print("Giving up gold at (",X,",",Y,"); miner",Winner," is closer.").
+    .print("miner",Me,": giving up gold at (",X,",",Y,"); miner",Winner," is closer.");
+    !choose_gold.
+
++mission_claimed(X,Y,Winner)[source(A)]
+  : jia_ext.miner_id(Me) & Winner \== Me
+ <- .abolish(bid_for(X,Y,_,_));
+   -bids_ready(X,Y);
+   -sent_bid(X,Y).
 
 +mission_claimed(X,Y,Winner)[source(A)]
   : jia_ext.miner_id(Winner)
@@ -197,15 +220,18 @@ score(0).
   : claimed(X,Y) | claiming(X,Y)
  <- -claimed(X,Y);
     -claiming(X,Y);
+    .abolish(target(_,_));
     -engaged;
     -known_gold(X,Y);
     -sent_bid(X,Y);
+    -bids_ready(X,Y);
     .abolish(bid_for(X,Y,_,_)).
 
 +mission_cancelled(X,Y,Reason)[source(A)]
   : true
  <- -known_gold(X,Y);
     -sent_bid(X,Y);
+   -bids_ready(X,Y);
     .abolish(bid_for(X,Y,_,_)).
 
 /* Handling gold */
@@ -214,10 +240,13 @@ score(0).
   : cargo_space
  <- -free;
     +engaged;
+    .abolish(target(_,_));
+    +target(X,Y);
     +claiming(X,Y);
     +known_gold(X,Y);
     +claimed(X,Y);
     mission("gold");
+    !pos(X,Y);
     pick;
     !after_pick(X,Y).
 
@@ -249,12 +278,14 @@ score(0).
     comm_tick("gold_deposited");
     jia_ext.miner_id(Me);
     .broadcast(tell,gold_deposited(Me,C));
-    .print("Delivered ",C," gold. Local score: ",S+C,".");
+    .print("miner",Me,": delivered ",C," gold. Local score: ",S+C,".");
+    .abolish(target(_,_));
     -known_gold(X,Y);
     -engaged;
     -claiming(X,Y);
     -claimed(X,Y);
     -sent_bid(X,Y);
+    -bids_ready(X,Y);
     .abolish(bid_for(X,Y,_,_));
     mission("none");
     !choose_gold.
@@ -263,11 +294,13 @@ score(0).
   : not carrying_gold
  <- comm_tick("mission_cancelled");
     .broadcast(tell,mission_cancelled(X,Y,no_gold));
+    .abolish(target(_,_));
     -known_gold(X,Y);
     -engaged;
     -claiming(X,Y);
     -claimed(X,Y);
     -sent_bid(X,Y);
+    -bids_ready(X,Y);
     .abolish(bid_for(X,Y,_,_));
     mission("none");
     !choose_gold.
@@ -276,29 +309,38 @@ score(0).
   : true
  <- comm_tick("mission_cancelled");
     .broadcast(tell,mission_cancelled(X,Y,failed));
+    .abolish(target(_,_));
     -known_gold(X,Y);
     -engaged;
     -claiming(X,Y);
     -claimed(X,Y);
     -sent_bid(X,Y);
+    -bids_ready(X,Y);
     .abolish(bid_for(X,Y,_,_));
     mission("none");
     !choose_gold.
 
 +gold_picked(X,Y)[source(A)]
-  : true
+  : target(X,Y) & not carrying_gold
+ <- .abolish(target(_,_));
+    -engaged;
+    -+free.
+
++gold_picked(X,Y)[source(A)]
+  : not carrying_gold
  <- -known_gold(X,Y);
     -claiming(X,Y);
     -claimed(X,Y);
     -sent_bid(X,Y);
+   -bids_ready(X,Y);
     .abolish(bid_for(X,Y,_,_)).
 
 +!choose_gold
-  : known_gold(X,Y) & not claimed(X,Y)
- <- !bid_for_gold(X,Y).
+  : false
+ <- true.
 
 +!choose_gold
-  : not engaged
+  : not engaged & not carrying_gold
  <- -engaged;
     -+free.
 
@@ -306,12 +348,40 @@ score(0).
   : engaged
  <- true.
 
++!choose_gold
+  : carrying_gold
+ <- true.
+
 +!vacate_depot
-  : pos(AgX,AgY) & depot(_,DX,DY) & AgX == DX & AgY == DY & gsize(_,W,H)
- <- jia_ext.random(TX,W-1);
-    jia_ext.random(TY,H-1);
-    jia_ext.get_direction(AgX,AgY,TX,TY,Step);
-    !step_or_stop(Step).
+  : pos(AgX,AgY) & depot(_,DX,DY) & AgX == DX & AgY == DY
+ <- right;
+    !vacate_depot_left;
+    !vacate_depot_up;
+    !vacate_depot_down.
+
++!vacate_depot_left
+  : pos(AgX,AgY) & depot(_,DX,DY) & AgX == DX & AgY == DY
+ <- left.
+
++!vacate_depot_left
+  : true
+ <- true.
+
++!vacate_depot_up
+  : pos(AgX,AgY) & depot(_,DX,DY) & AgX == DX & AgY == DY
+ <- up.
+
++!vacate_depot_up
+  : true
+ <- true.
+
++!vacate_depot_down
+  : pos(AgX,AgY) & depot(_,DX,DY) & AgX == DX & AgY == DY
+ <- down.
+
++!vacate_depot_down
+  : true
+ <- true.
 
 +!vacate_depot
   : true
@@ -320,8 +390,17 @@ score(0).
 +!heartbeat
   : not engaged
  <- .wait(500);
-    skip;
     !choose_gold;
+    !heartbeat.
+
++!heartbeat
+  : engaged & not carrying_gold & not .desire(handle(gold(_,_)))
+ <- .abolish(claiming(_,_));
+    -engaged;
+    mission("none");
+    -+free;
+    !choose_gold;
+    .wait(200);
     !heartbeat.
 
 +!heartbeat
@@ -348,24 +427,94 @@ score(0).
 
 +!pos(X,Y)
   : pos(AgX,AgY)
+ <- !pos_retry(X,Y,AgX,AgY,0).
+
++!pos_retry(X,Y,CurX,CurY,Blocked)
+  : pos(X,Y)
+ <- true.
+
++!pos_retry(X,Y,CurX,CurY,2)
+  : not pos(X,Y)
+ <- !recover_blocked(X,Y);
+    .fail.
+
++!pos_retry(X,Y,CurX,CurY,Blocked)
+  : pos(AgX,AgY)
  <- jia_ext.get_direction(AgX,AgY,X,Y,D);
     -+last_dir(D);
-    !move_or_fail(D,X,Y).
+    !step_or_stop(D);
+    !after_step(X,Y,AgX,AgY,Blocked).
 
-+!move_or_fail(skip,X,Y)
- <- skip;
-    ?pos(X,Y).
++!after_step(X,Y,OldX,OldY,Blocked)
+  : pos(NewX,NewY) & NewX \== OldX
+ <- !pos_retry(X,Y,NewX,NewY,0).
 
-+!move_or_fail(D,X,Y)
- <- D;
-    !pos(X,Y).
++!after_step(X,Y,OldX,OldY,Blocked)
+  : pos(NewX,NewY) & NewX == OldX & NewY \== OldY
+ <- !pos_retry(X,Y,NewX,NewY,0).
+
++!after_step(X,Y,OldX,OldY,0)
+  : pos(OldX,OldY)
+ <- !escape_step;
+    !pos_retry(X,Y,OldX,OldY,1).
+
++!after_step(X,Y,OldX,OldY,1)
+  : pos(OldX,OldY)
+ <- !escape_step;
+    !pos_retry(X,Y,OldX,OldY,2).
+
++!after_step(X,Y,OldX,OldY,2)
+  : pos(OldX,OldY)
+ <- !recover_blocked(X,Y);
+    .fail.
+
++!recover_blocked(X,Y)
+  : engaged & target(X,Y)
+ <- jia_ext.miner_id(Me);
+    .print("miner",Me,": blocked >2 ticks toward (",X,",",Y,") - replanning.");
+    comm_tick("mission_cancelled");
+    .broadcast(tell,mission_cancelled(X,Y,blocked));
+    .drop_desire(handle(gold(X,Y)));
+    .abolish(target(_,_));
+    -known_gold(X,Y);
+    -claiming(X,Y);
+    -claimed(X,Y);
+    -sent_bid(X,Y);
+    -bids_ready(X,Y);
+    .abolish(bid_for(X,Y,_,_));
+    -engaged;
+    mission("none");
+    !escape_step;
+    -+free.
+
++!recover_blocked(X,Y)
+  : true
+ <- !escape_step;
+    -+free.
+
++!escape_step
+ <- jia_ext.random(R,4);
+    !dir_from_random(R,D);
+    !step_or_stop(D).
+
++!dir_from_random(0,left)
+ <- true.
+
++!dir_from_random(1,right)
+ <- true.
+
++!dir_from_random(2,up)
+ <- true.
+
++!dir_from_random(3,down)
+ <- true.
 
 /* Communication from leader */
 
 +winning(Me,S)[source(leader)]
   : jia_ext.miner_id(Me)
  <- -winning(Me,S);
-    .print("I am currently winning with ",S," gold.").
+    .print("miner",Me,": currently winning with ",S," gold.").
 
 +winning(A,S)[source(leader)]
   : true
