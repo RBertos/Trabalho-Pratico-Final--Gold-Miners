@@ -1,0 +1,17 @@
+[Cartago] Workspace mining created.
+[Cartago] artifact m1view: mining.MiningPlanet(2,0) at mining created.
+[Cartago] artifact m2view: mining.MiningPlanet(2,1) at mining created.
+[Cartago] artifact m4view: mining.MiningPlanet(2,3) at mining created.
+[Cartago] artifact m3view: mining.MiningPlanet(2,2) at mining created.
+[miner3] join workspace /main/mining: done
+[miner3] focusing on artifact m3view (at workspace /main/mining) using namespace default
+[miner4] join workspace /main/mining: done
+[miner1] join workspace /main/mining: done
+[miner4] focusing on artifact m4view (at workspace /main/mining) using namespace default
+[miner1] focusing on artifact m1view (at workspace /main/mining) using namespace default
+[miner3] focus on m3view: done
+[miner2] join workspace /main/mining: done
+[miner4] focus on m4view: done
+[miner2] focusing on artifact m2view (at workspace /main/mining) using namespace default
+[miner1] focus on m1view: done
+[miner2] focus on m2view: done

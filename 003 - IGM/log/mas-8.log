@@ -1,0 +1,174 @@
+[JaCaMoLauncher] as2j: error parsing "file:src/agt/leaderF.asl": [file:src/agt/leaderF.asl:25] ArithExpr: first operand '.print("Agent ",A," is now on the lead with the score of ",S)' is not numeric or variable.
+[Cartago] Workspace mining created.
+[Cartago] artifact m1view: mining.MiningPlanet(4,0) at mining created.
+[Cartago] artifact m2view: mining.MiningPlanet(4,1) at mining created.
+[Cartago] artifact m4view: mining.MiningPlanet(4,3) at mining created.
+[Cartago] artifact m3view: mining.MiningPlanet(4,2) at mining created.
+[MiningPlanet] Error creating world java.lang.NullPointerException: Cannot read field "x" because "l" is null
+[Cartago] artifact m5view: mining.MiningPlanet(4,4) at mining created.
+[miner1] join workspace /main/mining: done
+[miner2] join workspace /main/mining: done
+[miner1] focusing on artifact m1view (at workspace /main/mining) using namespace default
+[miner2] focusing on artifact m2view (at workspace /main/mining) using namespace default
+[miner4] join workspace /main/mining: done
+[miner3] join workspace /main/mining: done
+[miner4] focusing on artifact m4view (at workspace /main/mining) using namespace default
+[miner2] focus on m2view: done
+[miner1] focus on m1view: done
+[miner3] focusing on artifact m3view (at workspace /main/mining) using namespace default
+[miner4] focus on m4view: done
+[miner2] I chose to go near 27 13 Coordinates
+[miner1] I chose to go near 6 31 Coordinates
+[miner3] focus on m3view: done
+[miner4] I chose to go near 28 30 Coordinates
+[miner3] I chose to go near 26 1 Coordinates
+[miner1] Gold perceived: gold(1,1)
+[miner4] Gold perceived: gold(20,20)
+[miner1] Dropping near(_,_) desires and intentions to handle gold(1,1)
+[miner4] Dropping near(_,_) desires and intentions to handle gold(20,20)
+[miner1] Going for gold(1,1)
+[miner4] Going for gold(20,20)
+[miner1] Handling gold(1,1) now.
+[miner1] I've reached 1x1
+[miner4] Handling gold(20,20) now.
+[miner4] I've reached 20x20
+[miner3] Gold perceived: gold(15,20)
+[miner3] Dropping near(_,_) desires and intentions to handle gold(15,20)
+[miner3] Going for gold(15,20)
+[miner3] Handling gold(15,20) now.
+[miner3] I've reached 15x20
+[miner2] I am at (27,12) which is near (27,13)
+[miner2] I chose to go near 13 3 Coordinates
+[miner2] Gold perceived: gold(20,13)
+[miner4] I've reached 5x27
+[miner2] Dropping near(_,_) desires and intentions to handle gold(20,13)
+[miner2] Going for gold(20,13)
+[miner2] Handling gold(20,13) now.
+[WorldModel] Agent 4 carried a gold to depot!
+[miner4] Finish handling gold(20,20)
+[miner4] Gold distances: [d(17,gold(15,20)),d(20,gold(19,21)),d(21,gold(19,20)),d(21,gold(20,21))]4
+[miner4] Next gold is gold(15,20)
+[miner4] Handling gold(15,20) now.
+[leader] Agent miner4 has dropped 1 pieces of gold
+[miner2] I've reached 20x13
+[miner1] I've reached 5x27
+[WorldModel] Agent 1 carried a gold to depot!
+[miner1] Finish handling gold(1,1)
+[leader] Agent miner1 has dropped 1 pieces of gold
+[miner1] I chose to go near 15 29 Coordinates
+[miner3] I've reached 5x27
+[WorldModel] Agent 3 carried a gold to depot!
+[miner3] Finish handling gold(15,20)
+[leader] Agent miner3 has dropped 1 pieces of gold
+[miner3] I chose to go near 28 11 Coordinates
+[miner4] I've reached 15x20
+[miner1] I am at (15,28) which is near (15,29)
+[miner1] I chose to go near 3 15 Coordinates
+[WorldModel] Agent 4 is trying the pick gold, but there is no gold at 15x20!
+[miner4] failed to catch gold gold(15,20)
+[miner4] Gold distances: [d(5,gold(19,21)),d(4,gold(19,20)),d(6,gold(20,21))]3
+[miner4] Next gold is gold(19,20)
+[miner4] Handling gold(19,20) now.
+[miner4] I've reached 19x20
+[miner2] I've reached 5x27
+[WorldModel] Agent 2 carried a gold to depot!
+[miner2] Finish handling gold(20,13)
+[leader] Agent miner2 has dropped 1 pieces of gold
+[miner2] I chose to go near 8 5 Coordinates
+[miner1] I am at (4,16) which is near (3,15)
+[miner1] I chose to go near 0 13 Coordinates
+[miner4] I've reached 5x27
+[WorldModel] Agent 4 carried a gold to depot!
+[miner4] Finish handling gold(19,20)
+[leader] Agent miner4 has dropped 2 pieces of gold
+[miner4] Gold distances: [d(20,gold(19,21)),d(21,gold(20,21))]2
+[miner4] Next gold is gold(19,21)
+[miner4] Handling gold(19,21) now.
+[miner1] I am at (0,14) which is near (0,13)
+[miner1] I chose to go near 5 28 Coordinates
+[miner3] I am at (28,12) which is near (28,11)
+[miner3] I chose to go near 28 10 Coordinates
+[miner3] I am at (28,11) which is near (28,10)
+[miner3] I chose to go near 1 19 Coordinates
+[miner2] I am at (8,6) which is near (8,5)
+[miner2] I chose to go near 19 10 Coordinates
+[miner4] I've reached 19x21
+[miner1] I am at (5,27) which is near (5,28)
+[miner1] I chose to go near 21 4 Coordinates
+[miner2] I am at (19,9) which is near (19,10)
+[miner2] I chose to go near 4 13 Coordinates
+[miner1] Gold perceived: gold(20,24)
+[miner1] Dropping near(_,_) desires and intentions to handle gold(20,24)
+[miner1] Going for gold(20,24)
+[miner1] Handling gold(20,24) now.
+[miner4] I've reached 5x27
+[miner3] I am at (1,18) which is near (1,19)
+[WorldModel] Agent 4 carried a gold to depot!
+[miner3] I chose to go near 30 11 Coordinates
+[miner1] I've reached 20x24
+[miner4] Finish handling gold(19,21)
+[leader] Agent miner4 has dropped 3 pieces of gold
+[miner4] Gold distances: [d(20,gold(20,22)),d(19,gold(20,23)),d(18,gold(20,24)),d(21,gold(20,21))]4
+[miner4] Next gold is gold(20,24)
+[miner4] Handling gold(20,24) now.
+[miner2] I am at (4,12) which is near (4,13)
+[miner2] I chose to go near 16 5 Coordinates
+[miner4] I've reached 20x24
+[miner1] I've reached 5x27
+[miner2] I am at (16,6) which is near (16,5)
+[WorldModel] Agent 4 is trying the pick gold, but there is no gold at 20x24!
+[miner2] I chose to go near 11 0 Coordinates
+[miner4] failed to catch gold gold(20,24)
+[miner4] Gold distances: [d(2,gold(20,22)),d(1,gold(20,23)),d(3,gold(20,21))]3
+[miner4] Next gold is gold(20,23)
+[miner4] Handling gold(20,23) now.
+[WorldModel] Agent 1 carried a gold to depot!
+[miner4] I've reached 20x23
+[miner1] Finish handling gold(20,24)
+[leader] Agent miner1 has dropped 2 pieces of gold
+[miner1] Gold distances: [d(19,gold(20,23))]1
+[miner1] Next gold is gold(20,23)
+[miner1] Handling gold(20,23) now.
+[miner2] I am at (11,1) which is near (11,0)
+[miner2] I chose to go near 7 7 Coordinates
+[miner3] I am at (30,12) which is near (30,11)
+[miner3] I chose to go near 12 19 Coordinates
+[miner2] I am at (7,6) which is near (7,7)
+[miner2] I chose to go near 13 8 Coordinates
+[miner1] I've reached 20x23
+[miner4] I've reached 5x27
+[WorldModel] Agent 1 is trying the pick gold, but there is no gold at 20x23!
+[miner1] failed to catch gold gold(20,23)
+[miner1] Gold distances: [d(1,gold(20,22))]1
+[miner1] Next gold is gold(20,22)
+[miner1] Handling gold(20,22) now.
+[WorldModel] Agent 4 carried a gold to depot!
+[miner4] Finish handling gold(20,23)
+[leader] Agent miner4 has dropped 4 pieces of gold
+[miner4] Gold distances: [d(20,gold(20,22)),d(21,gold(20,21))]2
+[miner4] Next gold is gold(20,22)
+[miner4] Handling gold(20,22) now.
+[miner1] I've reached 20x22
+[miner2] I am at (13,7) which is near (13,8)
+[miner2] I chose to go near 2 2 Coordinates
+[miner2] Gold perceived: gold(3,5)
+[miner2] Dropping near(_,_) desires and intentions to handle gold(3,5)
+[miner2] Going for gold(3,5)
+[miner2] Handling gold(3,5) now.
+[miner2] I've reached 3x5
+[miner3] I am at (12,18) which is near (12,19)
+[miner3] I chose to go near 18 32 Coordinates
+[miner4] I've reached 20x22
+[WorldModel] Agent 4 is trying the pick gold, but there is no gold at 20x22!
+[miner4] failed to catch gold gold(20,22)
+[miner4] Gold distances: [d(1,gold(20,21))]1
+[miner4] Next gold is gold(20,21)
+[miner4] Handling gold(20,21) now.
+[miner1] I've reached 5x27
+[miner4] I've reached 20x21
+[WorldModel] Agent 1 carried a gold to depot!
+[miner1] Finish handling gold(20,22)
+[leader] Agent miner1 has dropped 3 pieces of gold
+[miner1] Gold distances: [d(21,gold(20,21))]1
+[miner1] Next gold is gold(20,21)
+[miner1] Handling gold(20,21) now.
