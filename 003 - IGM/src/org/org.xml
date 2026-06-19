@@ -55,8 +55,8 @@
 </functional-specification>
 
 <normative-specification>
-    <norm id="explorer_scouts" type="obligation" role="explorer" mission="scouting"/>
-    <norm id="retriever_retrieves" type="obligation" role="retriever" mission="retrieving"/>
+    <!-- Keep this example lightweight: roles are adopted in gold_miners.jcm,
+         but no mission obligation is forced into the agents' intention stack. -->
 </normative-specification>
 
 </organisational-specification>

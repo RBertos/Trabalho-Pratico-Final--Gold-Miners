@@ -6,12 +6,16 @@ import jason.asSyntax.Atom;
 import jason.environment.grid.GridWorldModel;
 import jason.environment.grid.Location;
 
-public class RadioArtifact extends Artifact {
+import java.util.HashMap;
+import java.util.Map;
+
+public class RadioArtifactA extends Artifact {
 
     private static final int NUM_MINERS = 4;
 
     private int range = 25;
     private int msgId = 0;
+    private Map<Integer,String> minerTeams = new HashMap<Integer,String>();
 
     @OPERATION
     void init(int radioRange) {
@@ -27,8 +31,7 @@ public class RadioArtifact extends Artifact {
 
     @OPERATION
     void registerTeam(int minerId, String team) {
-        // Compatibility with agents that may register teams. The default radio
-        // broadcasts to every miner in range, regardless of team.
+        minerTeams.put(minerId, team);
     }
 
     @OPERATION
@@ -40,7 +43,7 @@ public class RadioArtifact extends Artifact {
 
         int distance = senderPos.distance(receiverPos);
 
-        getObsProperty("signal").updateValues(senderId, receiverId, distance <= range ? 1 : 0);
+        getObsProperty("signal").updateValues(senderId, receiverId, distance <= range && isSameTeam(senderId, receiverId) ? 1 : 0);
     }
 
     @OPERATION
@@ -59,12 +62,18 @@ public class RadioArtifact extends Artifact {
             Location receiverPos = model.getAgPos(receiverId);
             int distance = senderPos.distance(receiverPos);
 
-            if (distance <= range) {
+            if (distance <= range && isSameTeam(senderId, receiverId)) {
                 msgId++;
                 getObsProperty("radio_ore_" + receiverId)
                     .updateValues(senderId, new Atom(oreType), oreX, oreY, oreValue, msgId);
             }
         }
+    }
+
+    private boolean isSameTeam(int senderId, int receiverId) {
+        String senderTeam = minerTeams.get(senderId);
+        String receiverTeam = minerTeams.get(receiverId);
+        return senderTeam != null && senderTeam.equals(receiverTeam);
     }
 
     private GridWorldModel getActiveModel() {

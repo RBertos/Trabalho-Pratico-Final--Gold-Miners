@@ -25,25 +25,36 @@ miner_id(-1).
 /* this agent program doesn't have any rules */
 
 +!setup_strategy : .my_name(miner1)
-  <- -+team(blue);
-     -+role(explorer);
-     -+miner_id(0);
-     .print("Organisation setup: blue explorer").
+  <- -+miner_id(0).
 +!setup_strategy : .my_name(miner2)
-  <- -+team(blue);
-     -+role(retriever);
-     -+miner_id(1);
-     .print("Organisation setup: blue retriever").
+  <- -+miner_id(1).
 +!setup_strategy : .my_name(miner3)
-  <- -+team(red);
-     -+role(explorer);
-     -+miner_id(2);
-     .print("Organisation setup: red explorer").
+  <- -+miner_id(2).
 +!setup_strategy : .my_name(miner4)
-  <- -+team(red);
-     -+role(retriever);
-     -+miner_id(3);
-     .print("Organisation setup: red retriever").
+  <- -+miner_id(3).
+
+// Lightweight Moise integration: if the organisation publishes the adopted
+// role, mirror it into the simple beliefs already used by this miner.
++play(Ag,Role,Group) : .my_name(Ag) & miner_id(Id) & Id >= 0
+  <- -+team(Group);
+     -+role(Role);
+     registerTeam(Id,Group);
+     .print("Moise role perceived: ",Role," in ",Group).
++play(Ag,Role,Group) : .my_name(Ag)
+  <- -+team(Group);
+     -+role(Role);
+     .print("Moise role perceived: ",Role," in ",Group).
++fplay(Ag,Role,Group) : .my_name(Ag) & miner_id(Id) & Id >= 0
+  <- -+team(Group);
+     -+role(Role);
+     registerTeam(Id,Group);
+     .print("Moise role perceived: ",Role," in ",Group).
++fplay(Ag,Role,Group) : .my_name(Ag)
+  <- -+team(Group);
+     -+role(Role);
+     .print("Moise role perceived: ",Role," in ",Group).
++miner_id(Id) : team(Group) & Id >= 0
+  <- registerTeam(Id,Group).
 
 +lantern_radius(R) : .my_name(miner1)
   <- takeLantern(0);
