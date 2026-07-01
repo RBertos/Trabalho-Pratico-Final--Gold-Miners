@@ -1,0 +1,910 @@
+[Moise] OrgBoard mining_org created.
+[Moise] scheme created: mining: mine_resources using artifact SchemeBoard
+[Moise] group created: blue: mining_team using artifact ora4mas.nopl.GroupBoard
+[Moise] group created: red: mining_team using artifact ora4mas.nopl.GroupBoard
+[Cartago] Workspace mining created.
+[Cartago] artifact m1view: mining.MiningPlanetB(4,0) at mining created.
+[Cartago] artifact m2view: mining.MiningPlanetB(4,1) at mining created.
+[Cartago] artifact backpack: mining.BackpackArtifact(3) at mining created.
+[Cartago] artifact m4view: mining.MiningPlanetB(4,3) at mining created.
+[Cartago] artifact clock: mining.ClockArtifact(180) at mining created.
+[Cartago] artifact m3view: mining.MiningPlanetB(4,2) at mining created.
+[Cartago] artifact lantern: mining.LanternArtifact(2) at mining created.
+[Cartago] artifact radio: mining.RadioArtifact(25) at mining created.
+[miner1] join workspace /main/mining: done
+[miner2] join workspace /main/mining: done
+[miner4] join workspace /main/mining: done
+[miner3] join workspace /main/mining: done
+[miner4] join workspace /main/mining_org: done
+[miner1] join workspace /main/mining_org: done
+[miner2] join workspace /main/mining_org: done
+[leader] join workspace /main/mining: done
+[miner4] focusing on artifact m4view (at workspace /main/mining) using namespace default
+[miner1] focusing on artifact m1view (at workspace /main/mining) using namespace default
+[miner2] focusing on artifact m2view (at workspace /main/mining) using namespace default
+[miner3] join workspace /main/mining_org: done
+[leader] focusing on artifact clock (at workspace /main/mining) using namespace default
+[miner3] focusing on artifact m3view (at workspace /main/mining) using namespace default
+[miner4] focus on m4view: done
+[miner1] focus on m1view: done
+[miner1] focusing on artifact radio (at workspace /main/mining) using namespace default
+[miner4] focusing on artifact radio (at workspace /main/mining) using namespace default
+[leader] focus on clock: done
+[miner2] focus on m2view: done
+[miner3] focus on m3view: done
+[miner2] focusing on artifact radio (at workspace /main/mining) using namespace default
+[miner3] focusing on artifact radio (at workspace /main/mining) using namespace default
+[miner1] focus on radio: done
+[miner1] focusing on artifact lantern (at workspace /main/mining) using namespace default
+[leader] Time left: 180 seconds
+[miner4] focus on radio: done
+[miner2] focus on radio: done
+[miner3] focus on radio: done
+[miner2] focusing on artifact backpack (at workspace /main/mining) using namespace default
+[miner1] focus on lantern: done
+[miner4] focusing on artifact backpack (at workspace /main/mining) using namespace default
+[miner3] focusing on artifact lantern (at workspace /main/mining) using namespace default
+[miner1] focusing on artifact blue (at workspace /main/mining_org) using namespace default
+[miner2] focus on backpack: done
+[miner4] focus on backpack: done
+[miner3] focus on lantern: done
+[miner2] focusing on artifact blue (at workspace /main/mining_org) using namespace default
+[miner4] focusing on artifact red (at workspace /main/mining_org) using namespace default
+[miner3] focusing on artifact red (at workspace /main/mining_org) using namespace default
+[miner1] focus on blue: done
+[miner1] focusing on artifact mining_org (at workspace /main/mining_org) using namespace default
+[miner4] focus on red: done
+[miner2] focus on blue: done
+[miner3] focus on red: done
+[miner4] focusing on artifact mining_org (at workspace /main/mining_org) using namespace default
+[miner2] focusing on artifact mining_org (at workspace /main/mining_org) using namespace default
+[miner3] focusing on artifact mining_org (at workspace /main/mining_org) using namespace default
+[miner1] focus on mining_org: done
+[miner4] focus on mining_org: done
+[miner2] focus on mining_org: done
+[miner3] focus on mining_org: done
+[miner4] Leader says time left is 180 seconds
+[miner1] Leader says time left is 180 seconds
+[miner1] Lantern acquired. Vision radius: 2
+[miner4] Backpack acquired. Capacity: 3
+[miner4] Moise goal: retrieving in scheme mining
+[miner1] Moise goal: scouting in scheme mining
+[miner1] I chose to go near 2 18 Coordinates
+[miner2] Leader says time left is 180 seconds
+[miner3] Lantern acquired. Vision radius: 2
+[miner2] Backpack acquired. Capacity: 3
+[miner3] Leader says time left is 180 seconds
+[miner2] Moise goal: retrieving in scheme mining
+[miner3] Moise goal: scouting in scheme mining
+[miner3] I chose to go near 16 10 Coordinates
+[miner3] I chose to go near 31 11 Coordinates
+[miner1] I chose to go near 12 18 Coordinates
+[miner1] Scout report: ore(gold,3,5,3)
+[miner4] Ore perceived: ore(gold,3,5,3)
+[miner2] Ore perceived: ore(gold,3,5,3)
+[miner3] Radio received from miner 1: ore(gold,3,5,3)
+[miner4] Going for ore(gold,3,5,3)
+[miner2] Going for ore(gold,3,5,3)
+[miner2] Radio received from miner 1: ore(gold,3,5,3)
+[miner4] Radio received from miner 1: ore(gold,3,5,3)
+[miner2] Handling ore(gold,3,5,3) now.
+[miner4] Handling ore(gold,3,5,3) now.
+[leader] Time left: 179 seconds
+[miner3] Leader says time left is 179 seconds
+[miner1] Leader says time left is 179 seconds
+[miner4] Leader says time left is 179 seconds
+[miner2] Leader says time left is 179 seconds
+[miner4] Committed to Moise mission retrieving
+[miner4] Organisation setup: red retriever
+[miner4] Ore distances: [d(18,ore(gold,3,5,3))]1
+[miner4] Next ore is ore(gold,3,5,3)
+[miner4] failed to catch ore ore(gold,3,5,3)
+[miner2] Committed to Moise mission retrieving
+[miner2] Organisation setup: blue retriever
+[miner2] Ore distances: [d(5,ore(gold,3,5,3))]1
+[miner2] Next ore is ore(gold,3,5,3)
+[miner2] failed to catch ore ore(gold,3,5,3)
+[miner2] Leader says time left is 178 seconds
+[miner3] Leader says time left is 178 seconds
+[leader] Time left: 178 seconds
+[miner4] Leader says time left is 178 seconds
+[miner1] Leader says time left is 178 seconds
+[miner2] Ore perceived: ore(gold,3,5,3)
+[miner2] Going for ore(gold,3,5,3)
+[miner2] Handling ore(gold,3,5,3) now.
+[miner1] Radio received from miner 2: ore(gold,3,5,3)
+[miner4] Ore perceived: ore(gold,3,5,3)
+[miner4] Going for ore(gold,3,5,3)
+[miner4] Radio received from miner 2: ore(gold,3,5,3)
+[miner4] Handling ore(gold,3,5,3) now.
+[miner2] Ore distances: [d(2,ore(gold,3,5,3))]1
+[miner2] Next ore is ore(gold,3,5,3)
+[miner2] failed to catch ore ore(gold,3,5,3)
+[miner4] Ore distances: [d(12,ore(gold,3,5,3))]1
+[miner4] Next ore is ore(gold,3,5,3)
+[miner4] failed to catch ore ore(gold,3,5,3)
+[miner2] Ore perceived: ore(gold,3,5,3)
+[miner2] Going for ore(gold,3,5,3)
+[miner2] Handling ore(gold,3,5,3) now.
+[miner4] Ore perceived: ore(gold,3,5,3)
+[miner4] Going for ore(gold,3,5,3)
+[miner4] Radio received from miner 2: ore(gold,3,5,3)
+[miner4] Handling ore(gold,3,5,3) now.
+[miner4] Ore distances: [d(7,ore(gold,3,5,3))]1
+[miner4] Next ore is ore(gold,3,5,3)
+[miner4] failed to catch ore ore(gold,3,5,3)
+[miner2] Ore distances: [d(2,ore(gold,3,5,3))]1
+[miner2] Next ore is ore(gold,3,5,3)
+[miner2] failed to catch ore ore(gold,3,5,3)
+[miner1] Scout report: ore(gold,7,7,3)
+[miner3] Radio received from miner 1: ore(gold,7,7,3)
+[miner2] Ore perceived: ore(gold,7,7,3)
+[miner4] Ore perceived: ore(gold,7,7,3)
+[miner2] Going for ore(gold,7,7,3)
+[miner2] Radio received from miner 1: ore(gold,7,7,3)
+[miner2] Handling ore(gold,7,7,3) now.
+[miner4] Going for ore(gold,7,7,3)
+[miner4] Radio received from miner 1: ore(gold,7,7,3)
+[miner4] Handling ore(gold,7,7,3) now.
+[miner2] Giving up current ore ore(gold,7,7,3) to handle ore(gold,3,5,3) which I am seeing!
+[miner2] Going for ore(gold,3,5,3)
+[miner4] Giving up current ore ore(gold,7,7,3) to handle ore(gold,3,5,3) which I am seeing!
+[miner2] Handling ore(gold,3,5,3) now.
+[miner4] Going for ore(gold,3,5,3)
+[miner4] Radio received from miner 2: ore(gold,3,5,3)
+[miner4] Handling ore(gold,3,5,3) now.
+[miner2] Giving up current ore ore(gold,3,5,3) to handle ore(coal,3,9,1) which I am seeing!
+[miner2] Going for ore(coal,3,9,1)
+[miner2] Handling ore(coal,3,9,1) now.
+[miner4] Radio received from miner 2: ore(coal,3,9,1)
+[miner3] Radio received from miner 2: ore(coal,3,9,1)
+[miner1] Radio received from miner 2: ore(coal,3,9,1)
+[leader] Time left: 177 seconds
+[miner2] Leader says time left is 177 seconds
+[miner3] Leader says time left is 177 seconds
+[miner1] Leader says time left is 177 seconds
+[miner4] Leader says time left is 177 seconds
+[miner4] Ore distances: [d(11,ore(coal,3,9,1)),d(7,ore(gold,3,5,3)),d(9,ore(gold,7,7,3))]3
+[miner4] Next ore is ore(gold,3,5,3)
+[miner4] failed to catch ore ore(gold,3,5,3)
+[miner4] Ore distances: [d(11,ore(coal,3,9,1)),d(9,ore(gold,7,7,3))]2
+[miner4] Next ore is ore(gold,7,7,3)
+[miner4] failed to catch ore ore(gold,7,7,3)
+[miner4] Ore distances: [d(11,ore(coal,3,9,1))]1
+[miner4] Next ore is ore(coal,3,9,1)
+[miner4] failed to catch ore ore(coal,3,9,1)
+[miner2] Ore distances: [d(1,ore(coal,3,9,1)),d(3,ore(gold,3,5,3)),d(5,ore(gold,7,7,3))]3
+[miner2] Next ore is ore(coal,3,9,1)
+[miner2] failed to catch ore ore(coal,3,9,1)
+[miner2] Ore distances: [d(3,ore(gold,3,5,3)),d(5,ore(gold,7,7,3))]2
+[miner2] Next ore is ore(gold,3,5,3)
+[miner2] failed to catch ore ore(gold,3,5,3)
+[miner2] Ore distances: [d(5,ore(gold,7,7,3))]1
+[miner2] Next ore is ore(gold,7,7,3)
+[miner2] failed to catch ore ore(gold,7,7,3)
+[miner2] Ore perceived: ore(iron,10,8,2)
+[miner4] Ore perceived: ore(iron,10,8,2)
+[miner1] Scout report: ore(iron,10,8,2)
+[miner3] Radio received from miner 1: ore(iron,10,8,2)
+[miner4] Going for ore(iron,10,8,2)
+[miner4] Radio received from miner 1: ore(iron,10,8,2)
+[miner2] Going for ore(iron,10,8,2)
+[miner2] Radio received from miner 1: ore(iron,10,8,2)
+[miner4] Handling ore(iron,10,8,2) now.
+[miner2] Handling ore(iron,10,8,2) now.
+[miner2] Giving up current ore ore(iron,10,8,2) to handle ore(coal,3,9,1) which I am seeing!
+[miner2] Going for ore(coal,3,9,1)
+[miner2] Handling ore(coal,3,9,1) now.
+[miner2] I've reached 3x9
+[miner4] Giving up current ore ore(iron,10,8,2) to handle ore(coal,3,9,1) which I am seeing!
+[miner2] I've reached 3x9
+[miner4] Going for ore(coal,3,9,1)
+[miner4] Radio received from miner 2: ore(coal,3,9,1)
+[miner4] Handling ore(coal,3,9,1) now.
+[WorldModelB] Agent 2 is trying the pick ore, but there is no ore at 4x9!
+[WorldModelB] Agent 2 is trying the pick ore, but there is no ore at 4x9!
+[miner2] failed to catch ore ore(coal,3,9,1)
+[miner2] failed to catch ore ore(coal,3,9,1)
+[miner2] Ore distances: [d(7,ore(iron,10,8,2))]1
+[miner2] Ore distances: [d(7,ore(iron,10,8,2))]1
+[miner2] Next ore is ore(iron,10,8,2)
+[miner2] Next ore is ore(iron,10,8,2)
+[miner2] Handling ore(iron,10,8,2) now.
+[miner2] Handling ore(iron,10,8,2) now.
+[miner4] Ore distances: [d(11,ore(coal,3,9,1)),d(11,ore(iron,10,8,2))]2
+[miner4] Next ore is ore(coal,3,9,1)
+[miner4] failed to catch ore ore(coal,3,9,1)
+[miner4] Ore distances: [d(11,ore(iron,10,8,2))]1
+[miner4] Next ore is ore(iron,10,8,2)
+[miner4] failed to catch ore ore(iron,10,8,2)
+[miner2] Ore distances: [d(7,ore(iron,10,8,2))]1
+[miner2] Next ore is ore(iron,10,8,2)
+[miner2] failed to catch ore ore(iron,10,8,2)
+[miner4] Ore perceived: ore(gold,3,5,3)
+[miner4] Going for ore(gold,3,5,3)
+[miner4] Handling ore(gold,3,5,3) now.
+[miner2] Ore perceived: ore(gold,3,5,3)
+[miner2] Going for ore(gold,3,5,3)
+[miner2] Radio received from miner 4: ore(gold,3,5,3)
+[miner2] Handling ore(gold,3,5,3) now.
+[miner2] Giving up current ore ore(gold,3,5,3) to handle ore(gold,7,7,3) which I am seeing!
+[miner2] Going for ore(gold,7,7,3)
+[miner2] Handling ore(gold,7,7,3) now.
+[miner1] Radio received from miner 2: ore(gold,7,7,3)
+[miner4] Radio received from miner 2: ore(gold,7,7,3)
+[leader] Time left: 176 seconds
+[miner1] Leader says time left is 176 seconds
+[miner4] Leader says time left is 176 seconds
+[miner2] Leader says time left is 176 seconds
+[miner3] Leader says time left is 176 seconds
+[miner4] Ore distances: [d(3,ore(gold,7,7,3)),d(3,ore(gold,3,5,3))]2
+[miner4] Next ore is ore(gold,3,5,3)
+[miner4] failed to catch ore ore(gold,3,5,3)
+[miner4] Ore distances: [d(3,ore(gold,7,7,3))]1
+[miner4] Next ore is ore(gold,7,7,3)
+[miner4] failed to catch ore ore(gold,7,7,3)
+[miner2] Ore distances: [d(2,ore(gold,7,7,3)),d(4,ore(gold,3,5,3))]2
+[miner2] Next ore is ore(gold,7,7,3)
+[miner2] failed to catch ore ore(gold,7,7,3)
+[miner2] Ore distances: [d(4,ore(gold,3,5,3))]1
+[miner2] Ore perceived: ore(gold,7,7,3)
+[miner2] Going for ore(gold,7,7,3)
+[miner2] Next ore is ore(gold,3,5,3)
+[miner2] Handling ore(gold,7,7,3) now.
+[miner4] Ore perceived: ore(gold,7,7,3)
+[miner2] Handling ore(gold,3,5,3) now.
+[miner4] Going for ore(gold,7,7,3)
+[miner4] Radio received from miner 2: ore(gold,7,7,3)
+[miner4] Handling ore(gold,7,7,3) now.
+[miner2] Ore distances: [d(1,ore(gold,7,7,3)),d(7,ore(gold,3,5,3))]2
+[miner2] Next ore is ore(gold,7,7,3)
+[miner2] failed to catch ore ore(gold,7,7,3)
+[miner4] Ore distances: [d(7,ore(gold,7,7,3))]1
+[miner2] Ore distances: [d(7,ore(gold,3,5,3))]1
+[miner4] Next ore is ore(gold,7,7,3)
+[miner2] Next ore is ore(gold,3,5,3)
+[miner4] failed to catch ore ore(gold,7,7,3)
+[miner2] failed to catch ore ore(gold,3,5,3)
+[miner4] Ore perceived: ore(gold,3,5,3)
+[miner4] Going for ore(gold,3,5,3)
+[miner4] Handling ore(gold,3,5,3) now.
+[miner2] Ore perceived: ore(gold,3,5,3)
+[miner2] Going for ore(gold,3,5,3)
+[miner2] Radio received from miner 4: ore(gold,3,5,3)
+[miner2] Handling ore(gold,3,5,3) now.
+[miner4] Giving up current ore ore(gold,3,5,3) to handle ore(gold,7,7,3) which I am seeing!
+[miner2] Giving up current ore ore(gold,3,5,3) to handle ore(iron,10,8,2) which I am seeing!
+[miner4] Going for ore(gold,7,7,3)
+[miner4] Handling ore(gold,7,7,3) now.
+[miner2] Going for ore(iron,10,8,2)
+[miner1] Radio received from miner 2: ore(iron,10,8,2)
+[miner2] Giving up current ore ore(iron,10,8,2) to handle ore(gold,7,7,3) which I am seeing!
+[miner4] Radio received from miner 2: ore(iron,10,8,2)
+[miner2] Going for ore(gold,7,7,3)
+[miner2] I've reached 7x7
+[miner2] Handling ore(gold,7,7,3) now.
+[miner2] I've reached 7x7
+[miner2] I've reached 7x7
+[WorldModelB] Agent 2 is trying the pick ore, but there is no ore at 6x7!
+[WorldModelB] Agent 2 is trying the pick ore, but there is no ore at 6x7!
+[WorldModelB] Agent 2 is trying the pick ore, but there is no ore at 6x7!
+[miner2] failed to catch ore ore(gold,7,7,3)
+[miner2] failed to catch ore ore(gold,7,7,3)
+[miner2] failed to handle ore(gold,7,7,3), it isn't in the BB anyway
+[miner2] Ore distances: [d(5,ore(iron,10,8,2)),d(5,ore(gold,3,5,3))]2
+[miner2] Ore distances: [d(5,ore(iron,10,8,2)),d(5,ore(gold,3,5,3))]2
+[miner2] Ore distances: [d(5,ore(iron,10,8,2)),d(5,ore(gold,3,5,3))]2
+[miner2] Next ore is ore(gold,3,5,3)
+[miner2] Next ore is ore(gold,3,5,3)
+[miner2] Next ore is ore(gold,3,5,3)
+[miner2] Handling ore(gold,3,5,3) now.
+[miner2] Handling ore(gold,3,5,3) now.
+[miner2] Handling ore(gold,3,5,3) now.
+[miner4] Ore distances: [d(9,ore(iron,10,8,2)),d(5,ore(gold,7,7,3)),d(3,ore(gold,3,5,3))]3
+[miner4] Next ore is ore(gold,3,5,3)
+[miner4] failed to catch ore ore(gold,3,5,3)
+[miner4] Ore distances: [d(9,ore(iron,10,8,2)),d(5,ore(gold,7,7,3))]2
+[miner4] Next ore is ore(gold,7,7,3)
+[miner4] failed to catch ore ore(gold,7,7,3)
+[miner4] Ore distances: [d(9,ore(iron,10,8,2))]1
+[miner4] Next ore is ore(iron,10,8,2)
+[miner4] failed to catch ore ore(iron,10,8,2)
+[miner2] Ore distances: [d(5,ore(iron,10,8,2)),d(5,ore(gold,3,5,3))]2
+[miner2] Next ore is ore(gold,3,5,3)
+[miner2] failed to catch ore ore(gold,3,5,3)
+[miner2] Ore distances: [d(5,ore(iron,10,8,2))]1
+[miner2] Next ore is ore(iron,10,8,2)
+[miner2] failed to catch ore ore(iron,10,8,2)
+[miner2] Ore perceived: ore(gold,7,7,3)
+[miner2] Going for ore(gold,7,7,3)
+[miner4] Ore perceived: ore(gold,7,7,3)
+[miner2] Handling ore(gold,7,7,3) now.
+[miner4] Going for ore(gold,7,7,3)
+[miner4] Radio received from miner 2: ore(gold,7,7,3)
+[miner4] Handling ore(gold,7,7,3) now.
+[miner4] Giving up current ore ore(gold,7,7,3) to handle ore(coal,3,9,1) which I am seeing!
+[miner4] Going for ore(coal,3,9,1)
+[miner4] Handling ore(coal,3,9,1) now.
+[miner2] Radio received from miner 4: ore(coal,3,9,1)
+[leader] Time left: 175 seconds
+[miner4] Leader says time left is 175 seconds
+[miner1] Leader says time left is 175 seconds
+[miner3] Leader says time left is 175 seconds
+[miner2] Leader says time left is 175 seconds
+[miner4] Ore distances: [d(2,ore(coal,3,9,1)),d(6,ore(gold,7,7,3))]2
+[miner4] Next ore is ore(coal,3,9,1)
+[miner4] failed to catch ore ore(coal,3,9,1)
+[miner4] Ore distances: [d(6,ore(gold,7,7,3))]1
+[miner4] Next ore is ore(gold,7,7,3)
+[miner4] failed to catch ore ore(gold,7,7,3)
+[miner4] Ore perceived: ore(coal,3,9,1)
+[miner4] Going for ore(coal,3,9,1)
+[miner4] Handling ore(coal,3,9,1) now.
+[miner2] Giving up current ore ore(gold,7,7,3) to handle ore(gold,3,5,3) which I am seeing!
+[miner2] Going for ore(gold,3,5,3)
+[miner4] Ore distances: [d(2,ore(coal,3,9,1))]1
+[miner2] Handling ore(gold,3,5,3) now.
+[miner4] Ore perceived: ore(gold,3,5,3)
+[miner4] Going for ore(gold,3,5,3)
+[miner4] Radio received from miner 2: ore(gold,3,5,3)
+[miner4] Next ore is ore(coal,3,9,1)
+[miner4] Handling ore(gold,3,5,3) now.
+[miner4] Handling ore(coal,3,9,1) now.
+[miner2] Ore distances: [d(1,ore(gold,3,5,3)),d(5,ore(coal,3,9,1)),d(5,ore(gold,7,7,3))]3
+[miner2] Next ore is ore(gold,3,5,3)
+[miner2] failed to catch ore ore(gold,3,5,3)
+[miner2] Ore distances: [d(5,ore(coal,3,9,1)),d(5,ore(gold,7,7,3))]2
+[miner2] Next ore is ore(coal,3,9,1)
+[miner2] failed to catch ore ore(coal,3,9,1)
+[miner2] Ore distances: [d(5,ore(gold,7,7,3))]1
+[miner2] Next ore is ore(gold,7,7,3)
+[miner2] failed to catch ore ore(gold,7,7,3)
+[miner2] Ore perceived: ore(gold,3,5,3)
+[miner2] Going for ore(gold,3,5,3)
+[miner2] Handling ore(gold,3,5,3) now.
+[miner4] Ore distances: [d(6,ore(gold,3,5,3)),d(2,ore(coal,3,9,1))]2
+[miner4] Next ore is ore(coal,3,9,1)
+[miner4] failed to catch ore ore(coal,3,9,1)
+[miner4] Ore distances: [d(6,ore(gold,3,5,3))]1
+[miner4] Next ore is ore(gold,3,5,3)
+[miner4] failed to catch ore ore(gold,3,5,3)
+[miner2] Ore distances: [d(2,ore(gold,3,5,3))]1
+[miner2] Next ore is ore(gold,3,5,3)
+[miner2] failed to catch ore ore(gold,3,5,3)
+[miner4] Ore perceived: ore(coal,3,9,1)
+[miner4] Going for ore(coal,3,9,1)
+[miner4] Handling ore(coal,3,9,1) now.
+[miner2] Ore perceived: ore(gold,3,5,3)
+[miner2] Going for ore(gold,3,5,3)
+[miner2] Handling ore(gold,3,5,3) now.
+[miner2] Radio received from miner 4: ore(coal,3,9,1)
+[miner4] Radio received from miner 2: ore(gold,3,5,3)
+[miner1] Leader says time left is 174 seconds
+[leader] Time left: 174 seconds
+[miner2] Leader says time left is 174 seconds
+[miner4] Leader says time left is 174 seconds
+[miner3] Leader says time left is 174 seconds
+[miner4] Ore distances: [d(10,ore(gold,3,5,3)),d(6,ore(coal,3,9,1))]2
+[miner4] Next ore is ore(coal,3,9,1)
+[miner4] failed to catch ore ore(coal,3,9,1)
+[miner4] Ore distances: [d(10,ore(gold,3,5,3))]1
+[miner4] Next ore is ore(gold,3,5,3)
+[miner4] failed to catch ore ore(gold,3,5,3)
+[miner4] Ore perceived: ore(coal,3,9,1)
+[miner4] Going for ore(coal,3,9,1)
+[miner4] Handling ore(coal,3,9,1) now.
+[miner2] Ore distances: [d(7,ore(coal,3,9,1)),d(3,ore(gold,3,5,3))]2
+[miner2] Next ore is ore(gold,3,5,3)
+[miner2] failed to catch ore ore(gold,3,5,3)
+[miner2] Ore distances: [d(7,ore(coal,3,9,1))]1
+[miner2] Next ore is ore(coal,3,9,1)
+[miner2] failed to catch ore ore(coal,3,9,1)
+[miner2] Ore perceived: ore(gold,3,5,3)
+[miner2] Going for ore(gold,3,5,3)
+[miner2] Handling ore(gold,3,5,3) now.
+[miner4] Radio received from miner 2: ore(gold,3,5,3)
+[miner4] Ore distances: [d(5,ore(gold,3,5,3)),d(1,ore(coal,3,9,1))]2
+[miner4] Next ore is ore(coal,3,9,1)
+[miner4] failed to catch ore ore(coal,3,9,1)
+[miner4] Ore distances: [d(5,ore(gold,3,5,3))]1
+[miner4] Next ore is ore(gold,3,5,3)
+[miner4] failed to catch ore ore(gold,3,5,3)
+[miner2] Ore distances: [d(3,ore(gold,3,5,3))]1
+[miner2] Next ore is ore(gold,3,5,3)
+[miner2] failed to catch ore ore(gold,3,5,3)
+[miner4] Ore perceived: ore(coal,3,9,1)
+[miner4] Going for ore(coal,3,9,1)
+[miner4] Handling ore(coal,3,9,1) now.
+[miner2] Ore perceived: ore(coal,3,9,1)
+[miner2] Going for ore(coal,3,9,1)
+[miner2] Radio received from miner 4: ore(coal,3,9,1)
+[miner2] Handling ore(coal,3,9,1) now.
+[miner2] Giving up current ore ore(coal,3,9,1) to handle ore(gold,3,5,3) which I am seeing!
+[miner2] Going for ore(gold,3,5,3)
+[miner2] Handling ore(gold,3,5,3) now.
+[miner4] Giving up current ore ore(coal,3,9,1) to handle ore(gold,3,5,3) which I am seeing!
+[miner4] Going for ore(gold,3,5,3)
+[miner4] Radio received from miner 2: ore(gold,3,5,3)
+[miner4] Handling ore(gold,3,5,3) now.
+[miner4] Giving up current ore ore(gold,3,5,3) to handle ore(gold,7,7,3) which I am seeing!
+[miner4] Going for ore(gold,7,7,3)
+[miner4] Handling ore(gold,7,7,3) now.
+[miner2] Giving up current ore ore(gold,3,5,3) to handle ore(gold,7,7,3) which I am seeing!
+[miner2] Going for ore(gold,7,7,3)
+[miner2] Radio received from miner 4: ore(gold,7,7,3)
+[miner2] Handling ore(gold,7,7,3) now.
+[leader] Time left: 173 seconds
+[miner2] Leader says time left is 173 seconds
+[miner4] Leader says time left is 173 seconds
+[miner3] Leader says time left is 173 seconds
+[miner1] Leader says time left is 173 seconds
+[miner4] Ore distances: [d(3,ore(gold,7,7,3)),d(7,ore(gold,3,5,3)),d(9,ore(coal,3,9,1))]3
+[miner4] Next ore is ore(gold,7,7,3)
+[miner4] failed to catch ore ore(gold,7,7,3)
+[miner4] Ore distances: [d(7,ore(gold,3,5,3)),d(9,ore(coal,3,9,1))]2
+[miner4] Next ore is ore(gold,3,5,3)
+[miner4] failed to catch ore ore(gold,3,5,3)
+[miner4] Ore distances: [d(9,ore(coal,3,9,1))]1
+[miner4] Next ore is ore(coal,3,9,1)
+[miner4] failed to catch ore ore(coal,3,9,1)
+[miner2] Ore distances: [d(9,ore(gold,7,7,3)),d(3,ore(gold,3,5,3)),d(7,ore(coal,3,9,1))]3
+[miner4] Ore perceived: ore(gold,7,7,3)
+[miner2] Next ore is ore(gold,3,5,3)
+[miner4] Going for ore(gold,7,7,3)
+[miner2] failed to catch ore ore(gold,3,5,3)
+[miner4] Handling ore(gold,7,7,3) now.
+[miner2] Ore distances: [d(9,ore(gold,7,7,3)),d(7,ore(coal,3,9,1))]2
+[miner2] Next ore is ore(coal,3,9,1)
+[miner2] failed to catch ore ore(coal,3,9,1)
+[miner2] Ore distances: [d(9,ore(gold,7,7,3))]1
+[miner2] Next ore is ore(gold,7,7,3)
+[miner2] failed to catch ore ore(gold,7,7,3)
+[miner2] Ore perceived: ore(gold,3,5,3)
+[miner2] Going for ore(gold,3,5,3)
+[miner2] Handling ore(gold,3,5,3) now.
+[miner4] Radio received from miner 2: ore(gold,3,5,3)
+[miner4] Ore distances: [d(6,ore(gold,3,5,3)),d(2,ore(gold,7,7,3))]2
+[miner4] Next ore is ore(gold,7,7,3)
+[miner4] failed to catch ore ore(gold,7,7,3)
+[miner4] Ore distances: [d(6,ore(gold,3,5,3))]1
+[miner4] Next ore is ore(gold,3,5,3)
+[miner4] failed to catch ore ore(gold,3,5,3)
+[miner2] Ore distances: [d(1,ore(gold,3,5,3))]1
+[miner2] Next ore is ore(gold,3,5,3)
+[miner2] failed to catch ore ore(gold,3,5,3)
+[miner4] Ore perceived: ore(gold,7,7,3)
+[miner4] Going for ore(gold,7,7,3)
+[miner2] Ore perceived: ore(gold,3,5,3)
+[miner2] Going for ore(gold,3,5,3)
+[miner4] Handling ore(gold,7,7,3) now.
+[miner2] Handling ore(gold,3,5,3) now.
+[miner2] Radio received from miner 4: ore(gold,7,7,3)
+[miner4] Radio received from miner 2: ore(gold,3,5,3)
+[leader] Time left: 172 seconds
+[miner3] Leader says time left is 172 seconds
+[miner4] Leader says time left is 172 seconds
+[miner1] Leader says time left is 172 seconds
+[miner2] Leader says time left is 172 seconds
+[miner4] Ore distances: [d(7,ore(gold,3,5,3)),d(3,ore(gold,7,7,3))]2
+[miner4] Next ore is ore(gold,7,7,3)
+[miner4] failed to catch ore ore(gold,7,7,3)
+[miner4] Ore distances: [d(7,ore(gold,3,5,3))]1
+[miner4] Next ore is ore(gold,3,5,3)
+[miner4] failed to catch ore ore(gold,3,5,3)
+[miner2] Ore distances: [d(6,ore(gold,7,7,3)),d(2,ore(gold,3,5,3))]2
+[miner2] Next ore is ore(gold,3,5,3)
+[miner2] failed to catch ore ore(gold,3,5,3)
+[miner2] Ore distances: [d(6,ore(gold,7,7,3))]1
+[miner2] Next ore is ore(gold,7,7,3)
+[miner2] failed to catch ore ore(gold,7,7,3)
+[miner4] Ore perceived: ore(gold,7,7,3)
+[miner2] Ore perceived: ore(gold,3,5,3)
+[miner4] Going for ore(gold,7,7,3)
+[miner2] Going for ore(gold,3,5,3)
+[miner2] Handling ore(gold,3,5,3) now.
+[miner4] Handling ore(gold,7,7,3) now.
+[miner2] Radio received from miner 4: ore(gold,7,7,3)
+[miner4] Radio received from miner 2: ore(gold,3,5,3)
+[miner4] Ore distances: [d(4,ore(gold,3,5,3)),d(2,ore(gold,7,7,3))]2
+[miner4] Next ore is ore(gold,7,7,3)
+[miner4] failed to catch ore ore(gold,7,7,3)
+[miner4] Ore distances: [d(4,ore(gold,3,5,3))]1
+[miner4] Next ore is ore(gold,3,5,3)
+[miner4] failed to catch ore ore(gold,3,5,3)
+[miner2] Ore distances: [d(1,ore(gold,7,7,3)),d(5,ore(gold,3,5,3))]2
+[miner2] Next ore is ore(gold,7,7,3)
+[miner2] failed to catch ore ore(gold,7,7,3)
+[miner2] Ore distances: [d(5,ore(gold,3,5,3))]1
+[miner2] Next ore is ore(gold,3,5,3)
+[miner2] failed to catch ore ore(gold,3,5,3)
+[miner4] Ore perceived: ore(gold,7,7,3)
+[miner4] Going for ore(gold,7,7,3)
+[miner4] Handling ore(gold,7,7,3) now.
+[miner2] Ore perceived: ore(gold,7,7,3)
+[miner2] Going for ore(gold,7,7,3)
+[miner2] Radio received from miner 4: ore(gold,7,7,3)
+[miner2] Handling ore(gold,7,7,3) now.
+[leader] Time left: 171 seconds
+[miner1] Leader says time left is 171 seconds
+[miner2] Leader says time left is 171 seconds
+[miner4] Leader says time left is 171 seconds
+[miner3] Leader says time left is 171 seconds
+[miner4] Ore distances: [d(3,ore(gold,7,7,3))]1
+[miner4] Next ore is ore(gold,7,7,3)
+[miner4] failed to catch ore ore(gold,7,7,3)
+[miner2] Ore distances: [d(4,ore(gold,7,7,3))]1
+[miner2] Next ore is ore(gold,7,7,3)
+[miner2] failed to catch ore ore(gold,7,7,3)
+[miner2] Ore perceived: ore(gold,7,7,3)
+[miner2] Going for ore(gold,7,7,3)
+[miner2] Handling ore(gold,7,7,3) now.
+[miner2] I've reached 7x7
+[miner2] I've reached 7x7
+[miner4] Ore perceived: ore(gold,7,7,3)
+[miner4] Going for ore(gold,7,7,3)
+[miner4] Radio received from miner 2: ore(gold,7,7,3)
+[miner4] Handling ore(gold,7,7,3) now.
+[WorldModelB] Agent 2 is trying the pick ore, but there is no ore at 6x7!
+[WorldModelB] Agent 2 is trying the pick ore, but there is no ore at 6x7!
+[miner2] failed to catch ore ore(gold,7,7,3)
+[miner2] failed to catch ore ore(gold,7,7,3)
+[miner4] Giving up current ore ore(gold,7,7,3) to handle ore(gold,3,5,3) which I am seeing!
+[miner4] Going for ore(gold,3,5,3)
+[miner4] Handling ore(gold,3,5,3) now.
+[miner2] Ore perceived: ore(gold,3,5,3)
+[miner2] Going for ore(gold,3,5,3)
+[miner2] Radio received from miner 4: ore(gold,3,5,3)
+[miner2] Handling ore(gold,3,5,3) now.
+[miner4] Ore distances: [d(1,ore(gold,3,5,3)),d(5,ore(gold,7,7,3))]2
+[miner4] Next ore is ore(gold,3,5,3)
+[miner4] failed to catch ore ore(gold,3,5,3)
+[miner4] Ore distances: [d(5,ore(gold,7,7,3))]1
+[miner4] Next ore is ore(gold,7,7,3)
+[miner4] failed to catch ore ore(gold,7,7,3)
+[miner2] Ore distances: [d(4,ore(gold,3,5,3))]1
+[miner2] Next ore is ore(gold,3,5,3)
+[miner2] failed to catch ore ore(gold,3,5,3)
+[miner2] Ore perceived: ore(gold,3,5,3)
+[miner2] Going for ore(gold,3,5,3)
+[miner2] Handling ore(gold,3,5,3) now.
+[miner4] Ore perceived: ore(gold,3,5,3)
+[miner4] Going for ore(gold,3,5,3)
+[miner4] Radio received from miner 2: ore(gold,3,5,3)
+[miner4] Handling ore(gold,3,5,3) now.
+[miner4] I've reached 3x5
+[miner2] Ore distances: [d(1,ore(gold,3,5,3))]1
+[miner2] Ore distances: [d(1,ore(gold,3,5,3))]1
+[miner2] Next ore is ore(gold,3,5,3)
+[miner2] Next ore is ore(gold,3,5,3)
+[miner2] failed to catch ore ore(gold,3,5,3)
+[miner2] failed to handle ore(gold,3,5,3), it isn't in the BB anyway
+[miner2] Ore perceived: ore(gold,3,5,3)
+[miner2] Going for ore(gold,3,5,3)
+[miner2] Handling ore(gold,3,5,3) now.
+[leader] Time left: 170 seconds
+[miner1] Leader says time left is 170 seconds
+[miner3] Leader says time left is 170 seconds
+[miner2] Leader says time left is 170 seconds
+[miner4] Leader says time left is 170 seconds
+[WorldModelB] Agent 4 is trying the pick ore, but there is no ore at 3x4!
+[miner4] failed to catch ore ore(gold,3,5,3)
+[miner2] Ore distances: [d(2,ore(gold,3,5,3))]1
+[miner2] Next ore is ore(gold,3,5,3)
+[miner2] failed to catch ore ore(gold,3,5,3)
+[miner2] Ore perceived: ore(gold,3,5,3)
+[miner2] Going for ore(gold,3,5,3)
+[miner2] Handling ore(gold,3,5,3) now.
+[miner4] Ore perceived: ore(gold,3,5,3)
+[miner4] Going for ore(gold,3,5,3)
+[miner4] Radio received from miner 2: ore(gold,3,5,3)
+[miner4] Handling ore(gold,3,5,3) now.
+[miner4] I've reached 3x5
+[miner4] I've reached 3x5
+[miner2] Ore distances: [d(4,ore(gold,3,5,3))]1
+[miner2] Ore distances: [d(4,ore(gold,3,5,3))]1
+[miner2] Next ore is ore(gold,3,5,3)
+[miner2] Next ore is ore(gold,3,5,3)
+[miner2] failed to catch ore ore(gold,3,5,3)
+[miner2] failed to handle ore(gold,3,5,3), it isn't in the BB anyway
+[WorldModelB] Agent 4 is trying the pick ore, but there is no ore at 3x5!
+[miner4] failed to handle ore(gold,3,5,3), it isn't in the BB anyway
+[miner2] Ore perceived: ore(gold,7,7,3)
+[miner4] Stored ore(gold,3,5,3) in backpack.
+[miner2] Going for ore(gold,7,7,3)
+[miner4] No known ore left, returning to depot with 1 ores.
+[miner2] Handling ore(gold,7,7,3) now.
+[miner4] Radio received from miner 2: ore(gold,7,7,3)
+[miner4] Radio received from miner 2: ore(gold,7,7,3)
+[miner4] Ore distances: [d(6,ore(gold,7,7,3))]1
+[miner4] Next ore is ore(gold,7,7,3)
+[miner4] failed to catch ore ore(gold,7,7,3)
+[miner2] Ore distances: [d(2,ore(gold,7,7,3))]1
+[miner2] Next ore is ore(gold,7,7,3)
+[miner2] failed to catch ore ore(gold,7,7,3)
+[miner4] Ore perceived: ore(coal,3,9,1)
+[miner4] Going for ore(coal,3,9,1)
+[miner4] Handling ore(coal,3,9,1) now.
+[miner2] Ore perceived: ore(coal,3,9,1)
+[miner2] Going for ore(coal,3,9,1)
+[miner2] Radio received from miner 4: ore(coal,3,9,1)
+[miner2] Handling ore(coal,3,9,1) now.
+[miner2] Ore distances: [d(5,ore(coal,3,9,1))]1
+[miner2] Ore distances: [d(5,ore(coal,3,9,1))]1
+[miner2] Next ore is ore(coal,3,9,1)
+[miner2] Next ore is ore(coal,3,9,1)
+[miner2] failed to catch ore ore(coal,3,9,1)
+[miner2] failed to handle ore(coal,3,9,1), it isn't in the BB anyway
+[leader] Time left: 169 seconds
+[miner4] Leader says time left is 169 seconds
+[miner3] Leader says time left is 169 seconds
+[miner1] Leader says time left is 169 seconds
+[miner2] Ore perceived: ore(coal,3,9,1)
+[miner2] Going for ore(coal,3,9,1)
+[miner2] Giving up current ore ore(coal,3,9,1) to handle ore(gold,7,7,3) which I am seeing!
+[miner2] Going for ore(gold,7,7,3)
+[miner2] Giving up current ore ore(gold,7,7,3) to handle ore(iron,10,8,2) which I am seeing!
+[miner4] Radio received from miner 2: ore(gold,7,7,3)
+[miner2] Going for ore(iron,10,8,2)
+[miner2] Leader says time left is 169 seconds
+[miner2] Handling ore(iron,10,8,2) now.
+[miner4] Radio received from miner 2: ore(iron,10,8,2)
+[miner4] Ore distances: [d(13,ore(iron,10,8,2)),d(11,ore(gold,7,7,3)),d(5,ore(coal,3,9,1))]3
+[miner4] Next ore is ore(coal,3,9,1)
+[miner4] failed to catch ore ore(coal,3,9,1)
+[miner4] Ore distances: [d(13,ore(iron,10,8,2)),d(11,ore(gold,7,7,3))]2
+[miner4] Next ore is ore(gold,7,7,3)
+[miner4] failed to catch ore ore(gold,7,7,3)
+[miner4] Ore distances: [d(13,ore(iron,10,8,2))]1
+[miner4] Next ore is ore(iron,10,8,2)
+[miner4] failed to catch ore ore(iron,10,8,2)
+[miner2] Ore distances: [d(0,ore(iron,10,8,2)),d(4,ore(gold,7,7,3)),d(8,ore(coal,3,9,1))]3
+[miner2] Next ore is ore(iron,10,8,2)
+[miner2] failed to catch ore ore(iron,10,8,2)
+[miner2] Ore distances: [d(4,ore(gold,7,7,3)),d(8,ore(coal,3,9,1))]2
+[miner2] Next ore is ore(gold,7,7,3)
+[miner2] failed to catch ore ore(gold,7,7,3)
+[miner2] Ore distances: [d(8,ore(coal,3,9,1))]1
+[miner2] Next ore is ore(coal,3,9,1)
+[miner2] failed to catch ore ore(coal,3,9,1)
+[miner2] Ore perceived: ore(iron,10,8,2)
+[miner2] Going for ore(iron,10,8,2)
+[miner2] Giving up current ore ore(iron,10,8,2) to handle ore(gold,7,7,3) which I am seeing!
+[miner2] Going for ore(gold,7,7,3)
+[miner4] Ore perceived: ore(iron,10,8,2)
+[miner4] Going for ore(iron,10,8,2)
+[miner4] Radio received from miner 2: ore(iron,10,8,2)
+[miner4] Handling ore(iron,10,8,2) now.
+[miner2] Giving up current ore ore(gold,3,5,3) to handle ore(coal,3,9,1) which I am seeing!
+[miner2] Going for ore(coal,3,9,1)
+[miner2] Handling ore(gold,7,7,3) now.
+[miner2] Handling ore(coal,3,9,1) now.
+[miner4] Giving up current ore ore(iron,10,8,2) to handle ore(gold,7,7,3) which I am seeing!
+[miner4] Going for ore(gold,7,7,3)
+[miner4] Radio received from miner 2: ore(gold,7,7,3)
+[miner4] Handling ore(gold,7,7,3) now.
+[miner4] Giving up current ore ore(gold,7,7,3) to handle ore(coal,3,9,1) which I am seeing!
+[miner4] Going for ore(coal,3,9,1)
+[miner4] Radio received from miner 2: ore(coal,3,9,1)
+[miner4] Handling ore(coal,3,9,1) now.
+[miner2] Ore distances: [d(2,ore(coal,3,9,1)),d(4,ore(gold,7,7,3)),d(6,ore(iron,10,8,2))]3
+[miner2] Ore distances: [d(2,ore(coal,3,9,1)),d(4,ore(gold,7,7,3)),d(6,ore(iron,10,8,2))]3
+[miner2] Next ore is ore(coal,3,9,1)
+[miner2] Next ore is ore(coal,3,9,1)
+[miner2] failed to catch ore ore(coal,3,9,1)
+[miner2] failed to handle ore(coal,3,9,1), it isn't in the BB anyway
+[miner2] Ore distances: [d(4,ore(gold,7,7,3)),d(6,ore(iron,10,8,2))]2
+[miner2] Ore distances: [d(4,ore(gold,7,7,3)),d(6,ore(iron,10,8,2))]2
+[miner2] Next ore is ore(gold,7,7,3)
+[miner2] Next ore is ore(gold,7,7,3)
+[miner2] failed to catch ore ore(gold,7,7,3)
+[miner2] failed to catch ore ore(gold,7,7,3)
+[miner2] Ore distances: [d(6,ore(iron,10,8,2))]1
+[miner2] Ore distances: [d(6,ore(iron,10,8,2))]1
+[miner2] Next ore is ore(iron,10,8,2)
+[miner2] Next ore is ore(iron,10,8,2)
+[miner2] failed to catch ore ore(iron,10,8,2)
+[miner2] failed to catch ore ore(iron,10,8,2)
+[miner2] Ore perceived: ore(coal,3,9,1)
+[miner2] Going for ore(coal,3,9,1)
+[miner2] Handling ore(coal,3,9,1) now.
+[miner2] Ore distances: [d(1,ore(coal,3,9,1))]1
+[miner2] Next ore is ore(coal,3,9,1)
+[miner2] failed to catch ore ore(coal,3,9,1)
+[miner2] Ore perceived: ore(coal,3,9,1)
+[miner2] Going for ore(coal,3,9,1)
+[miner2] Handling ore(coal,3,9,1) now.
+[miner2] Ore distances: [d(2,ore(coal,3,9,1))]1
+[miner2] Ore distances: [d(2,ore(coal,3,9,1))]1
+[miner2] Next ore is ore(coal,3,9,1)
+[miner2] Next ore is ore(coal,3,9,1)
+[miner2] failed to catch ore ore(coal,3,9,1)
+[miner2] failed to handle ore(coal,3,9,1), it isn't in the BB anyway
+[leader] Time left: 168 seconds
+[miner3] Leader says time left is 168 seconds
+[miner1] Leader says time left is 168 seconds
+[miner4] Leader says time left is 168 seconds
+[miner2] Leader says time left is 168 seconds
+[miner2] Ore perceived: ore(coal,3,9,1)
+[miner2] Going for ore(coal,3,9,1)
+[miner2] Handling ore(coal,3,9,1) now.
+[miner2] Ore distances: [d(2,ore(coal,3,9,1))]1
+[miner2] Next ore is ore(coal,3,9,1)
+[miner2] failed to catch ore ore(coal,3,9,1)
+[miner2] Ore perceived: ore(coal,3,9,1)
+[miner2] Going for ore(coal,3,9,1)
+[miner2] Handling ore(coal,3,9,1) now.
+[miner2] Ore distances: [d(5,ore(coal,3,9,1))]1
+[miner2] Ore distances: [d(5,ore(coal,3,9,1))]1
+[miner2] Next ore is ore(coal,3,9,1)
+[miner2] Next ore is ore(coal,3,9,1)
+[miner2] failed to catch ore ore(coal,3,9,1)
+[miner2] failed to handle ore(coal,3,9,1), it isn't in the BB anyway
+[miner2] Ore perceived: ore(coal,3,9,1)
+[miner2] Going for ore(coal,3,9,1)
+[miner2] Handling ore(coal,3,9,1) now.
+[miner2] Giving up current ore ore(coal,3,9,1) to handle ore(iron,10,8,2) which I am seeing!
+[miner2] Going for ore(iron,10,8,2)
+[miner2] Handling ore(iron,10,8,2) now.
+[miner2] Ore distances: [d(2,ore(iron,10,8,2)),d(6,ore(coal,3,9,1))]2
+[miner2] Next ore is ore(iron,10,8,2)
+[miner2] failed to catch ore ore(iron,10,8,2)
+[miner2] Ore distances: [d(6,ore(coal,3,9,1))]1
+[miner2] Next ore is ore(coal,3,9,1)
+[miner2] failed to catch ore ore(coal,3,9,1)
+[miner2] Ore perceived: ore(iron,10,8,2)
+[miner2] Going for ore(iron,10,8,2)
+[miner2] Handling ore(iron,10,8,2) now.
+[miner2] Ore distances: [d(2,ore(iron,10,8,2))]1
+[miner2] Ore distances: [d(2,ore(iron,10,8,2))]1
+[miner2] Next ore is ore(iron,10,8,2)
+[miner2] Next ore is ore(iron,10,8,2)
+[miner2] failed to catch ore ore(iron,10,8,2)
+[miner2] failed to handle ore(iron,10,8,2), it isn't in the BB anyway
+[miner4] I've reached 5x27
+[leader] Time left: 167 seconds
+[miner2] Leader says time left is 167 seconds
+[miner1] Leader says time left is 167 seconds
+[miner4] Leader says time left is 167 seconds
+[miner3] Leader says time left is 167 seconds
+[miner2] Ore perceived: ore(iron,10,8,2)
+[miner2] Going for ore(iron,10,8,2)
+[miner2] Handling ore(iron,10,8,2) now.
+[miner4] Giving up current ore ore(coal,3,9,1) to handle ore(gold,8,27,3) which I am seeing!
+[miner4] Going for ore(gold,8,27,3)
+[miner4] Handling ore(gold,8,27,3) now.
+[miner1] Radio received from miner 4: ore(gold,8,27,3)
+[miner2] Radio received from miner 4: ore(gold,8,27,3)
+[miner4] I've reached 8x27
+[leader] Agent miner4 is now on the lead with the score of 3
+[miner4] Dropped backpack with 1 ores, worth 3 points.
+[miner4] HAHAHA IM WINNING!
+[miner4] Ore distances: [d(0,ore(gold,8,27,3)),d(23,ore(coal,3,9,1)),d(21,ore(gold,7,7,3)),d(21,ore(iron,10,8,2))]4
+[miner4] Next ore is ore(gold,8,27,3)
+[miner4] Handling ore(gold,8,27,3) now.
+[miner4] I've reached 8x27
+[miner2] Ore distances: [d(20,ore(gold,8,27,3)),d(1,ore(iron,10,8,2))]2
+[miner2] Next ore is ore(iron,10,8,2)
+[miner2] failed to catch ore ore(iron,10,8,2)
+[miner2] Ore distances: [d(20,ore(gold,8,27,3))]1
+[miner2] Next ore is ore(gold,8,27,3)
+[miner2] failed to catch ore ore(gold,8,27,3)
+[miner2] Ore perceived: ore(iron,10,8,2)
+[miner2] Going for ore(iron,10,8,2)
+[miner2] Handling ore(iron,10,8,2) now.
+[WorldModelB] Agent 4 is trying the pick ore, but there is no ore at 3x27!
+[WorldModelB] Agent 4 is trying the pick ore, but there is no ore at 3x27!
+[miner4] failed to catch ore ore(gold,8,27,3)
+[miner4] failed to handle ore(gold,8,27,3), it isn't in the BB anyway
+[miner4] Ore distances: [d(18,ore(coal,3,9,1)),d(24,ore(gold,7,7,3)),d(26,ore(iron,10,8,2))]3
+[miner4] Next ore is ore(coal,3,9,1)
+[miner4] Ore distances: [d(18,ore(coal,3,9,1)),d(24,ore(gold,7,7,3)),d(26,ore(iron,10,8,2))]3
+[miner4] Handling ore(coal,3,9,1) now.
+[miner4] Next ore is ore(coal,3,9,1)
+[miner4] Handling ore(coal,3,9,1) now.
+[miner2] Ore distances: [d(3,ore(iron,10,8,2))]1
+[miner2] Ore distances: [d(3,ore(iron,10,8,2))]1
+[miner2] Next ore is ore(iron,10,8,2)
+[miner2] Next ore is ore(iron,10,8,2)
+[miner2] failed to catch ore ore(iron,10,8,2)
+[miner2] failed to handle ore(iron,10,8,2), it isn't in the BB anyway
+[miner2] Ore perceived: ore(gold,7,7,3)
+[miner2] Going for ore(gold,7,7,3)
+[miner2] Handling ore(gold,7,7,3) now.
+[miner2] Ore distances: [d(1,ore(gold,7,7,3))]1
+[miner2] Next ore is ore(gold,7,7,3)
+[miner2] failed to catch ore ore(gold,7,7,3)
+[miner2] Ore perceived: ore(gold,7,7,3)
+[miner2] Going for ore(gold,7,7,3)
+[miner2] Giving up current ore ore(gold,7,7,3) to handle ore(iron,10,8,2) which I am seeing!
+[miner2] Going for ore(iron,10,8,2)
+[miner2] Handling ore(iron,10,8,2) now.
+[miner2] Ore distances: [d(1,ore(iron,10,8,2)),d(5,ore(gold,7,7,3))]2
+[miner2] Ore distances: [d(1,ore(iron,10,8,2)),d(5,ore(gold,7,7,3))]2
+[miner2] Next ore is ore(iron,10,8,2)
+[miner2] Next ore is ore(iron,10,8,2)
+[miner2] failed to catch ore ore(iron,10,8,2)
+[miner2] failed to handle ore(iron,10,8,2), it isn't in the BB anyway
+[miner2] Ore distances: [d(5,ore(gold,7,7,3))]1
+[miner2] Ore distances: [d(5,ore(gold,7,7,3))]1
+[miner2] Next ore is ore(gold,7,7,3)
+[miner2] Next ore is ore(gold,7,7,3)
+[miner2] failed to catch ore ore(gold,7,7,3)
+[miner2] failed to catch ore ore(gold,7,7,3)
+[leader] Time left: 166 seconds
+[miner1] Leader says time left is 166 seconds
+[miner4] Leader says time left is 166 seconds
+[miner2] Leader says time left is 166 seconds
+[miner3] Leader says time left is 166 seconds
+[miner2] Ore perceived: ore(iron,10,8,2)
+[miner2] Going for ore(iron,10,8,2)
+[miner2] Giving up current ore ore(iron,10,8,2) to handle ore(gold,7,7,3) which I am seeing!
+[miner2] Going for ore(gold,7,7,3)
+[miner2] Handling ore(gold,7,7,3) now.
+[miner2] Ore distances: [d(2,ore(gold,7,7,3)),d(4,ore(iron,10,8,2))]2
+[miner2] Next ore is ore(gold,7,7,3)
+[miner2] failed to catch ore ore(gold,7,7,3)
+[miner2] Ore distances: [d(4,ore(iron,10,8,2))]1
+[miner2] Next ore is ore(iron,10,8,2)
+[miner2] failed to catch ore ore(iron,10,8,2)
+[miner4] Giving up current ore ore(coal,3,9,1) to handle ore(gold,8,27,3) which I am seeing!
+[miner4] Going for ore(gold,8,27,3)
+[miner4] Handling ore(gold,8,27,3) now.
+[miner4] I've reached 8x27
+[miner2] Ore perceived: ore(gold,8,27,3)
+[miner2] Going for ore(gold,8,27,3)
+[miner2] Radio received from miner 4: ore(gold,8,27,3)
+[miner2] Handling ore(gold,8,27,3) now.
+[miner2] Giving up current ore ore(gold,8,27,3) to handle ore(gold,7,7,3) which I am seeing!
+[miner2] Going for ore(gold,7,7,3)
+[miner2] Handling ore(gold,7,7,3) now.
+[miner4] I've reached 5x27
+[miner4] Ore distances: [d(3,ore(gold,8,27,3)),d(20,ore(coal,3,9,1)),d(22,ore(gold,7,7,3)),d(24,ore(iron,10,8,2))]4
+[miner4] Next ore is ore(gold,8,27,3)
+[miner4] failed to catch ore ore(gold,8,27,3)
+[miner4] Ore distances: [d(20,ore(coal,3,9,1)),d(22,ore(gold,7,7,3)),d(24,ore(iron,10,8,2))]3
+[miner4] Next ore is ore(coal,3,9,1)
+[miner4] failed to catch ore ore(coal,3,9,1)
+[miner4] Ore distances: [d(22,ore(gold,7,7,3)),d(24,ore(iron,10,8,2))]2
+[miner4] Next ore is ore(gold,7,7,3)
+[miner4] failed to catch ore ore(gold,7,7,3)
+[miner4] Ore distances: [d(24,ore(iron,10,8,2))]1
+[miner4] Next ore is ore(iron,10,8,2)
+[miner4] failed to catch ore ore(iron,10,8,2)
+[miner2] Ore distances: [d(1,ore(gold,7,7,3)),d(20,ore(gold,8,27,3))]2
+[miner2] Ore distances: [d(1,ore(gold,7,7,3)),d(20,ore(gold,8,27,3))]2
+[WorldModelB] Agent 4 is trying the pick ore, but there is no ore at 3x27!
+[miner2] Next ore is ore(gold,7,7,3)
+[miner2] Next ore is ore(gold,7,7,3)
+[miner4] failed to handle ore(gold,8,27,3), it isn't in the BB anyway
+[miner2] failed to catch ore ore(gold,7,7,3)
+[miner2] failed to handle ore(gold,7,7,3), it isn't in the BB anyway
+[miner2] Ore distances: [d(19,ore(gold,8,27,3))]1
+[miner2] Ore distances: [d(19,ore(gold,8,27,3))]1
+[miner2] Next ore is ore(gold,8,27,3)
+[miner2] Next ore is ore(gold,8,27,3)
+[miner2] failed to catch ore ore(gold,8,27,3)
+[miner2] failed to catch ore ore(gold,8,27,3)
+[miner2] Ore perceived: ore(gold,7,7,3)
+[miner2] Going for ore(gold,7,7,3)
+[miner2] Handling ore(gold,7,7,3) now.
+[miner2] I've reached 7x7
+[miner4] Ore perceived: ore(gold,7,7,3)
+[miner2] I've reached 7x7
+[miner4] Going for ore(gold,7,7,3)
+[miner2] I've reached 7x7
+[miner4] Radio received from miner 2: ore(gold,7,7,3)
+[miner4] Handling ore(gold,7,7,3) now.
+[miner4] I've reached 5x27
+[miner4] I've reached 5x27
+[miner4] failed to handle ore(gold,3,5,3), it isn't in the BB anyway
+[miner4] Ore distances: [d(22,ore(gold,7,7,3))]1
+[miner4] Ore distances: [d(22,ore(gold,7,7,3))]1
+[miner4] Next ore is ore(gold,7,7,3)
+[miner4] Next ore is ore(gold,7,7,3)
+[miner4] failed to catch ore ore(gold,7,7,3)
+[miner4] failed to catch ore ore(gold,7,7,3)
+[WorldModelB] Agent 2 is trying the pick ore, but there is no ore at 7x7!
+[WorldModelB] Agent 2 is trying the pick ore, but there is no ore at 7x7!
+[miner2] failed to catch ore ore(gold,7,7,3)
+[miner2] failed to catch ore ore(gold,7,7,3)
+[miner2] failed to handle ore(gold,7,7,3), it isn't in the BB anyway

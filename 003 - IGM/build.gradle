@@ -8,14 +8,14 @@ defaultTasks 'run'
 
 apply plugin: 'java'
 
-version '1.0'
-group   'org.jacamo'
+version = '1.0'
+group   = 'org.jacamo'
 
 
 repositories {
     mavenCentral()
-    maven { url "https://raw.githubusercontent.com/jacamo-lang/mvn-repo/master" }
-    maven { url "https://repo.gradle.org/gradle/libs-releases" }
+    maven { url = "https://raw.githubusercontent.com/jacamo-lang/mvn-repo/master" }
+    maven { url = "https://repo.gradle.org/gradle/libs-releases" }
     //flatDir { dirs 'lib' }
 }
 
@@ -42,8 +42,8 @@ sourceSets {
 }
 
 task run (type: JavaExec, dependsOn: 'classes') {
-    description 'runs the application'
-    group ' JaCaMo'
+    description = 'runs the application'
+    group = ' JaCaMo'
     doFirst {
         mkdir 'log'
     }

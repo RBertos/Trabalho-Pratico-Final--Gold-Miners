@@ -13,6 +13,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import mining.WorldModel;
+import mining.WorldModelA;
+import mining.WorldModelB;
 import busca.AEstrela;
 import busca.Busca;
 import busca.Estado;
@@ -26,7 +28,13 @@ public class get_direction extends DefaultInternalAction {
         try {
             String sAction = "skip";
 
-            WorldModel model = WorldModel.get();
+            GridWorldModel model = WorldModel.get();
+            if (model == null) {
+                model = WorldModelA.get();
+            }
+            if (model == null) {
+                model = WorldModelB.get();
+            }
 
             int iagx = (int)((NumberTerm)terms[0]).solve();
             int iagy = (int)((NumberTerm)terms[1]).solve();

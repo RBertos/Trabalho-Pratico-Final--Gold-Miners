@@ -1,0 +1,118 @@
+[Moise] OrgBoard mining_org created.
+[Moise] scheme created: mining: mine_resources using artifact SchemeBoard
+[Moise] group created: blue: mining_team using artifact ora4mas.nopl.GroupBoard
+[Moise] group created: red: mining_team using artifact ora4mas.nopl.GroupBoard
+[Cartago] Workspace mining created.
+[Cartago] artifact m1view: mining.MiningPlanetB(4,0) at mining created.
+[Cartago] artifact m2view: mining.MiningPlanetB(4,1) at mining created.
+[Cartago] artifact backpack: mining.BackpackArtifact(3) at mining created.
+[Cartago] artifact m4view: mining.MiningPlanetB(4,3) at mining created.
+[Cartago] artifact clock: mining.ClockArtifact(180) at mining created.
+[Cartago] artifact m3view: mining.MiningPlanetB(4,2) at mining created.
+[Cartago] artifact lantern: mining.LanternArtifact(2) at mining created.
+[Cartago] artifact radio: mining.RadioArtifact(25) at mining created.
+[leader] join workspace /main/mining: done
+[leader] focusing on artifact clock (at workspace /main/mining) using namespace default
+[leader] focus on clock: done
+[miner3] join workspace /main/mining: done
+[miner4] join workspace /main/mining: done
+[leader] Time left: 180 seconds
+[miner3] join workspace /main/mining_org: done
+[miner2] join workspace /main/mining: done
+[miner4] join workspace /main/mining_org: done
+[miner3] focusing on artifact m3view (at workspace /main/mining) using namespace default
+[miner1] join workspace /main/mining: done
+[miner4] focusing on artifact m4view (at workspace /main/mining) using namespace default
+[miner2] join workspace /main/mining_org: done
+[miner3] focus on m3view: done
+[miner4] focus on m4view: done
+[miner1] join workspace /main/mining_org: done
+[miner2] focusing on artifact m2view (at workspace /main/mining) using namespace default
+[miner4] focusing on artifact radio (at workspace /main/mining) using namespace default
+[miner3] focusing on artifact radio (at workspace /main/mining) using namespace default
+[miner1] focusing on artifact m1view (at workspace /main/mining) using namespace default
+[miner2] focus on m2view: done
+[miner4] focus on radio: done
+[miner3] focus on radio: done
+[miner2] focusing on artifact radio (at workspace /main/mining) using namespace default
+[miner4] focusing on artifact backpack (at workspace /main/mining) using namespace default
+[miner1] focus on m1view: done
+[miner4] focus on backpack: done
+[miner2] focus on radio: done
+[miner1] focusing on artifact radio (at workspace /main/mining) using namespace default
+[miner3] focusing on artifact lantern (at workspace /main/mining) using namespace default
+[miner4] focusing on artifact red (at workspace /main/mining_org) using namespace default
+[miner2] focusing on artifact backpack (at workspace /main/mining) using namespace default
+[miner3] focus on lantern: done
+[miner2] focus on backpack: done
+[miner1] focus on radio: done
+[miner3] focusing on artifact red (at workspace /main/mining_org) using namespace default
+[miner1] focusing on artifact lantern (at workspace /main/mining) using namespace default
+[miner2] focusing on artifact blue (at workspace /main/mining_org) using namespace default
+[miner4] focus on red: done
+[miner4] focusing on artifact mining_org (at workspace /main/mining_org) using namespace default
+[miner1] focus on lantern: done
+[miner1] focusing on artifact blue (at workspace /main/mining_org) using namespace default
+[miner3] focus on red: done
+[miner3] focusing on artifact mining_org (at workspace /main/mining_org) using namespace default
+[miner4] focus on mining_org: done
+[miner2] focus on blue: done
+[miner1] focus on blue: done
+[miner2] focusing on artifact mining_org (at workspace /main/mining_org) using namespace default
+[miner1] focusing on artifact mining_org (at workspace /main/mining_org) using namespace default
+[miner3] focus on mining_org: done
+[miner4] I chose to go near 12 33 Coordinates
+[miner3] I chose to go near 33 0 Coordinates
+[miner2] focus on mining_org: done
+[miner2] I chose to go near 22 15 Coordinates
+[miner1] focus on mining_org: done
+[miner1] I chose to go near 9 14 Coordinates
+[miner3] Leader says time left is 180 seconds
+[miner1] Leader says time left is 180 seconds
+[miner2] Leader says time left is 180 seconds
+[miner4] Leader says time left is 180 seconds
+[miner3] Lantern acquired. Vision radius: 2
+[miner4] Backpack acquired. Capacity: 3
+[miner1] Lantern acquired. Vision radius: 2
+[miner3] Organisation setup: red explorer
+[miner2] Backpack acquired. Capacity: 3
+[miner1] Organisation setup: blue explorer
+[miner4] Organisation setup: red retriever
+[miner2] Organisation setup: blue retriever
+[leader] Time left: 179 seconds
+[miner1] Leader says time left is 179 seconds
+[miner2] Leader says time left is 179 seconds
+[miner4] Leader says time left is 179 seconds
+[miner3] Leader says time left is 179 seconds
+[leader] Time left: 178 seconds
+[miner4] Leader says time left is 178 seconds
+[miner1] Leader says time left is 178 seconds
+[miner3] Leader says time left is 178 seconds
+[miner2] Leader says time left is 178 seconds
+[miner1] Scout report: ore(gold,7,7,3)
+[miner3] Radio received from miner 1: ore(gold,7,7,3)
+[miner2] Ore perceived: ore(gold,7,7,3)
+[miner4] Ore perceived: ore(gold,7,7,3)
+[miner4] Dropping near(_,_) desires and intentions to handle ore(gold,7,7,3)
+[miner2] Dropping near(_,_) desires and intentions to handle ore(gold,7,7,3)
+[miner4] Going for ore(gold,7,7,3)
+[miner2] Going for ore(gold,7,7,3)
+[miner4] Radio received from miner 1: ore(gold,7,7,3)
+[miner2] Radio received from miner 1: ore(gold,7,7,3)
+[miner4] Handling ore(gold,7,7,3) now.
+[miner2] Handling ore(gold,7,7,3) now.
+[miner4] Giving up current ore ore(gold,7,7,3) to handle ore(iron,10,8,2) which I am seeing!
+[miner3] Radio received from miner 1: ore(iron,10,8,2)
+[miner2] Giving up current ore ore(gold,7,7,3) to handle ore(iron,10,8,2) which I am seeing!
+[miner1] Scout report: ore(iron,10,8,2)
+[miner2] Going for ore(iron,10,8,2)
+[miner2] Radio received from miner 1: ore(iron,10,8,2)
+[miner4] Going for ore(iron,10,8,2)
+[miner2] Handling ore(iron,10,8,2) now.
+[miner4] Radio received from miner 1: ore(iron,10,8,2)
+[miner4] Handling ore(iron,10,8,2) now.
+[leader] Time left: 177 seconds
+[miner3] Leader says time left is 177 seconds
+[miner4] Leader says time left is 177 seconds
+[miner2] Leader says time left is 177 seconds
+[miner1] Leader says time left is 177 seconds
