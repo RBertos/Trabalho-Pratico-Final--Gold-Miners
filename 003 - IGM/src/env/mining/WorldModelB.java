@@ -379,9 +379,15 @@ public class WorldModelB extends GridWorldModel {
         model.setAgPos(1, 4, 0);
         model.setAgPos(2, 8, 0);
         model.setAgPos(3, 16, 0);
-        model.add(WorldModelB.COAL, 3, 9);
-        model.add(WorldModelB.IRON, 10, 8);
-        model.add(WorldModelB.DIAMOND, 23, 25);
+        model.add(WorldModelB.COAL, 1, 5);
+        model.add(WorldModelB.COAL, 3, 24);
+        model.add(WorldModelB.COAL, 6, 20);
+        model.add(WorldModelB.IRON, 10, 11);
+        model.add(WorldModelB.IRON, 8, 6);
+        model.add(WorldModelB.IRON, 7, 9);
+        model.add(WorldModelB.DIAMOND, 21, 18);
+        model.add(WorldModelB.DIAMOND, 18, 22);
+        model.add(WorldModelB.DIAMOND, 16, 19);
         model.add(WorldModelB.GOLD, 20, 13);
         model.add(WorldModelB.GOLD, 15, 20);
         model.add(WorldModelB.GOLD, 7, 7);
