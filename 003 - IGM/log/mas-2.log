@@ -3,410 +3,1451 @@
 [Moise] group created: blue: mining_team using artifact ora4mas.nopl.GroupBoard
 [Moise] group created: red: mining_team using artifact ora4mas.nopl.GroupBoard
 [Cartago] Workspace mining created.
-[Cartago] artifact m1view: mining.MiningPlanetB(6,0) at mining created.
-[Cartago] artifact m2view: mining.MiningPlanetB(6,1) at mining created.
+[Cartago] artifact m1view: mining.MiningPlanetB(4,0) at mining created.
+[Cartago] artifact m2view: mining.MiningPlanetB(4,1) at mining created.
 [Cartago] artifact backpack: mining.BackpackArtifact(3) at mining created.
-[Cartago] artifact m4view: mining.MiningPlanetB(6,3) at mining created.
+[Cartago] artifact m4view: mining.MiningPlanetB(4,3) at mining created.
 [Cartago] artifact clock: mining.ClockArtifact(180) at mining created.
-[Cartago] artifact m3view: mining.MiningPlanetB(6,2) at mining created.
+[Cartago] artifact m3view: mining.MiningPlanetB(4,2) at mining created.
 [Cartago] artifact lantern: mining.LanternArtifact(2) at mining created.
 [Cartago] artifact radio: mining.RadioArtifact(25) at mining created.
 [miner1] join workspace /main/mining: done
+[miner3] join workspace /main/mining: done
 [leader] join workspace /main/mining: done
-[leader] focusing on artifact clock (at workspace /main/mining) using namespace default
-[miner2] join workspace /main/mining: done
 [miner1] join workspace /main/mining_org: done
+[miner3] join workspace /main/mining_org: done
+[leader] focusing on artifact clock (at workspace /main/mining) using namespace default
 [miner1] focusing on artifact m1view (at workspace /main/mining) using namespace default
-[miner4] join workspace /main/mining: done
+[miner3] focusing on artifact m3view (at workspace /main/mining) using namespace default
+[miner2] join workspace /main/mining: done
 [miner2] join workspace /main/mining_org: done
 [leader] focus on clock: done
 [miner2] focusing on artifact m2view (at workspace /main/mining) using namespace default
-[miner4] join workspace /main/mining_org: done
+[miner3] focus on m3view: done
 [miner1] focus on m1view: done
-[miner4] focusing on artifact m4view (at workspace /main/mining) using namespace default
-[miner1] focusing on artifact radio (at workspace /main/mining) using namespace default
 [miner2] focus on m2view: done
-[miner3] join workspace /main/mining: done
-[miner2] focusing on artifact radio (at workspace /main/mining) using namespace default
-[miner4] focus on m4view: done
-[miner1] focus on radio: done
-[miner3] join workspace /main/mining_org: done
-[miner4] focusing on artifact radio (at workspace /main/mining) using namespace default
+[miner3] focusing on artifact radio (at workspace /main/mining) using namespace default
+[miner1] focusing on artifact radio (at workspace /main/mining) using namespace default
 [leader] Time left: 180 seconds
+[miner2] focusing on artifact radio (at workspace /main/mining) using namespace default
+[miner3] focus on radio: done
+[miner1] focus on radio: done
+[miner3] focusing on artifact lantern (at workspace /main/mining) using namespace default
 [miner1] focusing on artifact lantern (at workspace /main/mining) using namespace default
-[miner3] focusing on artifact m3view (at workspace /main/mining) using namespace default
 [miner2] focus on radio: done
 [miner2] focusing on artifact backpack (at workspace /main/mining) using namespace default
-[miner4] focus on radio: done
 [miner1] focus on lantern: done
-[miner4] focusing on artifact backpack (at workspace /main/mining) using namespace default
-[miner3] focus on m3view: done
-[miner4] focus on backpack: done
 [miner1] focusing on artifact blue (at workspace /main/mining_org) using namespace default
-[miner2] focus on backpack: done
-[miner4] focusing on artifact red (at workspace /main/mining_org) using namespace default
-[miner3] focusing on artifact radio (at workspace /main/mining) using namespace default
-[miner1] focus on blue: done
-[miner2] focusing on artifact blue (at workspace /main/mining_org) using namespace default
-[miner3] focus on radio: done
-[miner4] focus on red: done
-[miner1] focusing on artifact mining_org (at workspace /main/mining_org) using namespace default
-[miner3] focusing on artifact lantern (at workspace /main/mining) using namespace default
-[miner4] focusing on artifact mining_org (at workspace /main/mining_org) using namespace default
-[miner2] focus on blue: done
-[miner2] focusing on artifact mining_org (at workspace /main/mining_org) using namespace default
 [miner3] focus on lantern: done
+[miner2] focus on backpack: done
 [miner3] focusing on artifact red (at workspace /main/mining_org) using namespace default
-[miner1] focus on mining_org: done
-[miner4] focus on mining_org: done
+[miner2] focusing on artifact blue (at workspace /main/mining_org) using namespace default
+[miner1] focus on blue: done
 [miner3] focus on red: done
+[miner1] focusing on artifact mining_org (at workspace /main/mining_org) using namespace default
 [miner3] focusing on artifact mining_org (at workspace /main/mining_org) using namespace default
-[miner2] focus on mining_org: done
-[miner4] I chose to go near 25 6 Coordinates
-[miner1] I chose to go near 31 5 Coordinates
-[miner2] I chose to go near 1 17 Coordinates
+[miner1] focus on mining_org: done
+[miner2] focus on blue: done
 [miner3] focus on mining_org: done
-[miner3] I chose to go near 27 33 Coordinates
-[miner2] Leader says time left is 180 seconds
-[miner1] Lantern acquired. Vision radius: 2
-[miner3] Lantern acquired. Vision radius: 2
-[miner2] Backpack acquired. Capacity: 3
-[miner4] Leader says time left is 180 seconds
-[miner3] Leader says time left is 180 seconds
+[miner2] focusing on artifact mining_org (at workspace /main/mining_org) using namespace default
+[miner3] I chose to go near 24 1 Coordinates
+[miner2] focus on mining_org: done
+[miner1] I chose to go near 27 1 Coordinates
+[miner2] I chose to go near 1 24 Coordinates
 [miner1] Leader says time left is 180 seconds
+[miner2] Leader says time left is 180 seconds
+[miner3] Leader says time left is 180 seconds
+[miner1] Lantern acquired. Vision radius: 2
+[miner2] Backpack acquired. Capacity: 3
+[miner3] Lantern acquired. Vision radius: 2
+[miner4] join workspace /main/mining: done
+[miner4] join workspace /main/mining_org: done
+[miner4] focusing on artifact m4view (at workspace /main/mining) using namespace default
+[miner4] focus on m4view: done
+[miner4] focusing on artifact radio (at workspace /main/mining) using namespace default
+[miner4] focus on radio: done
+[miner4] focusing on artifact backpack (at workspace /main/mining) using namespace default
+[miner4] focus on backpack: done
+[miner4] focusing on artifact red (at workspace /main/mining_org) using namespace default
+[miner4] focus on red: done
+[miner2] Moise role perceived: retriever in blue
+[miner1] Moise role perceived: explorer in blue
+[miner3] Moise role perceived: explorer in red
+[miner4] focusing on artifact mining_org (at workspace /main/mining_org) using namespace default
+[miner4] focus on mining_org: done
+[miner4] I chose to go near 0 19 Coordinates
+[miner4] Leader says time left is 180 seconds
 [miner4] Backpack acquired. Capacity: 3
 [miner4] Moise role perceived: retriever in red
-[miner2] Moise role perceived: retriever in blue
-[miner3] Moise role perceived: explorer in red
-[miner1] Moise role perceived: explorer in blue
-[miner4] Ore perceived: ore(gold,20,20,3)
-[miner1] Scout report: ore(gold,1,1,3)
-[miner2] Ore perceived: ore(gold,1,1,3)
-[miner2] Dropping near(_,_) desires and intentions to handle ore(gold,1,1,3)
-[miner4] Dropping near(_,_) desires and intentions to handle ore(gold,20,20,3)
-[miner2] Going for ore(gold,1,1,3)
-[miner2] Radio received from miner 1: ore(gold,1,1,3)
-[miner4] Going for ore(gold,20,20,3)
-[miner2] Handling ore(gold,1,1,3) now.
-[miner4] Handling ore(gold,20,20,3) now.
-[miner2] Radio received from miner 4: ore(gold,20,20,3)
-[miner3] Radio received from miner 4: ore(gold,20,20,3)
-[miner2] Radio received from miner 4: ore(gold,20,21,3)
-[miner3] Radio received from miner 4: ore(gold,20,21,3)
-[miner4] I've reached 20x20
-[miner4] Stored ore(gold,20,20,3) in backpack.
-[miner4] Ore distances: [d(1,ore(gold,20,21,3))]1
-[miner4] Next ore is ore(gold,20,21,3)
-[miner4] Handling ore(gold,20,21,3) now.
-[miner4] I've reached 20x21
-[leader] Time left: 179 seconds
-[miner4] Leader says time left is 179 seconds
-[miner3] Leader says time left is 179 seconds
-[miner1] Leader says time left is 179 seconds
-[miner2] Leader says time left is 179 seconds
-[miner4] Stored ore(gold,20,21,3) in backpack.
-[miner4] No known ore left, returning to depot with 2 ores.
-[miner3] Scout report: ore(gold,2,22,3)
-[miner4] Radio received from miner 3: ore(gold,2,22,3)
-[miner1] Leader says time left is 178 seconds
-[miner3] Leader says time left is 178 seconds
-[miner4] Leader says time left is 178 seconds
-[leader] Time left: 178 seconds
-[miner2] Leader says time left is 178 seconds
-[miner4] I've reached 16x16
-[leader] Time left: 177 seconds
-[miner1] Leader says time left is 177 seconds
-[miner2] Leader says time left is 177 seconds
-[miner4] Leader says time left is 177 seconds
-[miner3] Leader says time left is 177 seconds
-[WorldModelB] Agent 4 carried 2 ores to depot, worth 6 points!
-[miner4] Dropped backpack with 2 ores, worth 6 points.
-[leader] Agent miner4 is now on the lead with the score of 6
-[miner4] HAHAHA IM WINNING!
-[miner4] Ore distances: [d(20,ore(gold,2,22,3))]1
-[miner4] Next ore is ore(gold,2,22,3)
-[miner4] Handling ore(gold,2,22,3) now.
-[miner4] Giving up current ore ore(gold,2,22,3) to handle ore(gold,14,4,3) which I am seeing!
-[miner2] Radio received from miner 1: ore(gold,14,4,3)
-[miner1] Scout report: ore(gold,14,4,3)
-[miner4] Going for ore(gold,14,4,3)
-[miner4] Radio received from miner 1: ore(gold,14,4,3)
-[miner4] Handling ore(gold,14,4,3) now.
-[leader] Time left: 176 seconds
-[miner1] Leader says time left is 176 seconds
-[miner2] Leader says time left is 176 seconds
-[miner4] Leader says time left is 176 seconds
-[miner3] Leader says time left is 176 seconds
-[miner2] Radio received from miner 1: ore(gold,19,2,3)
-[miner4] Radio received from miner 1: ore(gold,19,2,3)
-[miner1] Scout report: ore(gold,19,2,3)
-[miner2] I've reached 1x1
-[miner2] Stored ore(gold,1,1,3) in backpack.
-[miner2] Ore distances: [d(19,ore(gold,19,2,3)),d(16,ore(gold,14,4,3)),d(39,ore(gold,20,21,3)),d(38,ore(gold,20,20,3))]4
-[miner2] Next ore is ore(gold,14,4,3)
-[miner2] Handling ore(gold,14,4,3) now.
-[leader] Time left: 175 seconds
-[miner1] Leader says time left is 175 seconds
-[miner4] Leader says time left is 175 seconds
-[miner2] Leader says time left is 175 seconds
-[miner3] Leader says time left is 175 seconds
-[miner2] Leader says time left is 174 seconds
-[miner4] Leader says time left is 174 seconds
-[leader] Time left: 174 seconds
-[miner3] Leader says time left is 174 seconds
-[miner1] Leader says time left is 174 seconds
-[miner4] I've reached 14x4
-[miner4] Stored ore(gold,14,4,3) in backpack.
-[miner4] Ore distances: [d(7,ore(gold,19,2,3)),d(30,ore(gold,2,22,3))]2
-[miner4] Next ore is ore(gold,19,2,3)
-[miner4] Handling ore(gold,19,2,3) now.
-[miner1] I am at (30,4) which is near (31,5)
-[miner1] I chose to go near 29 11 Coordinates
-[leader] Time left: 173 seconds
-[miner1] Leader says time left is 173 seconds
-[miner2] Leader says time left is 173 seconds
-[miner3] Leader says time left is 173 seconds
-[miner4] Leader says time left is 173 seconds
-[miner4] I've reached 19x2
-[leader] Time left: 172 seconds
-[miner2] Leader says time left is 172 seconds
-[miner1] Leader says time left is 172 seconds
-[miner4] Leader says time left is 172 seconds
-[miner3] Leader says time left is 172 seconds
-[miner4] Stored ore(gold,19,2,3) in backpack.
-[miner4] Ore distances: [d(37,ore(gold,2,22,3))]1
-[miner4] Next ore is ore(gold,2,22,3)
-[miner4] Handling ore(gold,2,22,3) now.
-[miner2] I've reached 14x4
-[miner1] I am at (29,10) which is near (29,11)
-[miner1] I chose to go near 3 1 Coordinates
-[WorldModelB] Agent 2 is trying the pick ore, but there is no ore at 14x4!
-[miner2] failed to catch ore ore(gold,14,4,3)
-[miner2] Ore distances: [d(7,ore(gold,19,2,3)),d(23,ore(gold,20,21,3)),d(22,ore(gold,20,20,3))]3
-[miner2] Next ore is ore(gold,19,2,3)
-[miner2] Handling ore(gold,19,2,3) now.
-[leader] Time left: 171 seconds
-[miner1] Leader says time left is 171 seconds
-[miner3] Leader says time left is 171 seconds
-[miner2] Leader says time left is 171 seconds
-[miner4] Leader says time left is 171 seconds
-[miner2] I've reached 19x2
-[leader] Time left: 170 seconds
-[miner1] Leader says time left is 170 seconds
-[miner3] Leader says time left is 170 seconds
-[miner4] Leader says time left is 170 seconds
-[miner2] Leader says time left is 170 seconds
-[WorldModelB] Agent 2 is trying the pick ore, but there is no ore at 19x2!
-[miner2] failed to catch ore ore(gold,19,2,3)
-[miner2] Ore distances: [d(20,ore(gold,20,21,3)),d(19,ore(gold,20,20,3))]2
-[miner2] Next ore is ore(gold,20,20,3)
-[miner2] Handling ore(gold,20,20,3) now.
-[leader] Time left: 169 seconds
-[miner2] Leader says time left is 169 seconds
-[miner4] Leader says time left is 169 seconds
-[miner1] Leader says time left is 169 seconds
-[miner3] Leader says time left is 169 seconds
-[miner3] I am at (26,33) which is near (27,33)
-[miner3] I chose to go near 32 3 Coordinates
-[miner1] Scout report: ore(gold,10,9,3)
-[miner2] Giving up current ore ore(gold,20,20,3) to handle ore(gold,10,9,3) which I am seeing!
-[miner4] Giving up current ore ore(gold,2,22,3) to handle ore(gold,10,9,3) which I am seeing!
-[miner2] Going for ore(gold,10,9,3)
-[miner4] Going for ore(gold,10,9,3)
-[miner2] Radio received from miner 1: ore(gold,10,9,3)
-[miner4] Radio received from miner 1: ore(gold,10,9,3)
-[miner2] Handling ore(gold,10,9,3) now.
-[miner4] Handling ore(gold,10,9,3) now.
-[leader] Time left: 168 seconds
-[miner3] Leader says time left is 168 seconds
-[miner1] Leader says time left is 168 seconds
-[miner2] Leader says time left is 168 seconds
-[miner4] Leader says time left is 168 seconds
-[miner3] Leader says time left is 167 seconds
-[miner4] Leader says time left is 167 seconds
-[leader] Time left: 167 seconds
-[miner2] Leader says time left is 167 seconds
-[miner1] Leader says time left is 167 seconds
-[miner4] I've reached 10x9
-[miner4] Stored ore(gold,10,9,3) in backpack.
-[miner4] Backpack is full: 3/3
-[miner1] Leader says time left is 166 seconds
-[leader] Time left: 166 seconds
-[miner4] Leader says time left is 166 seconds
-[miner2] Leader says time left is 166 seconds
-[miner3] Leader says time left is 166 seconds
-[miner2] Radio received from miner 1: ore(gold,3,5,3)
-[miner1] Scout report: ore(gold,3,5,3)
-[miner4] Radio received from miner 1: ore(gold,3,5,3)
-[miner2] I've reached 10x9
-[WorldModelB] Agent 2 is trying the pick ore, but there is no ore at 10x9!
-[miner2] failed to catch ore ore(gold,10,9,3)
-[miner2] Ore distances: [d(11,ore(gold,3,5,3)),d(22,ore(gold,20,21,3)),d(21,ore(gold,20,20,3))]3
-[miner2] Next ore is ore(gold,3,5,3)
+[miner2] Ore perceived: ore(gold,3,5,3)
+[miner2] Dropping near(_,_) desires and intentions to handle ore(gold,3,5,3)
+[miner2] Going for ore(gold,3,5,3)
 [miner2] Handling ore(gold,3,5,3) now.
-[miner2] Leader says time left is 165 seconds
-[miner4] Leader says time left is 165 seconds
-[miner1] Leader says time left is 165 seconds
-[leader] Time left: 165 seconds
-[miner3] Leader says time left is 165 seconds
-[miner1] I am at (3,2) which is near (3,1)
-[miner1] I chose to go near 2 8 Coordinates
-[leader] Time left: 164 seconds
-[miner3] Leader says time left is 164 seconds
-[miner2] Leader says time left is 164 seconds
-[miner1] Leader says time left is 164 seconds
-[miner4] Leader says time left is 164 seconds
-[miner4] I've reached 16x16
-[miner1] I am at (2,7) which is near (2,8)
-[miner1] I chose to go near 18 13 Coordinates
-[WorldModelB] Agent 4 carried 3 ores to depot, worth 9 points!
-[miner4] Dropped backpack with 3 ores, worth 9 points.
-[leader] Agent miner4 is now on the lead with the score of 15
-[miner4] HAHAHA IM WINNING!
-[miner4] Ore distances: [d(24,ore(gold,3,5,3)),d(20,ore(gold,2,22,3))]2
-[miner4] Next ore is ore(gold,2,22,3)
-[miner4] Handling ore(gold,2,22,3) now.
-[leader] Time left: 163 seconds
-[miner1] Leader says time left is 163 seconds
-[miner2] Leader says time left is 163 seconds
-[miner4] Leader says time left is 163 seconds
-[miner3] Leader says time left is 163 seconds
+[miner4] Ore perceived: ore(gold,3,5,3)
+[miner1] Radio received from miner 2: ore(gold,3,5,3)
+[miner3] Radio received from miner 2: ore(gold,3,5,3)
+[miner4] Dropping near(_,_) desires and intentions to handle ore(gold,3,5,3)
+[miner4] Going for ore(gold,3,5,3)
+[miner4] Radio received from miner 2: ore(gold,3,5,3)
+[miner4] Handling ore(gold,3,5,3) now.
+[leader] Time left: 179 seconds
+[miner3] Leader says time left is 179 seconds
+[miner2] Leader says time left is 179 seconds
+[miner4] Leader says time left is 179 seconds
+[miner1] Leader says time left is 179 seconds
 [miner2] I've reached 3x5
 [miner2] Stored ore(gold,3,5,3) in backpack.
-[miner2] Ore distances: [d(33,ore(gold,20,21,3)),d(32,ore(gold,20,20,3))]2
-[miner2] Next ore is ore(gold,20,20,3)
-[miner2] Handling ore(gold,20,20,3) now.
+[miner2] No known ore left, returning to depot with 1 ores.
+[miner4] Leader says time left is 178 seconds
+[miner3] Leader says time left is 178 seconds
+[leader] Time left: 178 seconds
+[miner2] Leader says time left is 178 seconds
+[miner1] Leader says time left is 178 seconds
+[miner2] Giving up current ore ore(gold,3,5,3) to handle ore(coal,3,9,1) which I am seeing!
+[miner2] Going for ore(coal,3,9,1)
+[miner2] Handling ore(coal,3,9,1) now.
+[miner1] Radio received from miner 2: ore(coal,3,9,1)
+[miner3] Radio received from miner 2: ore(coal,3,9,1)
+[miner4] Radio received from miner 2: ore(coal,3,9,1)
+[miner2] I've reached 3x9
+[miner2] Stored ore(coal,3,9,1) in backpack.
+[miner2] No known ore left, returning to depot with 2 ores.
+[leader] Time left: 177 seconds
+[miner1] Leader says time left is 177 seconds
+[miner3] Leader says time left is 177 seconds
+[miner4] Leader says time left is 177 seconds
+[miner2] Leader says time left is 177 seconds
+[miner3] I am at (23,1) which is near (24,1)
+[miner3] I chose to go near 0 14 Coordinates
+[miner1] Leader says time left is 176 seconds
+[miner2] Leader says time left is 176 seconds
+[leader] Time left: 176 seconds
+[miner3] Leader says time left is 176 seconds
+[miner4] Leader says time left is 176 seconds
+[miner4] I've reached 3x5
+[WorldModelB] Agent 4 is trying the pick ore, but there is no ore at 3x5!
+[miner4] failed to catch ore ore(gold,3,5,3)
+[miner4] Ore distances: [d(4,ore(coal,3,9,1))]1
+[miner4] Next ore is ore(coal,3,9,1)
+[miner4] Handling ore(coal,3,9,1) now.
+[leader] Time left: 175 seconds
+[miner1] Leader says time left is 175 seconds
+[miner2] Leader says time left is 175 seconds
+[miner3] Leader says time left is 175 seconds
+[miner4] Leader says time left is 175 seconds
+[miner1] I am at (26,0) which is near (27,1)
+[miner1] I chose to go near 20 13 Coordinates
+[miner4] I've reached 3x9
+[WorldModelB] Agent 4 is trying the pick ore, but there is no ore at 3x9!
+[miner4] failed to catch ore ore(coal,3,9,1)
+[miner4] I chose to go near 3 19 Coordinates
+[leader] Time left: 174 seconds
+[miner4] Leader says time left is 174 seconds
+[miner3] Leader says time left is 174 seconds
+[miner1] Leader says time left is 174 seconds
+[miner2] Leader says time left is 174 seconds
+[miner2] I've reached 5x27
+[WorldModelB] Agent 2 carried 2 ores to depot, worth 4 points!
+[miner2] Dropped backpack with 2 ores, worth 4 points.
+[miner2] I chose to go near 19 24 Coordinates
+[leader] Agent miner2 is now on the lead with the score of 4
+[miner2] HAHAHA IM WINNING!
+[miner2] Leader says time left is 173 seconds
+[leader] Time left: 173 seconds
+[miner3] Leader says time left is 173 seconds
+[miner1] Leader says time left is 173 seconds
+[miner4] Leader says time left is 173 seconds
+[miner4] I am at (3,18) which is near (3,19)
+[miner4] I chose to go near 19 5 Coordinates
+[miner1] Scout report: ore(gold,21,8,3)
+[leader] Time left: 172 seconds
+[miner1] Leader says time left is 172 seconds
+[miner2] Leader says time left is 172 seconds
+[miner4] Leader says time left is 172 seconds
+[miner3] Leader says time left is 172 seconds
+[miner4] Ore perceived: ore(gold,20,13,3)
+[miner4] Dropping near(_,_) desires and intentions to handle ore(gold,20,13,3)
+[miner4] Going for ore(gold,20,13,3)
+[miner4] Radio received from miner 1: ore(gold,20,13,3)
+[miner4] Handling ore(gold,20,13,3) now.
+[miner1] Scout report: ore(gold,20,13,3)
+[miner1] I am at (20,12) which is near (20,13)
+[miner1] I chose to go near 33 32 Coordinates
+[leader] Time left: 171 seconds
+[miner3] Leader says time left is 171 seconds
+[miner4] Leader says time left is 171 seconds
+[miner1] Leader says time left is 171 seconds
+[miner2] Leader says time left is 171 seconds
+[miner2] Ore perceived: ore(gold,20,24,3)
+[miner2] Dropping near(_,_) desires and intentions to handle ore(gold,20,24,3)
+[miner2] Going for ore(gold,20,24,3)
+[miner2] Handling ore(gold,20,24,3) now.
+[miner1] Radio received from miner 2: ore(gold,20,24,3)
+[miner4] Radio received from miner 2: ore(gold,20,24,3)
+[leader] Time left: 170 seconds
+[miner3] Leader says time left is 170 seconds
+[miner1] Leader says time left is 170 seconds
+[miner4] Leader says time left is 170 seconds
+[miner2] Leader says time left is 170 seconds
+[miner2] I've reached 20x24
+[miner1] Radio received from miner 2: ore(gold,20,23,3)
+[miner4] Radio received from miner 2: ore(gold,20,23,3)
+[miner2] Stored ore(gold,20,24,3) in backpack.
+[miner2] Ore distances: [d(1,ore(gold,20,23,3))]1
+[miner2] Next ore is ore(gold,20,23,3)
+[miner2] Handling ore(gold,20,23,3) now.
+[miner2] I've reached 20x23
+[miner1] Radio received from miner 2: ore(gold,20,22,3)
+[miner4] Radio received from miner 2: ore(gold,20,22,3)
+[miner3] I am at (0,13) which is near (0,14)
+[miner3] I chose to go near 1 1 Coordinates
+[miner2] Stored ore(gold,20,23,3) in backpack.
+[miner2] Ore distances: [d(1,ore(gold,20,22,3))]1
+[miner2] Next ore is ore(gold,20,22,3)
+[miner2] Handling ore(gold,20,22,3) now.
+[leader] Time left: 169 seconds
+[miner4] Leader says time left is 169 seconds
+[miner1] Leader says time left is 169 seconds
+[miner2] Leader says time left is 169 seconds
+[miner3] Leader says time left is 169 seconds
+[miner2] I've reached 20x22
+[miner4] Radio received from miner 2: ore(gold,19,21,3)
+[miner1] Radio received from miner 2: ore(gold,19,21,3)
+[miner4] Radio received from miner 2: ore(gold,20,21,3)
+[miner1] Radio received from miner 2: ore(gold,20,21,3)
+[miner2] Stored ore(gold,20,22,3) in backpack.
+[miner2] Backpack is full: 3/3
+[miner4] I've reached 20x13
+[miner4] Stored ore(gold,20,13,3) in backpack.
+[miner4] Ore distances: [d(8,ore(gold,20,21,3)),d(9,ore(gold,19,21,3)),d(9,ore(gold,20,22,3)),d(10,ore(gold,20,23,3)),d(11,ore(gold,20,24,3))]5
+[miner4] Next ore is ore(gold,20,21,3)
+[miner4] Handling ore(gold,20,21,3) now.
+[miner2] Leader says time left is 168 seconds
+[miner3] Leader says time left is 168 seconds
+[leader] Time left: 168 seconds
+[miner1] Leader says time left is 168 seconds
+[miner4] Leader says time left is 168 seconds
+[miner2] Radio received from miner 4: ore(gold,19,20,3)
+[miner4] Giving up current ore ore(gold,20,21,3) to handle ore(gold,20,20,3) which I am seeing!
+[miner1] Radio received from miner 4: ore(gold,19,20,3)
+[miner4] Going for ore(gold,20,20,3)
+[miner4] Handling ore(gold,20,20,3) now.
+[miner2] Radio received from miner 4: ore(gold,20,20,3)
+[miner1] Radio received from miner 4: ore(gold,20,20,3)
+[miner2] Leader says time left is 167 seconds
+[miner3] Leader says time left is 167 seconds
+[miner4] Leader says time left is 167 seconds
+[miner1] Leader says time left is 167 seconds
+[leader] Time left: 167 seconds
+[miner4] I've reached 20x20
+[miner3] I am at (1,2) which is near (1,1)
+[miner3] I chose to go near 14 0 Coordinates
+[miner4] Stored ore(gold,20,20,3) in backpack.
+[miner4] Ore distances: [d(1,ore(gold,19,20,3)),d(1,ore(gold,20,21,3)),d(2,ore(gold,19,21,3)),d(2,ore(gold,20,22,3)),d(3,ore(gold,20,23,3)),d(4,ore(gold,20,24,3))]6
+[miner4] Next ore is ore(gold,19,20,3)
+[miner4] Handling ore(gold,19,20,3) now.
+[miner4] I've reached 19x20
+[miner4] Stored ore(gold,19,20,3) in backpack.
+[miner4] Backpack is full: 3/3
+[leader] Time left: 166 seconds
+[miner3] Leader says time left is 166 seconds
+[miner1] Leader says time left is 166 seconds
+[miner4] Leader says time left is 166 seconds
+[miner2] Leader says time left is 166 seconds
+[miner2] Radio received from miner 4: ore(gold,15,20,3)
+[miner1] Radio received from miner 4: ore(gold,15,20,3)
+[leader] Time left: 165 seconds
+[miner4] Leader says time left is 165 seconds
+[miner2] Leader says time left is 165 seconds
+[miner3] Leader says time left is 165 seconds
+[miner1] Leader says time left is 165 seconds
+[miner1] I am at (33,31) which is near (33,32)
+[miner1] I chose to go near 18 6 Coordinates
+[miner2] I've reached 5x27
+[WorldModelB] Agent 2 carried 3 ores to depot, worth 9 points!
+[miner2] Dropped backpack with 3 ores, worth 9 points.
+[leader] Agent miner2 is now on the lead with the score of 13
+[miner2] HAHAHA IM WINNING!
+[miner2] Ore distances: [d(17,ore(gold,15,20,3)),d(22,ore(gold,20,20,3)),d(21,ore(gold,19,20,3)),d(21,ore(gold,20,21,3)),d(20,ore(gold,19,21,3))]5
+[miner2] Next ore is ore(gold,15,20,3)
+[miner2] Handling ore(gold,15,20,3) now.
+[miner2] Leader says time left is 164 seconds
+[miner3] Leader says time left is 164 seconds
+[miner1] Leader says time left is 164 seconds
+[miner4] Leader says time left is 164 seconds
+[leader] Time left: 164 seconds
+[miner3] I am at (14,1) which is near (14,0)
+[miner3] I chose to go near 26 15 Coordinates
+[miner4] Leader says time left is 163 seconds
+[miner1] Leader says time left is 163 seconds
+[miner3] Leader says time left is 163 seconds
+[miner2] Leader says time left is 163 seconds
+[leader] Time left: 163 seconds
+[miner4] I've reached 5x27
 [leader] Time left: 162 seconds
-[miner2] Leader says time left is 162 seconds
 [miner4] Leader says time left is 162 seconds
 [miner3] Leader says time left is 162 seconds
 [miner1] Leader says time left is 162 seconds
-[miner3] I am at (32,4) which is near (32,3)
-[miner3] I chose to go near 5 7 Coordinates
-[miner2] Leader says time left is 161 seconds
+[miner2] Leader says time left is 162 seconds
+[WorldModelB] Agent 4 carried 3 ores to depot, worth 9 points!
+[miner4] Dropped backpack with 3 ores, worth 9 points.
+[leader] Agent miner4 has dropped ore worth 9 points; score is 9
+[miner4] Ore distances: [d(17,ore(gold,15,20,3)),d(21,ore(gold,20,21,3)),d(20,ore(gold,19,21,3)),d(20,ore(gold,20,22,3)),d(19,ore(gold,20,23,3)),d(18,ore(gold,20,24,3))]6
+[miner4] Next ore is ore(gold,15,20,3)
+[miner4] Handling ore(gold,15,20,3) now.
+[miner1] Radio received from miner 3: ore(gold,21,8,3)
+[miner3] Scout report: ore(gold,21,8,3)
+[miner2] Radio received from miner 3: ore(gold,21,8,3)
+[miner2] I've reached 15x20
 [leader] Time left: 161 seconds
 [miner1] Leader says time left is 161 seconds
 [miner4] Leader says time left is 161 seconds
 [miner3] Leader says time left is 161 seconds
+[miner2] Leader says time left is 161 seconds
+[miner2] Stored ore(gold,15,20,3) in backpack.
+[miner2] Ore distances: [d(18,ore(gold,21,8,3)),d(5,ore(gold,20,20,3)),d(4,ore(gold,19,20,3)),d(6,ore(gold,20,21,3)),d(5,ore(gold,19,21,3))]5
+[miner2] Next ore is ore(gold,19,20,3)
+[miner2] Handling ore(gold,19,20,3) now.
+[miner1] Scout report: ore(gold,19,21,3)
+[miner3] Radio received from miner 1: ore(gold,19,21,3)
+[miner1] Scout report: ore(gold,20,21,3)
+[miner3] Radio received from miner 1: ore(gold,20,21,3)
+[miner2] I've reached 19x20
 [leader] Time left: 160 seconds
 [miner3] Leader says time left is 160 seconds
 [miner4] Leader says time left is 160 seconds
-[miner1] Leader says time left is 160 seconds
 [miner2] Leader says time left is 160 seconds
-[miner1] I am at (17,12) which is near (18,13)
-[miner1] I chose to go near 19 20 Coordinates
-[miner4] I've reached 2x22
-[miner4] Stored ore(gold,2,22,3) in backpack.
-[miner4] Ore distances: [d(18,ore(gold,3,5,3))]1
-[miner4] Next ore is ore(gold,3,5,3)
-[miner4] Handling ore(gold,3,5,3) now.
-[miner1] Scout report: ore(gold,20,13,3)
-[miner2] Giving up current ore ore(gold,20,20,3) to handle ore(gold,20,13,3) which I am seeing!
-[miner4] Radio received from miner 1: ore(gold,20,13,3)
-[miner3] Radio received from miner 1: ore(gold,20,13,3)
-[leader] Time left: 159 seconds
-[miner3] Leader says time left is 159 seconds
-[miner1] Leader says time left is 159 seconds
-[miner2] Going for ore(gold,20,13,3)
-[miner4] Leader says time left is 159 seconds
-[miner2] Radio received from miner 1: ore(gold,20,13,3)
-[miner2] Handling ore(gold,20,13,3) now.
-[miner2] Leader says time left is 159 seconds
-[leader] Time left: 158 seconds
-[miner2] Leader says time left is 158 seconds
-[miner4] Leader says time left is 158 seconds
-[miner1] Leader says time left is 158 seconds
-[miner3] Leader says time left is 158 seconds
-[miner1] I am at (18,19) which is near (19,20)
-[miner1] I chose to go near 32 30 Coordinates
-[miner4] Giving up current ore ore(gold,3,5,3) to handle ore(gold,2,12,3) which I am seeing!
-[miner4] Going for ore(gold,2,12,3)
-[miner4] Handling ore(gold,2,12,3) now.
-[miner1] Radio received from miner 4: ore(gold,2,12,3)
-[miner3] Radio received from miner 4: ore(gold,2,12,3)
-[miner2] Radio received from miner 4: ore(gold,2,12,3)
-[miner4] I've reached 2x12
-[miner2] I've reached 20x13
-[miner4] Stored ore(gold,2,12,3) in backpack.
-[miner4] Ore distances: [d(19,ore(gold,20,13,3)),d(8,ore(gold,3,5,3))]2
-[miner4] Next ore is ore(gold,3,5,3)
-[miner4] Handling ore(gold,3,5,3) now.
-[leader] Time left: 157 seconds
-[miner2] Leader says time left is 157 seconds
-[miner4] Leader says time left is 157 seconds
-[miner3] Leader says time left is 157 seconds
-[miner1] Leader says time left is 157 seconds
-[miner2] Stored ore(gold,20,13,3) in backpack.
-[miner2] Backpack is full: 3/3
-[leader] Time left: 156 seconds
-[miner3] Leader says time left is 156 seconds
-[miner4] Leader says time left is 156 seconds
-[miner1] Leader says time left is 156 seconds
-[miner2] Leader says time left is 156 seconds
-[miner3] I am at (5,6) which is near (5,7)
-[miner3] I chose to go near 20 26 Coordinates
-[miner2] I've reached 16x16
-[miner4] I've reached 3x5
-[WorldModelB] Agent 2 carried 3 ores to depot, worth 9 points!
-[miner2] Dropped backpack with 3 ores, worth 9 points.
-[leader] Agent miner2 has dropped ore worth 9 points; score is 9
-[miner2] Ore distances: [d(18,ore(gold,2,12,3)),d(9,ore(gold,20,21,3)),d(8,ore(gold,20,20,3))]3
-[miner2] Next ore is ore(gold,20,20,3)
-[miner2] Handling ore(gold,20,20,3) now.
-[WorldModelB] Agent 4 is trying the pick ore, but there is no ore at 3x5!
-[miner4] failed to catch ore ore(gold,3,5,3)
-[miner4] Ore distances: [d(25,ore(gold,20,13,3))]1
-[miner4] Next ore is ore(gold,20,13,3)
-[miner4] Handling ore(gold,20,13,3) now.
-[leader] Time left: 155 seconds
-[miner1] Leader says time left is 155 seconds
-[miner2] Leader says time left is 155 seconds
-[miner3] Leader says time left is 155 seconds
-[miner4] Leader says time left is 155 seconds
-[miner2] Leader says time left is 154 seconds
-[miner3] Leader says time left is 154 seconds
-[miner4] Leader says time left is 154 seconds
-[miner1] Leader says time left is 154 seconds
-[leader] Time left: 154 seconds
-[miner2] I've reached 20x20
-[WorldModelB] Agent 2 is trying the pick ore, but there is no ore at 20x20!
-[miner2] failed to catch ore ore(gold,20,20,3)
-[miner2] Ore distances: [d(26,ore(gold,2,12,3)),d(1,ore(gold,20,21,3))]2
+[miner1] Leader says time left is 160 seconds
+[WorldModelB] Agent 2 is trying the pick ore, but there is no ore at 19x20!
+[miner2] failed to catch ore ore(gold,19,20,3)
+[miner2] Ore distances: [d(14,ore(gold,21,8,3)),d(1,ore(gold,20,20,3)),d(2,ore(gold,20,21,3)),d(1,ore(gold,19,21,3))]4
+[miner2] Next ore is ore(gold,19,21,3)
+[miner2] Handling ore(gold,19,21,3) now.
+[miner2] I've reached 19x21
+[miner2] Stored ore(gold,19,21,3) in backpack.
+[miner2] Ore distances: [d(15,ore(gold,21,8,3)),d(2,ore(gold,20,20,3)),d(1,ore(gold,20,21,3))]3
 [miner2] Next ore is ore(gold,20,21,3)
 [miner2] Handling ore(gold,20,21,3) now.
 [miner2] I've reached 20x21
-[miner1] I am at (32,29) which is near (32,30)
-[miner1] I chose to go near 12 19 Coordinates
-[WorldModelB] Agent 2 is trying the pick ore, but there is no ore at 20x21!
-[miner2] failed to catch ore ore(gold,20,21,3)
-[miner2] Ore distances: [d(27,ore(gold,2,12,3))]1
-[miner2] Next ore is ore(gold,2,12,3)
-[miner2] Handling ore(gold,2,12,3) now.
+[miner2] Leader says time left is 159 seconds
+[leader] Time left: 159 seconds
+[miner4] Leader says time left is 159 seconds
+[miner3] Leader says time left is 159 seconds
+[miner1] Leader says time left is 159 seconds
+[miner2] Stored ore(gold,20,21,3) in backpack.
+[miner2] Backpack is full: 3/3
+[miner3] I am at (26,14) which is near (26,15)
+[miner3] I chose to go near 27 23 Coordinates
+[miner4] I've reached 15x20
+[WorldModelB] Agent 4 is trying the pick ore, but there is no ore at 15x20!
+[miner4] failed to catch ore ore(gold,15,20,3)
+[miner4] Ore distances: [d(6,ore(gold,20,21,3)),d(5,ore(gold,19,21,3)),d(7,ore(gold,20,22,3)),d(8,ore(gold,20,23,3)),d(9,ore(gold,20,24,3))]5
+[miner4] Next ore is ore(gold,19,21,3)
+[miner4] Handling ore(gold,19,21,3) now.
+[miner1] Leader says time left is 158 seconds
+[miner3] Leader says time left is 158 seconds
+[leader] Time left: 158 seconds
+[miner4] Leader says time left is 158 seconds
+[miner2] Leader says time left is 158 seconds
+[miner4] I've reached 19x21
+[leader] Time left: 157 seconds
+[miner3] Leader says time left is 157 seconds
+[miner4] Leader says time left is 157 seconds
+[miner1] Leader says time left is 157 seconds
+[miner2] Leader says time left is 157 seconds
+[miner3] I am at (27,22) which is near (27,23)
+[miner3] I chose to go near 22 17 Coordinates
+[WorldModelB] Agent 4 is trying the pick ore, but there is no ore at 19x21!
+[miner4] failed to catch ore ore(gold,19,21,3)
+[miner4] Ore distances: [d(1,ore(gold,20,21,3)),d(2,ore(gold,20,22,3)),d(3,ore(gold,20,23,3)),d(4,ore(gold,20,24,3))]4
+[miner4] Next ore is ore(gold,20,21,3)
+[miner4] Handling ore(gold,20,21,3) now.
+[miner1] I am at (18,7) which is near (18,6)
+[miner1] I chose to go near 9 23 Coordinates
+[miner1] Radio received from miner 3: ore(gold,24,24,3)
+[miner3] Scout report: ore(gold,24,24,3)
+[miner2] Radio received from miner 3: ore(gold,24,24,3)
+[miner4] Radio received from miner 3: ore(gold,24,24,3)
+[miner4] I've reached 20x21
+[WorldModelB] Agent 4 is trying the pick ore, but there is no ore at 20x21!
+[miner4] failed to catch ore ore(gold,20,21,3)
+[miner4] Ore distances: [d(7,ore(gold,24,24,3)),d(1,ore(gold,20,22,3)),d(2,ore(gold,20,23,3)),d(3,ore(gold,20,24,3))]4
+[miner4] Next ore is ore(gold,20,22,3)
+[miner4] Handling ore(gold,20,22,3) now.
+[miner4] I've reached 20x22
+[WorldModelB] Agent 4 is trying the pick ore, but there is no ore at 20x22!
+[miner4] failed to catch ore ore(gold,20,22,3)
+[miner4] Ore distances: [d(6,ore(gold,24,24,3)),d(1,ore(gold,20,23,3)),d(2,ore(gold,20,24,3))]3
+[miner4] Next ore is ore(gold,20,23,3)
+[miner4] Handling ore(gold,20,23,3) now.
+[leader] Time left: 156 seconds
+[miner1] Leader says time left is 156 seconds
+[miner3] Leader says time left is 156 seconds
+[miner4] Leader says time left is 156 seconds
+[miner2] Leader says time left is 156 seconds
+[miner4] I've reached 20x23
+[WorldModelB] Agent 4 is trying the pick ore, but there is no ore at 20x23!
+[miner4] failed to catch ore ore(gold,20,23,3)
+[miner4] Ore distances: [d(5,ore(gold,24,24,3)),d(1,ore(gold,20,24,3))]2
+[miner4] Next ore is ore(gold,20,24,3)
+[miner4] Handling ore(gold,20,24,3) now.
+[miner4] I've reached 20x24
+[WorldModelB] Agent 4 is trying the pick ore, but there is no ore at 20x24!
+[miner4] failed to catch ore ore(gold,20,24,3)
+[miner4] Ore distances: [d(4,ore(gold,24,24,3))]1
+[miner4] Next ore is ore(gold,24,24,3)
+[miner4] Handling ore(gold,24,24,3) now.
+[miner3] I am at (22,18) which is near (22,17)
+[miner3] I chose to go near 18 6 Coordinates
+[leader] Time left: 155 seconds
+[miner4] Leader says time left is 155 seconds
+[miner2] Leader says time left is 155 seconds
+[miner1] Leader says time left is 155 seconds
+[miner3] Leader says time left is 155 seconds
+[miner3] Radio received from miner 4: ore(diamond,23,25,4)
+[miner1] Radio received from miner 4: ore(diamond,23,25,4)
+[miner2] Radio received from miner 4: ore(diamond,23,25,4)
+[miner2] I've reached 5x27
+[WorldModelB] Agent 2 carried 3 ores to depot, worth 9 points!
+[miner2] Dropped backpack with 3 ores, worth 9 points.
+[miner2] HAHAHA IM WINNING!
+[leader] Agent miner2 is now on the lead with the score of 22
+[miner2] Ore distances: [d(20,ore(diamond,23,25,4)),d(22,ore(gold,24,24,3)),d(35,ore(gold,21,8,3)),d(22,ore(gold,20,20,3))]4
+[miner2] Next ore is ore(diamond,23,25,4)
+[miner2] Handling ore(diamond,23,25,4) now.
+[miner4] I've reached 24x24
+[miner4] Stored ore(gold,24,24,3) in backpack.
+[miner4] Ore distances: [d(2,ore(diamond,23,25,4))]1
+[miner4] Next ore is ore(diamond,23,25,4)
+[miner4] Handling ore(diamond,23,25,4) now.
+[leader] Time left: 154 seconds
+[miner1] Leader says time left is 154 seconds
+[miner3] Leader says time left is 154 seconds
+[miner4] Leader says time left is 154 seconds
+[miner2] Leader says time left is 154 seconds
+[miner4] I've reached 23x25
+[miner4] Stored ore(diamond,23,25,4) in backpack.
+[miner4] No known ore left, returning to depot with 2 ores.
 [miner1] Leader says time left is 153 seconds
-[miner3] Leader says time left is 153 seconds
 [leader] Time left: 153 seconds
-[miner4] Leader says time left is 153 seconds
+[miner3] Leader says time left is 153 seconds
 [miner2] Leader says time left is 153 seconds
-[miner2] Giving up current ore ore(gold,2,12,3) to handle ore(gold,15,20,3) which I am seeing!
-[miner2] Going for ore(gold,15,20,3)
-[miner2] Handling ore(gold,15,20,3) now.
-[miner3] Radio received from miner 2: ore(gold,15,20,3)
-[miner4] Radio received from miner 2: ore(gold,15,20,3)
-[miner1] Radio received from miner 2: ore(gold,15,20,3)
-[miner3] Leader says time left is 152 seconds
-[miner2] Leader says time left is 152 seconds
+[miner4] Leader says time left is 153 seconds
+[miner3] I am at (18,7) which is near (18,6)
+[miner3] I chose to go near 0 31 Coordinates
+[miner1] I am at (9,22) which is near (9,23)
+[miner1] I chose to go near 12 19 Coordinates
 [leader] Time left: 152 seconds
+[miner2] Leader says time left is 152 seconds
 [miner4] Leader says time left is 152 seconds
 [miner1] Leader says time left is 152 seconds
-[miner3] Scout report: ore(gold,15,20,3)
-[miner2] I've reached 15x20
-[miner2] Stored ore(gold,15,20,3) in backpack.
-[miner2] Ore distances: [d(21,ore(gold,2,12,3))]1
-[miner2] Next ore is ore(gold,2,12,3)
-[miner2] Handling ore(gold,2,12,3) now.
+[miner3] Leader says time left is 152 seconds
+[miner1] I am at (12,20) which is near (12,19)
+[miner1] I chose to go near 25 9 Coordinates
 [miner4] Leader says time left is 151 seconds
-[miner3] Leader says time left is 151 seconds
-[miner1] Leader says time left is 151 seconds
 [miner2] Leader says time left is 151 seconds
+[miner3] Leader says time left is 151 seconds
 [leader] Time left: 151 seconds
-[miner4] I've reached 20x13
+[miner1] Leader says time left is 151 seconds
+[miner3] Scout report: ore(iron,10,8,2)
+[miner1] Radio received from miner 3: ore(iron,10,8,2)
+[miner4] Radio received from miner 3: ore(iron,10,8,2)
+[miner2] I've reached 23x25
+[miner4] Radio received from miner 3: ore(gold,7,7,3)
+[miner1] Radio received from miner 3: ore(gold,7,7,3)
+[miner3] Scout report: ore(gold,7,7,3)
+[WorldModelB] Agent 2 is trying the pick ore, but there is no ore at 23x25!
+[miner2] failed to catch ore ore(diamond,23,25,4)
+[miner2] Ore distances: [d(2,ore(gold,24,24,3)),d(19,ore(gold,21,8,3)),d(8,ore(gold,20,20,3))]3
+[miner2] Next ore is ore(gold,24,24,3)
+[miner2] Handling ore(gold,24,24,3) now.
+[miner2] Leader says time left is 150 seconds
+[miner1] Leader says time left is 150 seconds
+[leader] Time left: 150 seconds
+[miner3] Leader says time left is 150 seconds
+[miner4] Leader says time left is 150 seconds
+[miner2] I've reached 24x24
+[WorldModelB] Agent 2 is trying the pick ore, but there is no ore at 24x24!
+[miner2] failed to catch ore ore(gold,24,24,3)
+[miner2] Ore distances: [d(19,ore(gold,21,8,3)),d(8,ore(gold,20,20,3))]2
+[miner2] Next ore is ore(gold,20,20,3)
+[miner2] Handling ore(gold,20,20,3) now.
+[miner4] I've reached 5x27
+[WorldModelB] Agent 4 carried 2 ores to depot, worth 7 points!
+[miner4] Dropped backpack with 2 ores, worth 7 points.
+[leader] Agent miner4 has dropped ore worth 7 points; score is 16
+[miner4] Ore distances: [d(22,ore(gold,7,7,3)),d(24,ore(iron,10,8,2))]2
+[miner4] Next ore is ore(gold,7,7,3)
+[miner4] Handling ore(gold,7,7,3) now.
+[leader] Time left: 149 seconds
+[miner2] Leader says time left is 149 seconds
+[miner3] Leader says time left is 149 seconds
+[miner4] Leader says time left is 149 seconds
+[miner1] Leader says time left is 149 seconds
+[miner2] I've reached 20x20
+[miner3] Leader says time left is 148 seconds
+[leader] Time left: 148 seconds
+[miner2] Leader says time left is 148 seconds
+[miner4] Leader says time left is 148 seconds
+[miner1] Leader says time left is 148 seconds
+[WorldModelB] Agent 2 is trying the pick ore, but there is no ore at 20x20!
+[miner2] failed to catch ore ore(gold,20,20,3)
+[miner2] Ore distances: [d(13,ore(gold,21,8,3))]1
+[miner2] Next ore is ore(gold,21,8,3)
+[miner2] Handling ore(gold,21,8,3) now.
+[leader] Time left: 147 seconds
+[miner1] Leader says time left is 147 seconds
+[miner3] Leader says time left is 147 seconds
+[miner2] Leader says time left is 147 seconds
+[miner4] Leader says time left is 147 seconds
+[miner1] I am at (25,10) which is near (25,9)
+[miner1] I chose to go near 6 26 Coordinates
+[miner2] Leader says time left is 146 seconds
+[leader] Time left: 146 seconds
+[miner1] Leader says time left is 146 seconds
+[miner4] Leader says time left is 146 seconds
+[miner3] Leader says time left is 146 seconds
+[miner4] I've reached 7x7
+[leader] Time left: 145 seconds
+[miner3] Leader says time left is 145 seconds
+[miner1] Leader says time left is 145 seconds
+[miner4] Leader says time left is 145 seconds
+[miner2] Leader says time left is 145 seconds
+[miner4] Stored ore(gold,7,7,3) in backpack.
+[miner4] Ore distances: [d(4,ore(iron,10,8,2))]1
+[miner4] Next ore is ore(iron,10,8,2)
+[miner4] Handling ore(iron,10,8,2) now.
+[miner2] I've reached 21x8
+[miner2] Stored ore(gold,21,8,3) in backpack.
+[miner2] No known ore left, returning to depot with 1 ores.
+[miner4] I've reached 10x8
+[leader] Time left: 144 seconds
+[miner4] Leader says time left is 144 seconds
+[miner1] Leader says time left is 144 seconds
+[miner2] Leader says time left is 144 seconds
+[miner3] Leader says time left is 144 seconds
+[miner2] Radio received from miner 1: ore(iron,10,8,2)
+[miner1] Scout report: ore(iron,10,8,2)
+[miner3] I am at (0,30) which is near (0,31)
+[miner3] I chose to go near 4 31 Coordinates
+[miner4] Stored ore(iron,10,8,2) in backpack.
+[miner4] No known ore left, returning to depot with 2 ores.
+[miner3] I am at (3,30) which is near (4,31)
+[miner3] I chose to go near 8 31 Coordinates
+[miner3] Leader says time left is 143 seconds
+[leader] Time left: 143 seconds
+[miner2] Leader says time left is 143 seconds
+[miner1] Leader says time left is 143 seconds
+[miner4] Leader says time left is 143 seconds
+[miner3] I am at (7,30) which is near (8,31)
+[miner3] I chose to go near 5 15 Coordinates
+[miner3] Leader says time left is 142 seconds
+[miner2] Leader says time left is 142 seconds
+[miner1] Leader says time left is 142 seconds
+[miner4] Leader says time left is 142 seconds
+[leader] Time left: 142 seconds
+[miner1] Leader says time left is 141 seconds
+[miner3] Leader says time left is 141 seconds
+[leader] Time left: 141 seconds
+[miner2] Leader says time left is 141 seconds
+[miner4] Leader says time left is 141 seconds
+[miner3] Leader says time left is 140 seconds
+[miner4] Leader says time left is 140 seconds
+[miner2] Leader says time left is 140 seconds
+[leader] Time left: 140 seconds
+[miner1] Leader says time left is 140 seconds
+[miner1] I am at (6,25) which is near (6,26)
+[miner1] I chose to go near 25 31 Coordinates
+[miner3] I am at (5,16) which is near (5,15)
+[miner3] I chose to go near 13 17 Coordinates
+[leader] Time left: 139 seconds
+[miner2] Leader says time left is 139 seconds
+[miner1] Leader says time left is 139 seconds
+[miner3] Leader says time left is 139 seconds
+[miner4] Leader says time left is 139 seconds
+[miner4] I've reached 5x27
+[WorldModelB] Agent 4 carried 2 ores to depot, worth 5 points!
+[miner4] Dropped backpack with 2 ores, worth 5 points.
+[leader] Agent miner4 has dropped ore worth 5 points; score is 21
+[miner4] I chose to go near 4 28 Coordinates
+[miner4] I am at (5,27) which is near (4,28)
+[miner4] I chose to go near 25 21 Coordinates
+[leader] Time left: 138 seconds
+[miner1] Leader says time left is 138 seconds
+[miner2] Leader says time left is 138 seconds
+[miner4] Leader says time left is 138 seconds
+[miner3] Leader says time left is 138 seconds
+[miner3] I am at (12,16) which is near (13,17)
+[miner3] I chose to go near 19 15 Coordinates
+[miner2] I've reached 5x27
+[WorldModelB] Agent 2 carried 1 ores to depot, worth 3 points!
+[miner2] Dropped backpack with 1 ores, worth 3 points.
+[leader] Agent miner2 is now on the lead with the score of 25
+[miner2] HAHAHA IM WINNING!
+[miner2] Ore distances: [d(24,ore(iron,10,8,2))]1
+[miner2] Next ore is ore(iron,10,8,2)
+[miner2] Handling ore(iron,10,8,2) now.
+[leader] Time left: 137 seconds
+[miner3] Leader says time left is 137 seconds
+[miner4] Leader says time left is 137 seconds
+[miner2] Leader says time left is 137 seconds
+[miner1] Leader says time left is 137 seconds
+[miner3] I am at (18,16) which is near (19,15)
+[miner3] I chose to go near 31 29 Coordinates
+[miner4] Leader says time left is 136 seconds
+[miner2] Leader says time left is 136 seconds
+[miner3] Leader says time left is 136 seconds
+[miner1] Leader says time left is 136 seconds
+[leader] Time left: 136 seconds
+[leader] Time left: 135 seconds
+[miner4] Leader says time left is 135 seconds
+[miner2] Leader says time left is 135 seconds
+[miner3] Leader says time left is 135 seconds
+[miner1] Leader says time left is 135 seconds
+[miner1] I am at (25,30) which is near (25,31)
+[miner1] I chose to go near 28 13 Coordinates
+[leader] Time left: 134 seconds
+[miner1] Leader says time left is 134 seconds
+[miner2] Leader says time left is 134 seconds
+[miner4] Leader says time left is 134 seconds
+[miner3] Leader says time left is 134 seconds
+[miner4] I am at (25,22) which is near (25,21)
+[miner4] I chose to go near 1 3 Coordinates
+[miner1] Leader says time left is 133 seconds
+[miner2] Leader says time left is 133 seconds
+[miner4] Leader says time left is 133 seconds
+[miner3] Leader says time left is 133 seconds
+[leader] Time left: 133 seconds
+[miner2] I've reached 10x8
+[leader] Time left: 132 seconds
+[miner3] Leader says time left is 132 seconds
+[miner4] Leader says time left is 132 seconds
+[miner2] Leader says time left is 132 seconds
+[miner1] Leader says time left is 132 seconds
+[WorldModelB] Agent 2 is trying the pick ore, but there is no ore at 10x8!
+[miner2] failed to catch ore ore(iron,10,8,2)
+[miner2] I chose to go near 31 16 Coordinates
+[miner3] I am at (31,28) which is near (31,29)
+[miner3] I chose to go near 18 5 Coordinates
+[miner1] Leader says time left is 131 seconds
+[miner3] Leader says time left is 131 seconds
+[miner2] Leader says time left is 131 seconds
+[miner4] Leader says time left is 131 seconds
+[leader] Time left: 131 seconds
+[miner1] I am at (28,14) which is near (28,13)
+[miner1] I chose to go near 21 4 Coordinates
+[miner2] Leader says time left is 130 seconds
+[leader] Time left: 130 seconds
+[miner3] Leader says time left is 130 seconds
+[miner1] Leader says time left is 130 seconds
+[miner4] Leader says time left is 130 seconds
+[leader] Time left: 129 seconds
+[miner2] Leader says time left is 129 seconds
+[miner3] Leader says time left is 129 seconds
+[miner4] Leader says time left is 129 seconds
+[miner1] Leader says time left is 129 seconds
+[miner2] Leader says time left is 128 seconds
+[leader] Time left: 128 seconds
+[miner3] Leader says time left is 128 seconds
+[miner4] Leader says time left is 128 seconds
+[miner1] Leader says time left is 128 seconds
+[miner1] I am at (21,5) which is near (21,4)
+[miner1] I chose to go near 7 16 Coordinates
+[leader] Time left: 127 seconds
+[miner2] Leader says time left is 127 seconds
+[miner1] Leader says time left is 127 seconds
+[miner3] Leader says time left is 127 seconds
+[miner4] Leader says time left is 127 seconds
+[miner2] I am at (31,15) which is near (31,16)
+[miner2] I chose to go near 3 19 Coordinates
+[miner3] Leader says time left is 126 seconds
+[miner1] Leader says time left is 126 seconds
+[leader] Time left: 126 seconds
+[miner4] Leader says time left is 126 seconds
+[miner2] Leader says time left is 126 seconds
+[miner1] Leader says time left is 125 seconds
+[miner3] Leader says time left is 125 seconds
+[miner4] Leader says time left is 125 seconds
+[leader] Time left: 125 seconds
+[miner2] Leader says time left is 125 seconds
+[miner4] I am at (1,4) which is near (1,3)
+[miner4] I chose to go near 6 32 Coordinates
+[miner3] I am at (18,6) which is near (18,5)
+[miner3] I chose to go near 31 18 Coordinates
+[leader] Time left: 124 seconds
+[miner1] Leader says time left is 124 seconds
+[miner4] Leader says time left is 124 seconds
+[miner2] Leader says time left is 124 seconds
+[miner3] Leader says time left is 124 seconds
+[miner3] Leader says time left is 123 seconds
+[miner1] Leader says time left is 123 seconds
+[miner4] Leader says time left is 123 seconds
+[miner2] Leader says time left is 123 seconds
+[leader] Time left: 123 seconds
+[miner1] I am at (7,15) which is near (7,16)
+[miner1] I chose to go near 26 19 Coordinates
+[miner1] Leader says time left is 122 seconds
+[miner4] Leader says time left is 122 seconds
+[leader] Time left: 122 seconds
+[miner3] Leader says time left is 122 seconds
+[miner2] Leader says time left is 122 seconds
+[leader] Time left: 121 seconds
+[miner3] Leader says time left is 121 seconds
+[miner2] Leader says time left is 121 seconds
+[miner1] Leader says time left is 121 seconds
+[miner4] Leader says time left is 121 seconds
+[leader] Time left: 120 seconds
+[miner2] Leader says time left is 120 seconds
+[miner3] Leader says time left is 120 seconds
+[miner4] Leader says time left is 120 seconds
+[miner1] Leader says time left is 120 seconds
+[miner3] I am at (31,17) which is near (31,18)
+[miner3] I chose to go near 2 29 Coordinates
+[miner1] Leader says time left is 119 seconds
+[miner2] Leader says time left is 119 seconds
+[miner4] Leader says time left is 119 seconds
+[miner3] Leader says time left is 119 seconds
+[leader] Time left: 119 seconds
+[miner4] I am at (6,31) which is near (6,32)
+[miner4] I chose to go near 21 14 Coordinates
+[miner4] Leader says time left is 118 seconds
+[miner2] Leader says time left is 118 seconds
+[miner1] Leader says time left is 118 seconds
+[miner3] Leader says time left is 118 seconds
+[leader] Time left: 118 seconds
+[leader] Time left: 117 seconds
+[miner2] Leader says time left is 117 seconds
+[miner3] Leader says time left is 117 seconds
+[miner1] Leader says time left is 117 seconds
+[miner4] Leader says time left is 117 seconds
+[miner3] Leader says time left is 116 seconds
+[miner2] Leader says time left is 116 seconds
+[miner1] Leader says time left is 116 seconds
+[leader] Time left: 116 seconds
+[miner4] Leader says time left is 116 seconds
+[miner4] Leader says time left is 115 seconds
+[miner2] Leader says time left is 115 seconds
+[miner3] Leader says time left is 115 seconds
+[leader] Time left: 115 seconds
+[miner1] Leader says time left is 115 seconds
+[miner3] Leader says time left is 114 seconds
+[miner4] Leader says time left is 114 seconds
+[miner1] Leader says time left is 114 seconds
+[miner2] Leader says time left is 114 seconds
+[leader] Time left: 114 seconds
+[leader] Time left: 113 seconds
+[miner3] Leader says time left is 113 seconds
+[miner4] Leader says time left is 113 seconds
+[miner1] Leader says time left is 113 seconds
+[miner2] Leader says time left is 113 seconds
+[miner4] I am at (21,15) which is near (21,14)
+[miner4] I chose to go near 0 33 Coordinates
+[miner2] Leader says time left is 112 seconds
+[miner3] Leader says time left is 112 seconds
+[miner4] Leader says time left is 112 seconds
+[miner1] Leader says time left is 112 seconds
+[leader] Time left: 112 seconds
+[miner3] I am at (2,28) which is near (2,29)
+[miner3] I chose to go near 6 17 Coordinates
+[leader] Time left: 111 seconds
+[miner3] Leader says time left is 111 seconds
+[miner4] Leader says time left is 111 seconds
+[miner1] Leader says time left is 111 seconds
+[miner2] Leader says time left is 111 seconds
+[miner2] Leader says time left is 110 seconds
+[leader] Time left: 110 seconds
+[miner4] Leader says time left is 110 seconds
+[miner3] Leader says time left is 110 seconds
+[miner1] Leader says time left is 110 seconds
+[miner2] Leader says time left is 109 seconds
+[leader] Time left: 109 seconds
+[miner4] Leader says time left is 109 seconds
+[miner1] Leader says time left is 109 seconds
+[miner3] Leader says time left is 109 seconds
+[miner3] I am at (6,18) which is near (6,17)
+[miner3] I chose to go near 32 23 Coordinates
+[miner3] Leader says time left is 108 seconds
+[miner2] Leader says time left is 108 seconds
+[miner4] Leader says time left is 108 seconds
+[leader] Time left: 108 seconds
+[miner1] Leader says time left is 108 seconds
+[miner4] Leader says time left is 107 seconds
+[miner2] Leader says time left is 107 seconds
+[leader] Time left: 107 seconds
+[miner1] Leader says time left is 107 seconds
+[miner3] Leader says time left is 107 seconds
+[miner4] Leader says time left is 106 seconds
+[leader] Time left: 106 seconds
+[miner3] Leader says time left is 106 seconds
+[miner2] Leader says time left is 106 seconds
+[miner1] Leader says time left is 106 seconds
+[miner4] Leader says time left is 105 seconds
+[leader] Time left: 105 seconds
+[miner3] Leader says time left is 105 seconds
+[miner2] Leader says time left is 105 seconds
+[miner1] Leader says time left is 105 seconds
+[miner4] I am at (0,32) which is near (0,33)
+[miner4] I chose to go near 27 30 Coordinates
+[miner3] Leader says time left is 104 seconds
+[miner1] Leader says time left is 104 seconds
+[leader] Time left: 104 seconds
+[miner2] Leader says time left is 104 seconds
+[miner4] Leader says time left is 104 seconds
+[miner4] Leader says time left is 103 seconds
+[leader] Time left: 103 seconds
+[miner3] Leader says time left is 103 seconds
+[miner2] Leader says time left is 103 seconds
+[miner1] Leader says time left is 103 seconds
+[miner3] I am at (32,22) which is near (32,23)
+[miner3] I chose to go near 0 26 Coordinates
+[miner2] Leader says time left is 102 seconds
+[miner4] Leader says time left is 102 seconds
+[miner3] Leader says time left is 102 seconds
+[miner1] Leader says time left is 102 seconds
+[leader] Time left: 102 seconds
+[leader] Time left: 101 seconds
+[miner2] Leader says time left is 101 seconds
+[miner3] Leader says time left is 101 seconds
+[miner4] Leader says time left is 101 seconds
+[miner1] Leader says time left is 101 seconds
+[leader] Time left: 100 seconds
+[miner1] Leader says time left is 100 seconds
+[miner2] Leader says time left is 100 seconds
+[miner4] Leader says time left is 100 seconds
+[miner3] Leader says time left is 100 seconds
+[leader] Time left: 99 seconds
+[miner4] Leader says time left is 99 seconds
+[miner2] Leader says time left is 99 seconds
+[miner1] Leader says time left is 99 seconds
+[miner3] Leader says time left is 99 seconds
+[miner4] I am at (27,31) which is near (27,30)
+[miner4] I chose to go near 8 16 Coordinates
+[miner2] Leader says time left is 98 seconds
+[leader] Time left: 98 seconds
+[miner1] Leader says time left is 98 seconds
+[miner4] Leader says time left is 98 seconds
+[miner3] Leader says time left is 98 seconds
+[leader] Time left: 97 seconds
+[miner4] Leader says time left is 97 seconds
+[miner3] Leader says time left is 97 seconds
+[miner1] Leader says time left is 97 seconds
+[miner2] Leader says time left is 97 seconds
+[leader] Time left: 96 seconds
+[miner2] Leader says time left is 96 seconds
+[miner4] Leader says time left is 96 seconds
+[miner3] Leader says time left is 96 seconds
+[miner1] Leader says time left is 96 seconds
+[miner3] I am at (0,25) which is near (0,26)
+[miner3] I chose to go near 33 25 Coordinates
+[miner1] Leader says time left is 95 seconds
+[miner3] Leader says time left is 95 seconds
+[miner4] Leader says time left is 95 seconds
+[miner2] Leader says time left is 95 seconds
+[leader] Time left: 95 seconds
+[miner1] Leader says time left is 94 seconds
+[leader] Time left: 94 seconds
+[miner4] Leader says time left is 94 seconds
+[miner2] Leader says time left is 94 seconds
+[miner3] Leader says time left is 94 seconds
+[leader] Time left: 93 seconds
+[miner2] Leader says time left is 93 seconds
+[miner3] Leader says time left is 93 seconds
+[miner1] Leader says time left is 93 seconds
+[miner4] Leader says time left is 93 seconds
+[leader] Time left: 92 seconds
+[miner2] Leader says time left is 92 seconds
+[miner4] Leader says time left is 92 seconds
+[miner1] Leader says time left is 92 seconds
+[miner3] Leader says time left is 92 seconds
+[miner4] I am at (8,17) which is near (8,16)
+[miner4] I chose to go near 5 10 Coordinates
+[miner4] Leader says time left is 91 seconds
+[miner3] Leader says time left is 91 seconds
+[miner2] Leader says time left is 91 seconds
+[leader] Time left: 91 seconds
+[miner1] Leader says time left is 91 seconds
+[miner2] Leader says time left is 90 seconds
+[miner1] Leader says time left is 90 seconds
+[miner3] Leader says time left is 90 seconds
+[miner4] Leader says time left is 90 seconds
+[leader] Time left: 90 seconds
+[miner4] I am at (5,11) which is near (5,10)
+[miner4] I chose to go near 0 33 Coordinates
+[miner3] I am at (32,25) which is near (33,25)
+[miner3] I chose to go near 0 9 Coordinates
+[leader] Time left: 89 seconds
+[miner3] Leader says time left is 89 seconds
+[miner1] Leader says time left is 89 seconds
+[miner2] Leader says time left is 89 seconds
+[miner4] Leader says time left is 89 seconds
+[miner2] Leader says time left is 88 seconds
+[leader] Time left: 88 seconds
+[miner1] Leader says time left is 88 seconds
+[miner4] Leader says time left is 88 seconds
+[miner3] Leader says time left is 88 seconds
+[miner3] Leader says time left is 87 seconds
+[miner2] Leader says time left is 87 seconds
+[miner1] Leader says time left is 87 seconds
+[miner4] Leader says time left is 87 seconds
+[leader] Time left: 87 seconds
+[miner4] Leader says time left is 86 seconds
+[miner2] Leader says time left is 86 seconds
+[leader] Time left: 86 seconds
+[miner3] Leader says time left is 86 seconds
+[miner1] Leader says time left is 86 seconds
+[miner1] Leader says time left is 85 seconds
+[miner2] Leader says time left is 85 seconds
+[miner4] Leader says time left is 85 seconds
+[leader] Time left: 85 seconds
+[miner3] Leader says time left is 85 seconds
+[miner4] I am at (0,32) which is near (0,33)
+[miner4] I chose to go near 11 22 Coordinates
+[miner4] Leader says time left is 84 seconds
+[miner3] Leader says time left is 84 seconds
+[miner2] Leader says time left is 84 seconds
+[leader] Time left: 84 seconds
+[miner1] Leader says time left is 84 seconds
+[miner4] Leader says time left is 83 seconds
+[leader] Time left: 83 seconds
+[miner3] Leader says time left is 83 seconds
+[miner2] Leader says time left is 83 seconds
+[miner1] Leader says time left is 83 seconds
+[miner1] Leader says time left is 82 seconds
+[miner4] Leader says time left is 82 seconds
+[miner2] Leader says time left is 82 seconds
+[miner3] Leader says time left is 82 seconds
+[leader] Time left: 82 seconds
+[miner2] Leader says time left is 81 seconds
+[miner1] Leader says time left is 81 seconds
+[leader] Time left: 81 seconds
+[miner4] Leader says time left is 81 seconds
+[miner3] Leader says time left is 81 seconds
+[miner4] I am at (11,23) which is near (11,22)
+[miner4] I chose to go near 3 30 Coordinates
+[miner3] Leader says time left is 80 seconds
+[miner4] Leader says time left is 80 seconds
+[leader] Time left: 80 seconds
+[miner2] Leader says time left is 80 seconds
+[miner1] Leader says time left is 80 seconds
+[miner3] I am at (0,10) which is near (0,9)
+[miner3] I chose to go near 33 33 Coordinates
+[miner2] Leader says time left is 79 seconds
+[miner3] Leader says time left is 79 seconds
+[miner1] Leader says time left is 79 seconds
+[leader] Time left: 79 seconds
+[miner4] Leader says time left is 79 seconds
+[miner2] Leader says time left is 78 seconds
+[miner3] Leader says time left is 78 seconds
+[leader] Time left: 78 seconds
+[miner4] Leader says time left is 78 seconds
+[miner1] Leader says time left is 78 seconds
+[miner4] I am at (3,29) which is near (3,30)
+[miner4] I chose to go near 10 31 Coordinates
+[leader] Time left: 77 seconds
+[miner3] Leader says time left is 77 seconds
+[miner2] Leader says time left is 77 seconds
+[miner1] Leader says time left is 77 seconds
+[miner4] Leader says time left is 77 seconds
+[miner4] I am at (10,30) which is near (10,31)
+[miner4] I chose to go near 4 9 Coordinates
+[miner1] Leader says time left is 76 seconds
+[miner3] Leader says time left is 76 seconds
+[leader] Time left: 76 seconds
+[miner4] Leader says time left is 76 seconds
+[miner2] Leader says time left is 76 seconds
+[miner1] Leader says time left is 75 seconds
+[leader] Time left: 75 seconds
+[miner2] Leader says time left is 75 seconds
+[miner3] Leader says time left is 75 seconds
+[miner4] Leader says time left is 75 seconds
+[leader] Time left: 74 seconds
+[miner4] Leader says time left is 74 seconds
+[miner1] Leader says time left is 74 seconds
+[miner3] Leader says time left is 74 seconds
+[miner2] Leader says time left is 74 seconds
+[miner2] Leader says time left is 73 seconds
+[miner4] Leader says time left is 73 seconds
+[leader] Time left: 73 seconds
+[miner1] Leader says time left is 73 seconds
+[miner3] Leader says time left is 73 seconds
+[leader] Time left: 72 seconds
+[miner3] Leader says time left is 72 seconds
+[miner4] Leader says time left is 72 seconds
+[miner2] Leader says time left is 72 seconds
+[miner1] Leader says time left is 72 seconds
+[miner4] I am at (4,10) which is near (4,9)
+[miner4] I chose to go near 22 31 Coordinates
+[leader] Time left: 71 seconds
+[miner2] Leader says time left is 71 seconds
+[miner4] Leader says time left is 71 seconds
+[miner3] Leader says time left is 71 seconds
+[miner1] Leader says time left is 71 seconds
+[leader] Time left: 70 seconds
+[miner3] Leader says time left is 70 seconds
+[miner4] Leader says time left is 70 seconds
+[miner1] Leader says time left is 70 seconds
+[miner2] Leader says time left is 70 seconds
+[miner4] Leader says time left is 69 seconds
+[leader] Time left: 69 seconds
+[miner3] Leader says time left is 69 seconds
+[miner1] Leader says time left is 69 seconds
+[miner2] Leader says time left is 69 seconds
+[miner3] I am at (33,32) which is near (33,33)
+[miner3] Scout report: ore(gold,34,34,3)
+[miner3] I chose to go near 33 33 Coordinates
+[miner3] I am at (33,32) which is near (33,33)
+[miner3] I chose to go near 2 20 Coordinates
+[leader] Time left: 68 seconds
+[miner1] Leader says time left is 68 seconds
+[miner2] Leader says time left is 68 seconds
+[miner4] Leader says time left is 68 seconds
+[miner3] Leader says time left is 68 seconds
+[leader] Time left: 67 seconds
+[miner2] Leader says time left is 67 seconds
+[miner3] Leader says time left is 67 seconds
+[miner1] Leader says time left is 67 seconds
+[miner4] Leader says time left is 67 seconds
+[miner4] Leader says time left is 66 seconds
+[miner1] Leader says time left is 66 seconds
+[miner3] Leader says time left is 66 seconds
+[leader] Time left: 66 seconds
+[miner2] Leader says time left is 66 seconds
+[leader] Time left: 65 seconds
+[miner1] Leader says time left is 65 seconds
+[miner2] Leader says time left is 65 seconds
+[miner3] Leader says time left is 65 seconds
+[miner4] Leader says time left is 65 seconds
+[miner2] Leader says time left is 64 seconds
+[miner4] Leader says time left is 64 seconds
+[leader] Time left: 64 seconds
+[miner3] Leader says time left is 64 seconds
+[miner1] Leader says time left is 64 seconds
+[miner4] I am at (22,30) which is near (22,31)
+[miner4] I chose to go near 22 19 Coordinates
+[miner4] Leader says time left is 63 seconds
+[miner1] Leader says time left is 63 seconds
+[miner3] Leader says time left is 63 seconds
+[miner2] Leader says time left is 63 seconds
+[leader] Time left: 63 seconds
+[miner2] Leader says time left is 62 seconds
+[miner1] Leader says time left is 62 seconds
+[miner3] Leader says time left is 62 seconds
+[leader] Time left: 62 seconds
+[miner4] Leader says time left is 62 seconds
+[miner4] I am at (22,20) which is near (22,19)
+[miner4] I chose to go near 11 22 Coordinates
+[leader] Time left: 61 seconds
+[miner2] Leader says time left is 61 seconds
+[miner3] Leader says time left is 61 seconds
+[miner1] Leader says time left is 61 seconds
+[miner4] Leader says time left is 61 seconds
+[miner3] I am at (2,21) which is near (2,20)
+[miner3] I chose to go near 19 28 Coordinates
+[miner1] Leader says time left is 60 seconds
+[miner2] Leader says time left is 60 seconds
+[miner3] Leader says time left is 60 seconds
+[leader] Time left: 60 seconds
+[miner4] Leader says time left is 60 seconds
+[miner4] I am at (12,21) which is near (11,22)
+[miner4] I chose to go near 4 33 Coordinates
+[leader] Time left: 59 seconds
+[miner2] Leader says time left is 59 seconds
+[miner4] Leader says time left is 59 seconds
+[miner1] Leader says time left is 59 seconds
+[miner3] Leader says time left is 59 seconds
+[leader] Time left: 58 seconds
+[miner3] Leader says time left is 58 seconds
+[miner2] Leader says time left is 58 seconds
+[miner1] Leader says time left is 58 seconds
+[miner4] Leader says time left is 58 seconds
+[leader] Time left: 57 seconds
+[miner3] Leader says time left is 57 seconds
+[miner2] Leader says time left is 57 seconds
+[miner4] Leader says time left is 57 seconds
+[miner1] Leader says time left is 57 seconds
+[miner2] Leader says time left is 56 seconds
+[miner3] Leader says time left is 56 seconds
+[miner4] Leader says time left is 56 seconds
+[leader] Time left: 56 seconds
+[miner1] Leader says time left is 56 seconds
+[miner3] I am at (19,27) which is near (19,28)
+[miner3] I chose to go near 5 29 Coordinates
+[miner4] I am at (4,32) which is near (4,33)
+[miner4] I chose to go near 28 20 Coordinates
+[leader] Time left: 55 seconds
+[miner4] Leader says time left is 55 seconds
+[miner3] Leader says time left is 55 seconds
+[miner1] Leader says time left is 55 seconds
+[miner2] Leader says time left is 55 seconds
+[miner3] Leader says time left is 54 seconds
+[miner4] Leader says time left is 54 seconds
+[miner1] Leader says time left is 54 seconds
+[miner2] Leader says time left is 54 seconds
+[leader] Time left: 54 seconds
+[miner4] Leader says time left is 53 seconds
+[miner2] Leader says time left is 53 seconds
+[miner3] Leader says time left is 53 seconds
+[miner1] Leader says time left is 53 seconds
+[leader] Time left: 53 seconds
+[miner3] I am at (5,28) which is near (5,29)
+[miner3] I chose to go near 17 23 Coordinates
+[miner1] Leader says time left is 52 seconds
+[miner3] Leader says time left is 52 seconds
+[miner2] Leader says time left is 52 seconds
+[miner4] Leader says time left is 52 seconds
+[leader] Time left: 52 seconds
+[miner3] Leader says time left is 51 seconds
+[miner2] Leader says time left is 51 seconds
+[leader] Time left: 51 seconds
+[miner1] Leader says time left is 51 seconds
+[miner4] Leader says time left is 51 seconds
+[miner2] Leader says time left is 50 seconds
+[miner1] Leader says time left is 50 seconds
+[miner3] Leader says time left is 50 seconds
+[miner4] Leader says time left is 50 seconds
+[leader] Time left: 50 seconds
+[miner3] I am at (17,24) which is near (17,23)
+[miner3] I chose to go near 4 25 Coordinates
+[miner4] Leader says time left is 49 seconds
+[leader] Time left: 49 seconds
+[miner2] Leader says time left is 49 seconds
+[miner3] Leader says time left is 49 seconds
+[miner1] Leader says time left is 49 seconds
+[miner4] I am at (28,21) which is near (28,20)
+[miner4] I chose to go near 13 2 Coordinates
+[miner3] Leader says time left is 48 seconds
+[miner2] Leader says time left is 48 seconds
+[miner4] Leader says time left is 48 seconds
+[miner1] Leader says time left is 48 seconds
+[leader] Time left: 48 seconds
+[miner2] Leader says time left is 47 seconds
+[miner3] I am at (5,24) which is near (4,25)
+[miner1] Leader says time left is 47 seconds
+[miner4] Leader says time left is 47 seconds
+[leader] Time left: 47 seconds
+[miner3] I chose to go near 16 29 Coordinates
+[miner3] Leader says time left is 47 seconds
+[miner2] Leader says time left is 46 seconds
+[miner3] Leader says time left is 46 seconds
+[miner1] Leader says time left is 46 seconds
+[miner4] Leader says time left is 46 seconds
+[leader] Time left: 46 seconds
+[leader] Time left: 45 seconds
+[miner1] Leader says time left is 45 seconds
+[miner4] Leader says time left is 45 seconds
+[miner2] Leader says time left is 45 seconds
+[miner3] Leader says time left is 45 seconds
+[miner2] Leader says time left is 44 seconds
+[miner1] Leader says time left is 44 seconds
+[miner3] I am at (16,28) which is near (16,29)
+[leader] Time left: 44 seconds
+[miner4] Leader says time left is 44 seconds
+[miner3] Leader says time left is 44 seconds
+[miner3] I chose to go near 9 23 Coordinates
+[leader] Time left: 43 seconds
+[miner1] Leader says time left is 43 seconds
+[miner3] Leader says time left is 43 seconds
+[miner4] Leader says time left is 43 seconds
+[miner2] Leader says time left is 43 seconds
+[miner3] Leader says time left is 42 seconds
+[miner4] Leader says time left is 42 seconds
+[leader] Time left: 42 seconds
+[miner1] Leader says time left is 42 seconds
+[miner2] Leader says time left is 42 seconds
+[miner3] I am at (9,24) which is near (9,23)
+[miner3] I chose to go near 3 22 Coordinates
+[miner4] I am at (13,3) which is near (13,2)
+[miner4] I chose to go near 1 11 Coordinates
+[miner2] I am at (4,19) which is near (3,19)
+[miner2] I chose to go near 11 8 Coordinates
+[miner2] Leader says time left is 41 seconds
+[miner4] Leader says time left is 41 seconds
+[leader] Time left: 41 seconds
+[miner1] Leader says time left is 41 seconds
+[miner3] Leader says time left is 41 seconds
+[miner3] I am at (3,23) which is near (3,22)
+[miner3] I chose to go near 24 9 Coordinates
+[miner2] Leader says time left is 40 seconds
+[leader] Time left: 40 seconds
+[miner1] Leader says time left is 40 seconds
+[miner4] Leader says time left is 40 seconds
+[miner3] Leader says time left is 40 seconds
+[miner1] I am at (25,19) which is near (26,19)
+[miner1] I chose to go near 2 9 Coordinates
+[leader] Time left: 39 seconds
+[miner3] Leader says time left is 39 seconds
+[miner1] Leader says time left is 39 seconds
+[miner4] Leader says time left is 39 seconds
+[miner2] Leader says time left is 39 seconds
+[leader] Time left: 38 seconds
+[miner4] Leader says time left is 38 seconds
+[miner2] Leader says time left is 38 seconds
+[miner3] Leader says time left is 38 seconds
+[miner1] Leader says time left is 38 seconds
+[miner2] I am at (11,9) which is near (11,8)
+[miner2] I chose to go near 9 15 Coordinates
+[miner4] I am at (1,10) which is near (1,11)
+[miner4] I chose to go near 26 20 Coordinates
+[leader] Time left: 37 seconds
+[miner1] Leader says time left is 37 seconds
+[miner4] Leader says time left is 37 seconds
+[miner3] Leader says time left is 37 seconds
+[miner2] Leader says time left is 37 seconds
+[miner2] I am at (9,14) which is near (9,15)
+[miner2] I chose to go near 31 0 Coordinates
+[miner4] Leader says time left is 36 seconds
+[miner1] Leader says time left is 36 seconds
+[miner3] Leader says time left is 36 seconds
+[miner2] Leader says time left is 36 seconds
+[leader] Time left: 36 seconds
+[miner2] Leader says time left is 35 seconds
+[miner1] Leader says time left is 35 seconds
+[leader] Time left: 35 seconds
+[miner3] Leader says time left is 35 seconds
+[miner4] Leader says time left is 35 seconds
+[miner3] Leader says time left is 34 seconds
+[miner1] Leader says time left is 34 seconds
+[miner4] Leader says time left is 34 seconds
+[leader] Time left: 34 seconds
+[miner2] Leader says time left is 34 seconds
+[miner3] I am at (24,10) which is near (24,9)
+[miner3] I chose to go near 21 24 Coordinates
+[miner1] I am at (2,10) which is near (2,9)
+[miner1] I chose to go near 16 30 Coordinates
+[leader] Time left: 33 seconds
+[miner1] Leader says time left is 33 seconds
+[miner4] Leader says time left is 33 seconds
+[miner2] Leader says time left is 33 seconds
+[miner3] Leader says time left is 33 seconds
+[miner1] Leader says time left is 32 seconds
+[miner3] Leader says time left is 32 seconds
+[miner4] Leader says time left is 32 seconds
+[leader] Time left: 32 seconds
+[miner2] Leader says time left is 32 seconds
+[miner2] Leader says time left is 31 seconds
+[miner3] Leader says time left is 31 seconds
+[leader] Time left: 31 seconds
+[miner4] Leader says time left is 31 seconds
+[miner1] Leader says time left is 31 seconds
+[miner4] I am at (26,19) which is near (26,20)
+[miner4] I chose to go near 3 18 Coordinates
+[miner3] I am at (21,23) which is near (21,24)
+[miner3] I chose to go near 21 30 Coordinates
+[miner2] Leader says time left is 30 seconds
+[miner1] Leader says time left is 30 seconds
+[miner3] Leader says time left is 30 seconds
+[leader] Time left: 30 seconds
+[miner4] Leader says time left is 30 seconds
+[miner2] I am at (31,1) which is near (31,0)
+[miner2] I chose to go near 10 0 Coordinates
+[miner3] I am at (21,29) which is near (21,30)
+[miner3] I chose to go near 14 28 Coordinates
+[miner1] Leader says time left is 29 seconds
+[miner3] Leader says time left is 29 seconds
+[miner2] Leader says time left is 29 seconds
+[leader] Time left: 29 seconds
+[miner4] Leader says time left is 29 seconds
+[leader] Time left: 28 seconds
+[miner1] Leader says time left is 28 seconds
+[miner2] Leader says time left is 28 seconds
+[miner4] Leader says time left is 28 seconds
+[miner3] Leader says time left is 28 seconds
+[miner3] I am at (15,29) which is near (14,28)
+[miner3] I chose to go near 17 11 Coordinates
+[leader] Time left: 27 seconds
+[miner4] Leader says time left is 27 seconds
+[miner1] Leader says time left is 27 seconds
+[miner3] Leader says time left is 27 seconds
+[miner2] Leader says time left is 27 seconds
+[miner1] I am at (16,29) which is near (16,30)
+[miner1] I chose to go near 27 32 Coordinates
+[miner4] I am at (4,19) which is near (3,18)
+[miner4] I chose to go near 4 9 Coordinates
+[leader] Time left: 26 seconds
+[miner2] Leader says time left is 26 seconds
+[miner3] Leader says time left is 26 seconds
+[miner1] Leader says time left is 26 seconds
+[miner4] Leader says time left is 26 seconds
+[miner2] I am at (11,1) which is near (10,0)
+[miner2] I chose to go near 6 2 Coordinates
+[miner3] Leader says time left is 25 seconds
+[miner4] Leader says time left is 25 seconds
+[miner2] Leader says time left is 25 seconds
+[miner1] Leader says time left is 25 seconds
+[leader] Time left: 25 seconds
+[miner4] I am at (4,10) which is near (4,9)
+[miner4] I chose to go near 8 6 Coordinates
+[miner2] I am at (7,1) which is near (6,2)
+[miner2] I chose to go near 14 14 Coordinates
+[miner1] I am at (27,31) which is near (27,32)
+[miner1] I chose to go near 29 1 Coordinates
+[miner3] I am at (17,12) which is near (17,11)
+[miner3] I chose to go near 29 27 Coordinates
+[leader] Time left: 24 seconds
+[miner4] Leader says time left is 24 seconds
+[miner3] Leader says time left is 24 seconds
+[miner1] Leader says time left is 24 seconds
+[miner2] Leader says time left is 24 seconds
+[miner4] I am at (8,7) which is near (8,6)
+[miner4] I chose to go near 7 0 Coordinates
+[miner4] Leader says time left is 23 seconds
+[leader] Time left: 23 seconds
+[miner1] Leader says time left is 23 seconds
+[miner2] Leader says time left is 23 seconds
+[miner3] Leader says time left is 23 seconds
+[leader] Time left: 22 seconds
+[miner1] Leader says time left is 22 seconds
+[miner3] Leader says time left is 22 seconds
+[miner4] Leader says time left is 22 seconds
+[miner2] Leader says time left is 22 seconds
+[miner4] I am at (7,1) which is near (7,0)
+[miner4] I chose to go near 19 11 Coordinates
+[miner1] Leader says time left is 21 seconds
+[miner2] Leader says time left is 21 seconds
+[leader] Time left: 21 seconds
+[miner3] Leader says time left is 21 seconds
+[miner4] Leader says time left is 21 seconds
+[miner2] I am at (14,13) which is near (14,14)
+[miner2] I chose to go near 20 29 Coordinates
+[leader] Time left: 20 seconds
+[miner1] Leader says time left is 20 seconds
+[miner4] Leader says time left is 20 seconds
+[miner2] Leader says time left is 20 seconds
+[miner3] Leader says time left is 20 seconds
+[leader] Time left: 19 seconds
+[miner1] Leader says time left is 19 seconds
+[miner2] Leader says time left is 19 seconds
+[miner3] Leader says time left is 19 seconds
+[miner4] Leader says time left is 19 seconds
+[miner3] I am at (29,26) which is near (29,27)
+[miner3] I chose to go near 3 25 Coordinates
+[miner1] I am at (29,2) which is near (29,1)
+[miner1] I chose to go near 1 33 Coordinates
+[miner1] Leader says time left is 18 seconds
+[miner3] Leader says time left is 18 seconds
+[miner4] Leader says time left is 18 seconds
+[miner2] Leader says time left is 18 seconds
+[leader] Time left: 18 seconds
+[miner4] I am at (19,10) which is near (19,11)
+[miner4] I chose to go near 15 7 Coordinates
+[leader] Time left: 17 seconds
+[miner2] Leader says time left is 17 seconds
+[miner4] Leader says time left is 17 seconds
+[miner1] Leader says time left is 17 seconds
+[miner3] Leader says time left is 17 seconds
+[miner2] I am at (20,28) which is near (20,29)
+[miner2] I chose to go near 4 29 Coordinates
+[miner4] I am at (15,8) which is near (15,7)
+[miner4] I chose to go near 22 32 Coordinates
+[miner4] Leader says time left is 16 seconds
+[leader] Time left: 16 seconds
+[miner1] Leader says time left is 16 seconds
+[miner2] Leader says time left is 16 seconds
+[miner3] Leader says time left is 16 seconds
+[miner1] Leader says time left is 15 seconds
+[miner2] Leader says time left is 15 seconds
+[miner3] Leader says time left is 15 seconds
+[leader] Time left: 15 seconds
+[miner4] Leader says time left is 15 seconds
+[miner1] Leader says time left is 14 seconds
+[miner2] Leader says time left is 14 seconds
+[miner3] Leader says time left is 14 seconds
+[miner4] Leader says time left is 14 seconds
+[leader] Time left: 14 seconds
+[miner3] I am at (4,26) which is near (3,25)
+[miner3] I chose to go near 20 32 Coordinates
+[miner2] I am at (5,28) which is near (4,29)
+[miner2] I chose to go near 31 4 Coordinates
+[miner2] Leader says time left is 13 seconds
+[miner4] Leader says time left is 13 seconds
+[miner3] Leader says time left is 13 seconds
+[miner1] Leader says time left is 13 seconds
+[leader] Time left: 13 seconds
+[miner3] Leader says time left is 12 seconds
+[miner1] Leader says time left is 12 seconds
+[miner2] Leader says time left is 12 seconds
+[leader] Time left: 12 seconds
+[miner4] Leader says time left is 12 seconds
+[miner3] Leader says time left is 11 seconds
+[miner4] Leader says time left is 11 seconds
+[miner2] Leader says time left is 11 seconds
+[leader] Time left: 11 seconds
+[miner1] Leader says time left is 11 seconds
+[miner4] I am at (22,31) which is near (22,32)
+[miner4] I chose to go near 13 16 Coordinates
+[miner2] Leader says time left is 10 seconds
+[miner4] Leader says time left is 10 seconds
+[miner3] Leader says time left is 10 seconds
+[leader] Time left: 10 seconds
+[miner1] Leader says time left is 10 seconds
+[miner3] I am at (20,31) which is near (20,32)
+[miner3] I chose to go near 33 29 Coordinates
+[miner4] Leader says time left is 9 seconds
+[miner3] Leader says time left is 9 seconds
+[leader] Time left: 9 seconds
+[miner2] Leader says time left is 9 seconds
+[miner1] Leader says time left is 9 seconds
+[leader] Time left: 8 seconds
+[miner4] Leader says time left is 8 seconds
+[miner2] Leader says time left is 8 seconds
+[miner1] Leader says time left is 8 seconds
+[miner3] Leader says time left is 8 seconds
+[miner2] Leader says time left is 7 seconds
+[miner4] Leader says time left is 7 seconds
+[miner1] Leader says time left is 7 seconds
+[leader] Time left: 7 seconds
+[miner3] Leader says time left is 7 seconds
+[miner3] I am at (33,30) which is near (33,29)
+[miner3] I chose to go near 15 11 Coordinates
+[miner1] I am at (1,32) which is near (1,33)
+[miner1] I chose to go near 27 11 Coordinates
+[leader] Time left: 6 seconds
+[miner4] Leader says time left is 6 seconds
+[miner2] Leader says time left is 6 seconds
+[miner1] Leader says time left is 6 seconds
+[miner3] Leader says time left is 6 seconds
+[miner4] I am at (13,17) which is near (13,16)
+[miner4] I chose to go near 26 21 Coordinates
+[miner3] Leader says time left is 5 seconds
+[miner2] Leader says time left is 5 seconds
+[miner4] Leader says time left is 5 seconds
+[miner1] Leader says time left is 5 seconds
+[leader] Time left: 5 seconds
+[leader] Time left: 4 seconds
+[miner3] Leader says time left is 4 seconds
+[miner1] Leader says time left is 4 seconds
+[miner4] Leader says time left is 4 seconds
+[miner2] Leader says time left is 4 seconds
+[miner2] I am at (31,5) which is near (31,4)
+[miner2] I chose to go near 16 5 Coordinates
+[miner2] Leader says time left is 3 seconds
+[leader] Time left: 3 seconds
+[miner3] Leader says time left is 3 seconds
+[miner4] Leader says time left is 3 seconds
+[miner1] Leader says time left is 3 seconds
+[miner4] I am at (26,20) which is near (26,21)
+[miner4] I chose to go near 28 16 Coordinates
+[miner3] Leader says time left is 2 seconds
+[leader] Time left: 2 seconds
+[miner2] Leader says time left is 2 seconds
+[miner1] Leader says time left is 2 seconds
+[miner4] Leader says time left is 2 seconds
+[miner4] I am at (28,17) which is near (28,16)
+[miner4] I chose to go near 16 13 Coordinates
+[miner2] I am at (17,5) which is near (16,5)
+[miner2] I chose to go near 27 7 Coordinates
+[leader] Time left: 1 seconds
+[miner1] Leader says time left is 1 seconds
+[miner3] Leader says time left is 1 seconds
+[miner2] Leader says time left is 1 seconds
+[miner4] Leader says time left is 1 seconds
+[leader] Time is over!
+[leader] Time is over!
+[miner2] Stopping: time is over.
+[miner4] Stopping: time is over.
+[miner1] Stopping: time is over.
+[miner3] Stopping: time is over.
+[GroupBoard] miner2 has quit, role retriever removed by the platform!
+[GroupBoard] miner1 has quit, role explorer removed by the platform!
+[GroupBoard] miner4 has quit, role retriever removed by the platform!
+[GroupBoard] miner3 has quit, role explorer removed by the platform!

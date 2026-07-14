@@ -11,227 +11,217 @@
 [Cartago] artifact m3view: mining.MiningPlanetB(4,2) at mining created.
 [Cartago] artifact lantern: mining.LanternArtifact(2) at mining created.
 [Cartago] artifact radio: mining.RadioArtifact(25) at mining created.
-[leader] join workspace /main/mining: done
-[miner2] join workspace /main/mining: done
-[leader] focusing on artifact clock (at workspace /main/mining) using namespace default
-[miner4] join workspace /main/mining: done
-[leader] focus on clock: done
-[miner4] join workspace /main/mining_org: done
-[miner2] join workspace /main/mining_org: done
 [miner3] join workspace /main/mining: done
-[miner4] focusing on artifact m4view (at workspace /main/mining) using namespace default
-[leader] Time left: 180 seconds
-[miner2] focusing on artifact m2view (at workspace /main/mining) using namespace default
+[miner4] join workspace /main/mining: done
 [miner3] join workspace /main/mining_org: done
-[miner4] focus on m4view: done
-[miner4] focusing on artifact radio (at workspace /main/mining) using namespace default
-[miner3] focusing on artifact m3view (at workspace /main/mining) using namespace default
-[miner2] focus on m2view: done
-[miner4] focus on radio: done
-[miner3] focus on m3view: done
-[miner2] focusing on artifact radio (at workspace /main/mining) using namespace default
-[miner4] focusing on artifact backpack (at workspace /main/mining) using namespace default
-[miner2] focus on radio: done
-[miner3] focusing on artifact radio (at workspace /main/mining) using namespace default
-[miner4] focus on backpack: done
-[miner2] focusing on artifact backpack (at workspace /main/mining) using namespace default
-[miner4] focusing on artifact red (at workspace /main/mining_org) using namespace default
-[miner2] focus on backpack: done
-[miner4] focus on red: done
-[miner2] focusing on artifact blue (at workspace /main/mining_org) using namespace default
-[miner3] focus on radio: done
-[miner4] focusing on artifact mining_org (at workspace /main/mining_org) using namespace default
-[miner3] focusing on artifact lantern (at workspace /main/mining) using namespace default
-[miner2] focus on blue: done
-[miner4] focus on mining_org: done
-[miner3] focus on lantern: done
-[miner2] focusing on artifact mining_org (at workspace /main/mining_org) using namespace default
-[miner3] focusing on artifact red (at workspace /main/mining_org) using namespace default
-[miner4] I chose to go near 22 25 Coordinates
 [miner1] join workspace /main/mining: done
-[miner2] focus on mining_org: done
-[miner2] I chose to go near 32 33 Coordinates
+[miner4] join workspace /main/mining_org: done
+[miner3] focusing on artifact m3view (at workspace /main/mining) using namespace default
+[miner4] focusing on artifact m4view (at workspace /main/mining) using namespace default
+[leader] join workspace /main/mining: done
 [miner1] join workspace /main/mining_org: done
-[miner3] focus on red: done
+[leader] focusing on artifact clock (at workspace /main/mining) using namespace default
+[miner3] focus on m3view: done
+[miner4] focus on m4view: done
 [miner1] focusing on artifact m1view (at workspace /main/mining) using namespace default
-[miner3] focusing on artifact mining_org (at workspace /main/mining_org) using namespace default
+[miner2] join workspace /main/mining: done
+[miner4] focusing on artifact radio (at workspace /main/mining) using namespace default
+[miner3] focusing on artifact radio (at workspace /main/mining) using namespace default
+[leader] focus on clock: done
+[miner2] join workspace /main/mining_org: done
 [miner1] focus on m1view: done
 [miner1] focusing on artifact radio (at workspace /main/mining) using namespace default
-[miner3] focus on mining_org: done
-[miner3] I chose to go near 7 24 Coordinates
-[miner2] Leader says time left is 180 seconds
+[miner2] focusing on artifact m2view (at workspace /main/mining) using namespace default
+[leader] Time left: 180 seconds
+[miner4] focus on radio: done
 [miner1] focus on radio: done
-[miner4] Leader says time left is 180 seconds
+[miner4] focusing on artifact backpack (at workspace /main/mining) using namespace default
 [miner1] focusing on artifact lantern (at workspace /main/mining) using namespace default
-[miner2] Backpack acquired. Capacity: 3
-[miner4] Backpack acquired. Capacity: 3
+[miner2] focus on m2view: done
+[miner4] focus on backpack: done
+[miner2] focusing on artifact radio (at workspace /main/mining) using namespace default
 [miner1] focus on lantern: done
+[miner4] focusing on artifact red (at workspace /main/mining_org) using namespace default
 [miner1] focusing on artifact blue (at workspace /main/mining_org) using namespace default
+[miner4] focus on red: done
+[miner2] focus on radio: done
+[miner4] focusing on artifact mining_org (at workspace /main/mining_org) using namespace default
 [miner1] focus on blue: done
+[miner2] focusing on artifact backpack (at workspace /main/mining) using namespace default
 [miner1] focusing on artifact mining_org (at workspace /main/mining_org) using namespace default
-[miner3] Leader says time left is 180 seconds
-[miner4] Moise role perceived: retriever in red
-[miner2] Moise role perceived: retriever in blue
-[miner3] Lantern acquired. Vision radius: 2
+[miner4] focus on mining_org: done
 [miner1] focus on mining_org: done
-[miner3] Moise role perceived: explorer in red
-[miner1] I chose to go near 19 3 Coordinates
+[miner2] focus on backpack: done
+[miner2] focusing on artifact blue (at workspace /main/mining_org) using namespace default
+[miner1] I chose to go near 11 31 Coordinates
+[miner4] I chose to go near 17 3 Coordinates
+[miner2] focus on blue: done
+[miner2] focusing on artifact mining_org (at workspace /main/mining_org) using namespace default
+[miner2] focus on mining_org: done
+[miner2] I chose to go near 9 32 Coordinates
+[miner4] Leader says time left is 180 seconds
+[miner4] Backpack acquired. Capacity: 3
 [miner1] Lantern acquired. Vision radius: 2
 [miner1] Leader says time left is 180 seconds
+[miner4] Moise role perceived: retriever in red
+[miner2] Leader says time left is 180 seconds
+[miner2] Backpack acquired. Capacity: 3
 [miner1] Moise role perceived: explorer in blue
-[miner3] Leader says time left is 179 seconds
-[miner4] Leader says time left is 179 seconds
-[miner1] Leader says time left is 179 seconds
-[miner2] Leader says time left is 179 seconds
+[miner2] Moise role perceived: retriever in blue
+[miner3] focus on radio: done
+[miner3] focusing on artifact lantern (at workspace /main/mining) using namespace default
+[miner3] focus on lantern: done
+[miner3] focusing on artifact red (at workspace /main/mining_org) using namespace default
+[miner3] focus on red: done
+[miner3] focusing on artifact mining_org (at workspace /main/mining_org) using namespace default
+[miner3] focus on mining_org: done
+[miner3] I chose to go near 8 20 Coordinates
+[miner3] Lantern acquired. Vision radius: 2
+[miner3] Leader says time left is 180 seconds
+[miner3] Moise role perceived: explorer in red
+[miner4] I am at (17,2) which is near (17,3)
+[miner4] I chose to go near 17 7 Coordinates
+[miner2] Ore perceived: ore(gold,3,5,3)
+[miner1] Scout report: ore(gold,3,5,3)
+[miner4] Ore perceived: ore(gold,3,5,3)
+[miner2] Dropping near(_,_) desires and intentions to handle ore(gold,3,5,3)
+[miner3] Radio received from miner 1: ore(gold,3,5,3)
+[miner4] Dropping near(_,_) desires and intentions to handle ore(gold,3,5,3)
+[miner2] Going for ore(gold,3,5,3)
+[miner4] Going for ore(gold,3,5,3)
+[miner2] Handling ore(gold,3,5,3) now.
+[miner1] Radio received from miner 2: ore(gold,3,5,3)
+[miner4] Radio received from miner 1: ore(gold,3,5,3)
+[miner4] Handling ore(gold,3,5,3) now.
 [leader] Time left: 179 seconds
-[miner4] Ore perceived: ore(gold,7,7,3)
+[miner3] Leader says time left is 179 seconds
+[miner2] Leader says time left is 179 seconds
+[miner1] Leader says time left is 179 seconds
+[miner4] Leader says time left is 179 seconds
 [miner3] Scout report: ore(gold,7,7,3)
-[miner4] Dropping near(_,_) desires and intentions to handle ore(gold,7,7,3)
+[miner1] Radio received from miner 3: ore(gold,7,7,3)
+[miner2] Radio received from miner 3: ore(gold,7,7,3)
+[miner4] Giving up current ore ore(gold,3,5,3) to handle ore(gold,7,7,3) which I am seeing!
 [miner4] Going for ore(gold,7,7,3)
 [miner4] Radio received from miner 3: ore(gold,7,7,3)
 [miner4] Handling ore(gold,7,7,3) now.
-[miner2] Ore perceived: ore(gold,7,7,3)
-[miner2] Dropping near(_,_) desires and intentions to handle ore(gold,7,7,3)
-[miner2] Going for ore(gold,7,7,3)
+[miner2] I've reached 3x5
+[miner3] Scout report: ore(iron,10,8,2)
+[miner1] Radio received from miner 3: ore(iron,10,8,2)
+[miner2] Radio received from miner 3: ore(iron,10,8,2)
+[miner4] Giving up current ore ore(gold,7,7,3) to handle ore(iron,10,8,2) which I am seeing!
+[miner4] Going for ore(iron,10,8,2)
+[miner4] Radio received from miner 3: ore(iron,10,8,2)
+[miner4] Handling ore(iron,10,8,2) now.
+[miner2] Stored ore(gold,3,5,3) in backpack.
+[miner2] Ore distances: [d(10,ore(iron,10,8,2)),d(6,ore(gold,7,7,3))]2
+[miner2] Next ore is ore(gold,7,7,3)
 [miner2] Handling ore(gold,7,7,3) now.
-[miner1] Radio received from miner 2: ore(gold,7,7,3)
 [leader] Time left: 178 seconds
-[miner2] Leader says time left is 178 seconds
 [miner1] Leader says time left is 178 seconds
-[miner3] Leader says time left is 178 seconds
+[miner2] Leader says time left is 178 seconds
 [miner4] Leader says time left is 178 seconds
+[miner3] Leader says time left is 178 seconds
+[miner3] Radio received from miner 1: ore(gold,7,7,3)
+[miner1] Scout report: ore(gold,7,7,3)
 [miner2] I've reached 7x7
 [miner2] Stored ore(gold,7,7,3) in backpack.
-[miner2] No known ore left, returning to depot with 1 ores.
+[miner2] Ore distances: [d(4,ore(iron,10,8,2))]1
+[miner2] Next ore is ore(iron,10,8,2)
+[miner2] Handling ore(iron,10,8,2) now.
+[miner4] I've reached 10x8
 [leader] Time left: 177 seconds
+[miner2] Leader says time left is 177 seconds
 [miner1] Leader says time left is 177 seconds
 [miner4] Leader says time left is 177 seconds
 [miner3] Leader says time left is 177 seconds
-[miner2] Leader says time left is 177 seconds
+[miner4] Stored ore(iron,10,8,2) in backpack.
+[miner4] Ore distances: [d(4,ore(gold,7,7,3)),d(10,ore(gold,3,5,3))]2
+[miner4] Next ore is ore(gold,7,7,3)
+[miner4] Handling ore(gold,7,7,3) now.
+[miner3] I am at (8,19) which is near (8,20)
+[miner3] I chose to go near 10 9 Coordinates
+[leader] Time left: 176 seconds
+[miner2] Leader says time left is 176 seconds
+[miner4] Leader says time left is 176 seconds
+[miner3] Leader says time left is 176 seconds
+[miner1] Leader says time left is 176 seconds
+[miner2] I've reached 10x8
 [miner4] I've reached 7x7
+[WorldModelB] Agent 2 is trying the pick ore, but there is no ore at 10x8!
+[miner2] failed to catch ore ore(iron,10,8,2)
 [WorldModelB] Agent 4 is trying the pick ore, but there is no ore at 7x7!
 [miner4] failed to catch ore ore(gold,7,7,3)
-[miner4] I chose to go near 13 4 Coordinates
-[leader] Time left: 176 seconds
-[miner1] Leader says time left is 176 seconds
-[miner3] Leader says time left is 176 seconds
-[miner4] Leader says time left is 176 seconds
-[miner2] Leader says time left is 176 seconds
-[miner1] I am at (19,2) which is near (19,3)
-[miner1] I chose to go near 5 3 Coordinates
-[miner4] Ore perceived: ore(iron,10,8,2)
-[miner4] Dropping near(_,_) desires and intentions to handle ore(iron,10,8,2)
-[miner4] Going for ore(iron,10,8,2)
-[miner4] Handling ore(iron,10,8,2) now.
-[miner3] Radio received from miner 4: ore(iron,10,8,2)
-[miner4] I've reached 10x8
-[miner4] Stored ore(iron,10,8,2) in backpack.
-[miner4] No known ore left, returning to depot with 1 ores.
-[miner3] I am at (7,23) which is near (7,24)
-[miner3] I chose to go near 31 15 Coordinates
+[miner4] Ore distances: [d(6,ore(gold,3,5,3))]1
+[miner4] Next ore is ore(gold,3,5,3)
+[miner4] Handling ore(gold,3,5,3) now.
 [leader] Time left: 175 seconds
-[miner2] Leader says time left is 175 seconds
 [miner3] Leader says time left is 175 seconds
-[miner4] Leader says time left is 175 seconds
+[miner2] Leader says time left is 175 seconds
 [miner1] Leader says time left is 175 seconds
+[miner4] Leader says time left is 175 seconds
+[miner4] I've reached 3x5
+[WorldModelB] Agent 4 is trying the pick ore, but there is no ore at 3x5!
+[miner4] failed to catch ore ore(gold,3,5,3)
 [leader] Time left: 174 seconds
+[miner1] Leader says time left is 174 seconds
+[miner4] Leader says time left is 174 seconds
 [miner2] Leader says time left is 174 seconds
 [miner3] Leader says time left is 174 seconds
-[miner4] Leader says time left is 174 seconds
-[miner1] Leader says time left is 174 seconds
-[miner1] I am at (6,2) which is near (5,3)
-[miner1] I chose to go near 32 29 Coordinates
-[miner2] I've reached 5x27
-[miner3] Scout report: ore(gold,19,21,3)
-[miner4] Radio received from miner 3: ore(gold,19,21,3)
-[miner1] Leader says time left is 173 seconds
+[miner3] I am at (10,10) which is near (10,9)
+[miner3] I chose to go near 18 20 Coordinates
+[miner1] Radio received from miner 4: ore(coal,3,9,1)
+[miner3] Radio received from miner 4: ore(coal,3,9,1)
+[miner2] Radio received from miner 4: ore(coal,3,9,1)
 [leader] Time left: 173 seconds
+[miner1] Leader says time left is 173 seconds
 [miner2] Leader says time left is 173 seconds
 [miner4] Leader says time left is 173 seconds
 [miner3] Leader says time left is 173 seconds
-[WorldModelB] Agent 2 carried 1 ores to depot, worth 3 points!
-[miner2] Dropped backpack with 1 ores, worth 3 points.
-[leader] Agent miner2 is now on the lead with the score of 3
-[miner2] HAHAHA IM WINNING!
-[miner2] I chose to go near 13 6 Coordinates
-[miner3] Scout report: ore(gold,20,21,3)
-[miner3] Scout report: ore(gold,20,22,3)
-[miner4] Radio received from miner 3: ore(gold,20,21,3)
-[miner3] Scout report: ore(gold,20,23,3)
-[miner4] Radio received from miner 3: ore(gold,20,22,3)
-[miner3] Scout report: ore(gold,20,24,3)
-[miner4] Radio received from miner 3: ore(gold,20,23,3)
-[miner4] Radio received from miner 3: ore(gold,20,24,3)
-[miner4] Radio received from miner 3: ore(diamond,23,25,4)
-[miner3] Scout report: ore(diamond,23,25,4)
-[miner3] Scout report: ore(gold,24,24,3)
-[miner4] Radio received from miner 3: ore(gold,24,24,3)
 [leader] Time left: 172 seconds
 [miner1] Leader says time left is 172 seconds
 [miner2] Leader says time left is 172 seconds
-[miner4] Leader says time left is 172 seconds
 [miner3] Leader says time left is 172 seconds
+[miner4] Leader says time left is 172 seconds
+[miner1] I am at (11,30) which is near (11,31)
+[miner1] I chose to go near 28 32 Coordinates
+[miner1] Radio received from miner 3: ore(gold,15,20,3)
+[miner4] Radio received from miner 3: ore(gold,15,20,3)
+[miner2] Radio received from miner 3: ore(gold,15,20,3)
 [leader] Time left: 171 seconds
-[miner2] Leader says time left is 171 seconds
-[miner4] Leader says time left is 171 seconds
-[miner3] Leader says time left is 171 seconds
 [miner1] Leader says time left is 171 seconds
-[miner4] I've reached 5x27
-[WorldModelB] Agent 4 carried 1 ores to depot, worth 2 points!
-[miner4] Dropped backpack with 1 ores, worth 2 points.
-[leader] Agent miner4 has dropped ore worth 2 points; score is 2
-[miner4] Ore distances: [d(22,ore(gold,24,24,3)),d(20,ore(diamond,23,25,4)),d(18,ore(gold,20,24,3)),d(19,ore(gold,20,23,3)),d(20,ore(gold,20,22,3)),d(21,ore(gold,20,21,3)),d(20,ore(gold,19,21,3))]7
-[miner4] Next ore is ore(gold,20,24,3)
-[miner4] Handling ore(gold,20,24,3) now.
+[miner3] Scout report: ore(gold,15,20,3)
+[miner4] Leader says time left is 171 seconds
+[miner2] Leader says time left is 171 seconds
+[miner3] Leader says time left is 171 seconds
+[miner4] Radio received from miner 3: ore(gold,19,20,3)
+[miner3] Scout report: ore(gold,19,20,3)
+[miner1] Radio received from miner 3: ore(gold,19,20,3)
+[miner2] Radio received from miner 3: ore(gold,19,20,3)
+[miner2] I've reached 5x27
+[miner3] Scout report: ore(gold,20,20,3)
+[miner4] Radio received from miner 3: ore(gold,20,20,3)
+[miner1] Radio received from miner 3: ore(gold,20,20,3)
+[miner2] Radio received from miner 3: ore(gold,20,20,3)
+[WorldModelB] Agent 2 carried 2 ores to depot, worth 6 points!
+[miner2] Dropped backpack with 2 ores, worth 6 points.
+[leader] Agent miner2 is now on the lead with the score of 6
+[miner2] HAHAHA IM WINNING!
+[miner2] Ore distances: [d(22,ore(gold,20,20,3)),d(21,ore(gold,19,20,3)),d(17,ore(gold,15,20,3)),d(20,ore(coal,3,9,1))]4
+[miner2] Next ore is ore(gold,15,20,3)
+[miner2] Handling ore(gold,15,20,3) now.
+[miner3] I am at (18,19) which is near (18,20)
+[miner1] Radio received from miner 3: ore(gold,19,21,3)
+[miner3] Scout report: ore(gold,19,21,3)
+[miner3] Scout report: ore(gold,20,21,3)
+[miner2] Radio received from miner 3: ore(gold,19,21,3)
+[miner4] Radio received from miner 3: ore(gold,19,21,3)
+[miner3] I chose to go near 32 0 Coordinates
+[miner2] Radio received from miner 3: ore(gold,20,21,3)
+[miner4] Radio received from miner 3: ore(gold,20,21,3)
+[miner1] Radio received from miner 3: ore(gold,20,21,3)
 [leader] Time left: 170 seconds
-[miner2] Leader says time left is 170 seconds
-[miner4] Leader says time left is 170 seconds
-[miner3] Leader says time left is 170 seconds
 [miner1] Leader says time left is 170 seconds
-[leader] Time left: 169 seconds
-[miner3] Leader says time left is 169 seconds
-[miner2] Leader says time left is 169 seconds
-[miner1] Leader says time left is 169 seconds
-[miner4] Leader says time left is 169 seconds
-[miner3] I am at (31,16) which is near (31,15)
-[miner3] I chose to go near 4 14 Coordinates
-[leader] Time left: 168 seconds
-[miner2] Leader says time left is 168 seconds
-[miner4] Leader says time left is 168 seconds
-[miner1] Leader says time left is 168 seconds
-[miner3] Leader says time left is 168 seconds
-[miner2] I am at (13,7) which is near (13,6)
-[miner2] I chose to go near 32 3 Coordinates
-[leader] Time left: 167 seconds
-[miner4] Leader says time left is 167 seconds
-[miner2] Leader says time left is 167 seconds
-[miner1] Leader says time left is 167 seconds
-[miner3] Leader says time left is 167 seconds
-[miner4] I've reached 20x24
-[miner4] Stored ore(gold,20,24,3) in backpack.
-[miner4] Ore distances: [d(4,ore(gold,24,24,3)),d(4,ore(diamond,23,25,4)),d(1,ore(gold,20,23,3)),d(2,ore(gold,20,22,3)),d(3,ore(gold,20,21,3)),d(4,ore(gold,19,21,3))]6
-[miner4] Next ore is ore(gold,20,23,3)
-[miner4] Handling ore(gold,20,23,3) now.
-[miner4] I've reached 20x23
-[leader] Time left: 166 seconds
-[miner1] Leader says time left is 166 seconds
-[miner2] Leader says time left is 166 seconds
-[miner4] Leader says time left is 166 seconds
-[miner3] Leader says time left is 166 seconds
-[miner4] Stored ore(gold,20,23,3) in backpack.
-[miner4] Ore distances: [d(5,ore(gold,24,24,3)),d(5,ore(diamond,23,25,4)),d(1,ore(gold,20,22,3)),d(2,ore(gold,20,21,3)),d(3,ore(gold,19,21,3))]5
-[miner4] Next ore is ore(gold,20,22,3)
-[miner4] Handling ore(gold,20,22,3) now.
-[miner4] I've reached 20x22
-[miner4] Stored ore(gold,20,22,3) in backpack.
-[miner4] Backpack is full: 3/3
-[leader] Time left: 165 seconds
-[miner2] Leader says time left is 165 seconds
-[miner1] Leader says time left is 165 seconds
-[miner3] Leader says time left is 165 seconds
-[miner4] Leader says time left is 165 seconds
-[leader] Time left: 164 seconds
-[miner2] Leader says time left is 164 seconds
-[miner1] Leader says time left is 164 seconds
-[miner4] Leader says time left is 164 seconds
-[miner3] Leader says time left is 164 seconds
+[miner4] Leader says time left is 170 seconds
+[miner2] Leader says time left is 170 seconds
+[miner3] Leader says time left is 170 seconds
