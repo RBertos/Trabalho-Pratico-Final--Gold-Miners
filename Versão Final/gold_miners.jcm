@@ -1,0 +1,98 @@
+/*
+
+    JaCaMo Project File
+
+    This file defines the initial state of the MAS (initial agents, environment, organisation, ....)
+
+    --
+    Based on initially implementation developed by Rafael Bordini, Jomi Hubner and Maicon Zatelli,
+    and then adapted for courses by Joao Leite (http://centria.di.fct.unl.pt/~jleite/wesaac14/)
+
+*/
+
+mas gold_miners {
+
+    agent miner1 : minerVermelho.asl  {
+        roles: explorer in red
+        focus: mining.m1view
+        focus: mining.radio
+        focus: mining.lantern
+    }
+    agent miner2 : minerVermelho.asl {
+        roles: retriever1 in red
+        focus: mining.m2view
+        focus: mining.radio
+        focus: mining.backpack
+    }
+    agent miner3 : minerVermelho.asl  {
+        roles: retriever2 in red
+        focus: mining.m3view
+        focus: mining.radio
+        focus: mining.backpack
+    }
+    agent miner4 : minerAzul.asl  {
+        roles: explorer in blue
+        focus: mining.m4view
+        focus: mining.radio
+        focus: mining.lantern
+    }
+    agent miner5 : minerAzul.asl  {
+        roles: retriever1 in blue
+        focus: mining.m5view
+        focus: mining.radio
+        focus: mining.backpack
+    }
+    agent miner6 : minerAzul.asl  {
+        roles: retriever2 in blue
+        focus: mining.m6view
+        focus: mining.radio
+        focus: mining.backpack
+    }
+    agent miner7 : minerVerde.asl  {
+        roles: explorer in green
+        focus: mining.m7view
+        focus: mining.radio
+        focus: mining.lantern
+    }
+    agent miner8 : minerVerde.asl  {
+        roles: retriever1 in green
+        focus: mining.m8view
+        focus: mining.radio
+        focus: mining.backpack
+    }
+    agent miner9 : minerVerde.asl  {
+        roles: retriever2 in green
+        focus: mining.m9view
+        focus: mining.radio
+        focus: mining.backpack
+    }
+    agent leader : leaderfinal.asl  {
+        focus: mining.clock
+    }
+
+    workspace mining {
+        // each agent has its own artifact to interface with the Mining Planet scenario
+        // first parameter is the id of the scenario
+        // second parameter is the id of the agent in the scenario
+        artifact m1view: mining.MiningPlanetB(6,0)
+        artifact m2view: mining.MiningPlanetB(6,1)
+        artifact m3view: mining.MiningPlanetB(6,2)
+        artifact m4view: mining.MiningPlanetB(6,3)
+        artifact m5view: mining.MiningPlanetB(6,4)
+        artifact m6view: mining.MiningPlanetB(6,5)
+        artifact m7view: mining.MiningPlanetB(6,6)
+        artifact m8view: mining.MiningPlanetB(6,7)
+        artifact m9view: mining.MiningPlanetB(6,8)
+        artifact clock: mining.ClockArtifact(10)
+        artifact radio: mining.RadioArtifactA(25)
+        artifact lantern: mining.LanternArtifact(2)
+        artifact backpack: mining.BackpackArtifact(3)
+    }
+
+    organisation mining_org : org.xml {
+        group red: mining_team
+        group blue: mining_team
+        group green: mining_team
+        scheme mining: mine_resources
+    }
+}
